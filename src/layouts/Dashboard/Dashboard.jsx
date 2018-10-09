@@ -4,12 +4,20 @@ import PerfectScrollbar from "perfect-scrollbar";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 import { Header, Footer, Sidebar } from "components";
+import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
 
 import dashboardRoutes from "routes/dashboard.jsx";
 
 var ps;
 
 class Dashboard extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      backgroundColor: "black",
+      activeColor: "info",
+    }
+  }
   componentDidMount() {
     if (navigator.platform.indexOf("Win") > -1) {
       ps = new PerfectScrollbar(this.refs.mainPanel);
@@ -28,10 +36,21 @@ class Dashboard extends React.Component {
       document.scrollingElement.scrollTop = 0;
     }
   }
+  handleActiveClick = (color) => {
+    this.setState({ activeColor: color });
+  }
+  handleBgClick = (color) => {
+    this.setState({ backgroundColor: color });
+  }
   render() {
     return (
       <div className="wrapper">
-        <Sidebar {...this.props} routes={dashboardRoutes} />
+        <Sidebar
+          {...this.props}
+          routes={dashboardRoutes}
+          bgColor={this.state.backgroundColor}
+          activeColor={this.state.activeColor}
+        />
         <div className="main-panel" ref="mainPanel">
           <Header {...this.props} />
           <Switch>
@@ -49,6 +68,12 @@ class Dashboard extends React.Component {
           </Switch>
           <Footer fluid />
         </div>
+        <FixedPlugin
+          bgColor={this.state.backgroundColor}
+          activeColor={this.state.activeColor}
+          handleActiveClick={this.handleActiveClick}
+          handleBgClick={this.handleBgClick}
+        />
       </div>
     );
   }

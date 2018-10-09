@@ -17,10 +17,12 @@
     "react": "16.5.2",
     "react-chartjs-2": "2.7.4",
     "react-dom": "16.5.2",
+    "react-github-button": "^0.1.11",
     "react-google-maps": "9.4.5",
     "react-notification-alert": "0.0.8",
     "react-router-dom": "4.3.1",
     "react-scripts": "2.0.4",
+    "react-share": "^2.3.1",
     "reactstrap": "6.5.0"
   },
   "scripts": {
