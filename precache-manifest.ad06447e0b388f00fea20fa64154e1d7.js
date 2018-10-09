@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/joe-gardner-2.76ff47ae.jpg"
   },
   {
-    "revision": "d8f224785116b7a207e1",
+    "revision": "86b2e4703596cc3906be",
     "url": "/paper-dashboard-react/static/css/main.7d070f4b.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/nucleo-icons.48ac036d.ttf"
   },
   {
-    "revision": "59add73b26ef118982b4",
-    "url": "/paper-dashboard-react/static/js/1.59add73b.chunk.js"
+    "revision": "90224c9b12162acaf1fc",
+    "url": "/paper-dashboard-react/static/js/1.90224c9b.chunk.js"
   },
   {
     "revision": "220b397342ef3d59494d",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/ayo-ogunseinde-2.bfc688ca.jpg"
   },
   {
-    "revision": "d8f224785116b7a207e1",
-    "url": "/paper-dashboard-react/static/js/main.d8f22478.chunk.js"
+    "revision": "86b2e4703596cc3906be",
+    "url": "/paper-dashboard-react/static/js/main.86b2e470.chunk.js"
   },
   {
     "revision": "bb4b9ac9fd07e48f86c719495b65341c",
@@ -48,19 +48,19 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
-    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.5c78b4cf.woff2"
-  },
-  {
     "revision": "6836b93bf1af0b571928d98458a68445",
     "url": "/paper-dashboard-react/static/media/nucleo-icons.6836b93b.woff"
   },
   {
-    "revision": "59add73b26ef118982b4",
+    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.5c78b4cf.woff2"
+  },
+  {
+    "revision": "90224c9b12162acaf1fc",
     "url": "/paper-dashboard-react/static/css/1.0cbc392f.chunk.css"
   },
   {
-    "revision": "77f2e6e802106e2ec2e46cab71e88dd4",
+    "revision": "afbf548cb408a9f6e5f6fb87c46fa780",
     "url": "/paper-dashboard-react/index.html"
   }
 ];
