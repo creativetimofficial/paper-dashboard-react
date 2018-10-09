@@ -12,6 +12,7 @@
     font-size: $font-size-base;
     @include transition-input-focus-color();
     @include box-shadow(none);
+    height: unset;
 
 
 

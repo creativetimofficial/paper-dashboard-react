@@ -17,18 +17,6 @@ class CustomButton extends Component {
       rightLabel,
       wd,
       className,
-      twitter,
-      facebook,
-      google,
-      linkedin,
-      pinterest,
-      youtube,
-      tumblr,
-      github,
-      behance,
-      dribbble,
-      reddit,
-      stumbleupon,
       ...rest
     } = this.props;
 
@@ -37,7 +25,6 @@ class CustomButton extends Component {
       "btn-round": round,
       "btn-icon": icon,
       "btn-neutral": neutral,
-      "btn-icon btn-icon-mini": iconMini,
       "btn-wd": wd
     });
 
@@ -68,7 +55,6 @@ CustomButton.propTypes = {
   round: PropTypes.bool,
   icon: PropTypes.bool,
   neutral: PropTypes.bool,
-  iconMini: PropTypes.bool,
   wd: PropTypes.bool
 };
 
