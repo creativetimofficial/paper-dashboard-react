@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.5c78b4cf.woff2"
-  },
-  {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
+  },
+  {
+    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
     "revision": "6836b93bf1af0b571928d98458a68445",
