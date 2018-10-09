@@ -38,7 +38,7 @@ class Header extends React.Component {
       });
     } else {
       this.setState({
-        color: "white"
+        color: "dark"
       });
     }
     this.setState({
@@ -79,11 +79,11 @@ class Header extends React.Component {
     document.documentElement.classList.toggle("nav-open");
     this.refs.sidebarToggle.classList.toggle("toggled");
   }
-  // function that adds color white/transparent to the navbar on resize (this is for the collapse)
+  // function that adds color dark/transparent to the navbar on resize (this is for the collapse)
   updateColor() {
     if (window.innerWidth < 993 && this.state.isOpen) {
       this.setState({
-        color: "white"
+        color: "dark"
       });
     } else {
       this.setState({
@@ -110,7 +110,7 @@ class Header extends React.Component {
       <Navbar
         color={
           this.props.location.pathname.indexOf("full-screen-maps") !== -1
-            ? "white"
+            ? "dark"
             : this.state.color
         }
         expand="lg"

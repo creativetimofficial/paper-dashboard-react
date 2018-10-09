@@ -51,7 +51,7 @@ class User extends React.Component {
                         <small>Used</small>
                       </h5>
                     </Col>
-                    <Col xs={6} sm={6} md={6} lg={3} className="mr-auto">
+                    <Col lg={3} className="mr-auto">
                       <h5>
                         24,6$
                         <br/>
