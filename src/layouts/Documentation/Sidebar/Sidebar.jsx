@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 import docRoutes from "routes/documentation.jsx";
 
 class Sidebar extends React.Component {
+  activeRoute = (path) => {
+    return this.props.location.pathname.indexOf(path) > -1 ? "active bd-sidenav-active" : "";
+  }
   render() {
     return (
       <nav className="collapse bd-links" id="bd-docs-nav">
@@ -20,7 +23,7 @@ class Sidebar extends React.Component {
               <Nav className="bd-sidenav">
                 {prop.routes.map((p, k) => {
                   return (
-                    <li key={k}>
+                    <li key={k} className={this.activeRoute(p.path)}>
                       <Link to={p.path}>{p.name}</Link>
                     </li>
                   );

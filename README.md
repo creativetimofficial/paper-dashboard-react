@@ -145,7 +145,6 @@ Within the download you'll find the following directories and files:
         │   └── Typography.jsx
         └── UserPage
             └── UserPage.jsx
-
 ```
 
 ## Browser Support

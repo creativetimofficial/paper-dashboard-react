@@ -1,4 +1,12 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  FacebookIcon,
+  TwitterIcon
+} from "react-share";
+import GitHubButton from "react-github-button";
 
 import Button from "components/CustomButton/CustomButton.jsx";
 
@@ -123,15 +131,13 @@ class FixedPlugin extends Component {
               </Button>
             </li>
             <li className="button-container">
-              <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-react/#/documentation/tutorial"
-                color="default"
-                block
-                round
-                outline
+              <NavLink
+                to={"/documentation/tutorial"}
+                className="btn btn-outline-default btn-block btn-round"
+                activeClassName="active"
               >
                 <i className="nc-icon nc-paper"></i> Documentation
-              </Button>
+              </NavLink>
             </li>
             <li className="header-title">Want more components?</li>
             <li className="button-container">
@@ -144,6 +150,28 @@ class FixedPlugin extends Component {
               >
                 Get pro version
               </Button>
+            </li>
+            <li className="header-title" id="sharrreTitle">
+              Thank you for sharing!
+            </li>
+            <li className="button-container text-center">
+              <FacebookShareButton url="https://demos.creative-tim.com/paper-dashboard-react/#/dashboard">
+                <FacebookIcon size={32} round={true} />
+              </FacebookShareButton>
+              <TwitterShareButton
+                url="https://demos.creative-tim.com/paper-dashboard-react/#/dashboard"
+                title="Paper Dashboard React by Creative Tim | Free React Admin Template"
+                hashtags={["react", "creativetim", "paper", "dashboard", "bootstrap", "reactstrap", "reactjs"]}
+                via="creativetim"
+              >
+                <TwitterIcon size={32} round={true} />
+              </TwitterShareButton>
+              <br />
+              <GitHubButton
+                type="stargazers"
+                namespace="creativetimofficial"
+                repo="paper-dashboard-react"
+              />
             </li>
           </ul>
         </div>

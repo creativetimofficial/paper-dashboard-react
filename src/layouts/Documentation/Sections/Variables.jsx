@@ -9,7 +9,7 @@ class Variables extends React.Component {
         <h1 className="bd-title" id="content">
           Variables
         </h1>
-        <p className="bd-lead">
+        <p>
           To make our demo pages (pages found in <code>src/views/*</code>) a bit
           more easy to understand and to have less code, we've created some
           special files with variables, variables which we import where we need
