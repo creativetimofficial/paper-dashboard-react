@@ -33,7 +33,7 @@ var dashRoutes = [
     component: UserPage
   },
   {
-    path: "/extended-tables",
+    path: "/tables",
     name: "Table List",
     icon: "nc-icon nc-tile-56",
     component: TableList

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { createHashHistory } from "history";
+import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -9,7 +9,7 @@ import "assets/demo/demo.css";
 
 import indexRoutes from "routes/index.jsx";
 
-const hist = createHashHistory();
+const hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>

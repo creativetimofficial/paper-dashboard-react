@@ -122,7 +122,7 @@ class FullScreenMap extends React.Component {
                   style={{ position: "relative", overflow: "hidden" }}
                 >
                   <MapWrapper
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Yno10-YTnLjjn_Vtk0V8cdcY5lC4plU"
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
                     loadingElement={<div style={{ height: `100%` }} />}
                     containerElement={<div style={{ height: `100%` }} />}
                     mapElement={<div style={{ height: `100%` }} />}
