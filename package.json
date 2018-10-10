@@ -2,7 +2,7 @@
   "name": "paper-dashboard-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://creativetimofficial.github.io/paper-dashboard-react/#/dashboard",
+  "homepage": "https://creativetimofficial.github.io/paper-dashboard-react/dashboard",
   "dependencies": {
     "@types/googlemaps": "3.30.13",
     "@types/markerclustererplus": "2.1.33",
