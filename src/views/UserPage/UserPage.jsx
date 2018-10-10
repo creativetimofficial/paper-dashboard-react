@@ -9,7 +9,8 @@ import {
   Col
 } from "reactstrap";
 
-import { FormInputs, CardAuthor } from "components";
+import CardAuthor from "components/CardElements/CardAuthor.jsx";
+import FormInputs from "components/FormInputs/FormInputs.jsx";
 import Button from "components/CustomButton/CustomButton.jsx";
 
 import damirBosnjak from "assets/img/damir-bosnjak.jpg";
