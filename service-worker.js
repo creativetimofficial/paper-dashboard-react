@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/paper-dashboard-react/dashboard/precache-manifest.72b17e070ac7745cb6747adae7531564.js"
+  "/paper-dashboard-react/precache-manifest.c772bdd11e70a668a6835b7bf69f3a9e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/paper-dashboard-react/dashboard/index.html", {
+workbox.routing.registerNavigationRoute("/paper-dashboard-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
