@@ -21,7 +21,7 @@ class Sidebar extends React.Component {
         <SyntaxHighlighter
           language="jsx"
           style={prism}
-        >{`import { Sidebar } from 'components';`}</SyntaxHighlighter>
+        >{`import Sidebar from 'components/Sidebar/Sidebar.jsx';`}</SyntaxHighlighter>
         <p>
           It comes in 6 different colors (<code>black</code>, <code>blue</code>,{" "}
           <code>green</code>, <code>orange</code>, <code>red</code>,{" "}

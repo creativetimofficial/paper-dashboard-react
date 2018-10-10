@@ -2,7 +2,7 @@ import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter/prism";
 import { prism } from "react-syntax-highlighter/styles/prism";
 
-import { Button } from "components";
+import Button from "components/CustomButton/CustomButton.jsx";
 
 const codeColorsExample = `<Button color="primary">Primary</Button>
 <Button color="info">Info</Button>

@@ -3,7 +3,7 @@ import SyntaxHighlighter from "react-syntax-highlighter/prism";
 import { prism } from "react-syntax-highlighter/styles/prism";
 import { Table, Alert } from "reactstrap";
 
-import { FormInputs as FormInput } from "components";
+import FormInput from "components/FormInputs/FormInputs.jsx";
 
 const codeImport = `import FormInputs from 'components/FormInputs/FormInputs.jsx';`;
 

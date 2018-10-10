@@ -3,7 +3,7 @@ import SyntaxHighlighter from "react-syntax-highlighter/prism";
 import { prism } from "react-syntax-highlighter/styles/prism";
 import { UncontrolledTooltip } from "reactstrap";
 
-import { Button } from "components";
+import Button from "components/CustomButton/CustomButton.jsx";
 
 const codeImport = `import { UncontrolledTooltip } from 'reactstrap';`;
 
@@ -11,7 +11,7 @@ const codeImportControlled = `import { Tooltip } from 'reactstrap';`;
 
 const codeExample = `import React from 'react';
 import { UncontrolledTooltip } from 'reactstrap';
-import { Button } from 'components';
+import Button from "components/CustomButton/CustomButton.jsx";
 
 class Example extends React.Component{
     render(){

@@ -10,7 +10,7 @@ import {
   UncontrolledButtonDropdown
 } from "reactstrap";
 
-import { Button } from "components";
+import Button from "components/CustomButton/CustomButton.jsx";
 
 const codeExamples = `<UncontrolledDropdown>
     <DropdownToggle caret>

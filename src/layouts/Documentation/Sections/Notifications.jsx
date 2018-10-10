@@ -4,7 +4,7 @@ import { prism } from "react-syntax-highlighter/styles/prism";
 import { Alert, Row, Col } from "reactstrap";
 import Notify from "react-notification-alert";
 
-import { Button } from "components";
+import Button from "components/CustomButton/CustomButton.jsx";
 
 const codeExampleImport = `import { Alert } from 'reactstrap';`;
 const codeExampleConstruct = `constructor(props) {

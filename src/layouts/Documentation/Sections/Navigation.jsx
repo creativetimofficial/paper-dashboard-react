@@ -19,7 +19,7 @@ import {
   Input
 } from "reactstrap";
 
-import { Button } from "components";
+import Button from "components/CustomButton/CustomButton.jsx";
 
 const colors = [
   "dark",

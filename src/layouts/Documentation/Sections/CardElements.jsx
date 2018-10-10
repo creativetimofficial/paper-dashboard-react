@@ -5,15 +5,13 @@ import { Col, Card, CardBody } from "reactstrap";
 
 import userAvatar from "assets/img/mike.jpg";
 
-import { CardAuthor, CardSocials } from "components";
+import CardAuthor from "components/CardElements/CardAuthor.jsx";
 
 const codeImportExample = `import {
     Card, CardBody,
 } from 'reactstrap';
 
-import {
-    CardAuthor, CardSocials
-} from 'components';`;
+import CardAuthor from "components/CardElements/CardAuthor.jsx";`;
 
 const codeAuthorExample = `<Col md={8}>
     <Card className="card-user">
@@ -41,35 +39,6 @@ const codeAuthorProp = `CardAuthor.propTypes = {
         PropTypes.string,
         PropTypes.node
     ])
-}`;
-
-const codeSocialsExample = `<Col md={4}  xs={12}>
-    <Card className="card-user">
-        <CardSocials
-            size="lg"
-            socials={[
-                {
-                    icon: "fab fa-facebook-square",
-                    href: "https://www.facebook.com/"
-                },
-                {
-                    icon: "fab fa-twitter",
-                    href: "https://www.facebook.com/"
-                },
-                {
-                    icon: "fab fa-google-plus-square",
-                    href: "https://plus.google.com/discover"
-                },
-            ]}
-        />
-    </Card>
-</Col>`;
-
-const codeSocialsProp = `CardSocials.propTypes = {
-    // size of all social buttons
-    size: PropTypes.oneOf(['sm','lg']),
-    // example: [{icon: "name of icon", href="href of icon"},...]
-    socials: PropTypes.arrayOf(PropTypes.object)
 }`;
 
 class CardElements extends React.Component {
@@ -119,37 +88,6 @@ class CardElements extends React.Component {
         </SyntaxHighlighter>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeAuthorProp}
-        </SyntaxHighlighter>
-        <h2>CardSocials Example</h2>
-        <p>Used on user page.</p>
-        <div className="bd-example">
-          <Col md={4} xs={12}>
-            <Card className="card-user">
-              <CardSocials
-                size="lg"
-                socials={[
-                  {
-                    icon: "fab fa-facebook-square",
-                    href: "https://www.facebook.com/"
-                  },
-                  {
-                    icon: "fab fa-twitter",
-                    href: "https://www.facebook.com/"
-                  },
-                  {
-                    icon: "fab fa-google-plus-square",
-                    href: "https://plus.google.com/discover"
-                  }
-                ]}
-              />
-            </Card>
-          </Col>
-        </div>
-        <SyntaxHighlighter language="jsx" style={prism}>
-          {codeSocialsExample}
-        </SyntaxHighlighter>
-        <SyntaxHighlighter language="jsx" style={prism}>
-          {codeSocialsProp}
         </SyntaxHighlighter>
       </div>
     );
