@@ -277,16 +277,16 @@
              border-bottom: 16px solid rgba(0, 0, 0, 0);
              border-left: 16px solid rgba(0,0,0,0.2);
              border-top: 16px solid rgba(0,0,0,0);
-             right: -27px;
-             bottom: 425px;
+             right: -17px;
+             bottom: 73%;
           }
 
           &:after{
              border-bottom: 16px solid rgba(0, 0, 0, 0);
              border-left: 16px solid #FFFFFF;
              border-top: 16px solid rgba(0,0,0,0);
-             right: -26px;
-             bottom: 425px;
+             right: -16px;
+             bottom: 73%;
           }
 
           &:before,
@@ -465,5 +465,11 @@
         @include transform-translate-y-fixed-plugin (470px);
       }
     }
+  }
+}
+
+@media screen and (max-width: 400px){
+  .fixed-plugin .dropdown-menu {
+    width: 250px;
   }
 }
