@@ -7,20 +7,7 @@ import icons from "variables/icons";
 
 const codeImport = `import icons from 'variables/icons';`;
 
-const codeExample = `<Col lg={3} md={4} sm={5} xs={7} className="font-icon-list">
-    <Card>
-        <CardBody className="all-icons">
-            <Row>
-                <Col className="font-icon-list">
-                    <div className="font-icon-detail">
-                        <i className={"now-ui-icons " + icons[0]}></i>
-                        <p>education_atom</p>
-                    </div>
-                </Col>
-            </Row>
-        </CardBody>
-    </Card>
-</Col>`;
+const codeExample = `<i className="nc-icon nc-single-02"></i>`;
 
 class Icons extends React.Component {
   render() {
@@ -45,20 +32,7 @@ class Icons extends React.Component {
         </SyntaxHighlighter>
         <h3>Examples</h3>
         <div className="bd-example">
-          <Col lg={3} md={4} sm={5} xs={7} className="font-icon-list">
-            <Card>
-              <CardBody className="all-icons">
-                <Row>
-                  <Col className="font-icon-list">
-                    <div className="font-icon-detail">
-                      <i className={"now-ui-icons " + icons[0]} />
-                      <p>education_atom</p>
-                    </div>
-                  </Col>
-                </Row>
-              </CardBody>
-            </Card>
-          </Col>
+          <i className="nc-icon nc-single-02"></i>
         </div>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeExample}

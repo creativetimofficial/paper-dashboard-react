@@ -22,8 +22,6 @@ import PerfectScrollbar from "layouts/Documentation/Sections/PerfectScrollbar.js
 import Sidebar from "layouts/Documentation/Sections/Sidebar.jsx";
 import Stats from "layouts/Documentation/Sections/Stats.jsx";
 import Tables from "layouts/Documentation/Sections/Tables.jsx";
-import Tasks from "layouts/Documentation/Sections/Tasks.jsx";
-import Textarea from "layouts/Documentation/Sections/Textarea.jsx";
 import Tooltips from "layouts/Documentation/Sections/Tooltips.jsx";
 import Typography from "layouts/Documentation/Sections/Typography.jsx";
 
@@ -98,12 +96,6 @@ var componentsRoutes = [
       { path: "/documentation/sidebar", component: Sidebar, name: "Sidebar" },
       { path: "/documentation/stats", component: Stats, name: "Stats" },
       { path: "/documentation/tables", component: Tables, name: "Tables" },
-      { path: "/documentation/tasks", component: Tasks, name: "Tasks" },
-      {
-        path: "/documentation/textarea",
-        component: Textarea,
-        name: "Textarea"
-      },
       {
         path: "/documentation/tooltips",
         component: Tooltips,

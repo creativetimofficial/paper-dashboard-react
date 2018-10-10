@@ -238,7 +238,7 @@ class Notifications extends React.Component {
       <div>
         <Notify ref="notify" />
         <h1 className="bd-title" id="content">
-          React Notification Alert v0.0.7
+          React Notification Alert v0.0.8
         </h1>
         <p className="bd-lead">
           We are very proud to present you our new{" "}

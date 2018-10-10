@@ -1,6 +1,9 @@
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter/prism";
 import { prism } from "react-syntax-highlighter/styles/prism";
+
+import {Row,Col,Card,CardHeader, CardBody} from "reactstrap";
+
 import {
   withScriptjs,
   withGoogleMap,
@@ -12,31 +15,171 @@ const codeImport = `import {
   withScriptjs,
   withGoogleMap,
   GoogleMap,
-  Marker,
-} from "react-google-maps"`;
+  Marker
+} from "react-google-maps";`;
 
-const codeExample = `const MapWrapper = withScriptjs(withGoogleMap(props =>
+const codeExample = `const MapWrapper = withScriptjs(
+  withGoogleMap(props => (
     <GoogleMap
-        defaultZoom={13}
-        defaultCenter={{ lat: 40.748817, lng: -73.985428 }}
-        defaultOptions={{
-            scrollwheel: false,
-            styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}] }}
+      defaultZoom={13}
+      defaultCenter={{ lat: 40.748817, lng: -73.985428 }}
+      defaultOptions={{
+        scrollwheel: false, //we disable de scroll over the map, it is a really annoing when you scroll through page
+        styles: [
+          {
+            featureType: "water",
+            stylers: [
+              {
+                saturation: 43
+              },
+              {
+                lightness: -11
+              },
+              {
+                hue: "#0088ff"
+              }
+            ]
+          },
+          {
+            featureType: "road",
+            elementType: "geometry.fill",
+            stylers: [
+              {
+                hue: "#ff0000"
+              },
+              {
+                saturation: -100
+              },
+              {
+                lightness: 99
+              }
+            ]
+          },
+          {
+            featureType: "road",
+            elementType: "geometry.stroke",
+            stylers: [
+              {
+                color: "#808080"
+              },
+              {
+                lightness: 54
+              }
+            ]
+          },
+          {
+            featureType: "landscape.man_made",
+            elementType: "geometry.fill",
+            stylers: [
+              {
+                color: "#ece2d9"
+              }
+            ]
+          },
+          {
+            featureType: "poi.park",
+            elementType: "geometry.fill",
+            stylers: [
+              {
+                color: "#ccdca1"
+              }
+            ]
+          },
+          {
+            featureType: "road",
+            elementType: "labels.text.fill",
+            stylers: [
+              {
+                color: "#767676"
+              }
+            ]
+          },
+          {
+            featureType: "road",
+            elementType: "labels.text.stroke",
+            stylers: [
+              {
+                color: "#ffffff"
+              }
+            ]
+          },
+          {
+            featureType: "poi",
+            stylers: [
+              {
+                visibility: "off"
+              }
+            ]
+          },
+          {
+            featureType: "landscape.natural",
+            elementType: "geometry.fill",
+            stylers: [
+              {
+                visibility: "on"
+              },
+              {
+                color: "#b8cb93"
+              }
+            ]
+          },
+          {
+            featureType: "poi.park",
+            stylers: [
+              {
+                visibility: "on"
+              }
+            ]
+          },
+          {
+            featureType: "poi.sports_complex",
+            stylers: [
+              {
+                visibility: "on"
+              }
+            ]
+          },
+          {
+            featureType: "poi.medical",
+            stylers: [
+              {
+                visibility: "on"
+              }
+            ]
+          },
+          {
+            featureType: "poi.business",
+            stylers: [
+              {
+                visibility: "simplified"
+              }
+            ]
+          }
+        ]
+      }}
     >
-        <Marker
-            position={{ lat: 40.748817, lng: -73.985428 }}
-        />
+      <Marker position={{ lat: 40.748817, lng: -73.985428 }} />
     </GoogleMap>
-));`;
+  ))
+);`;
 
-const codeExampleRender = `<div id="map" style={{position: "relative", overflow: "hidden"}}>
-    <MapWrapper
+const codeExampleRender = `<Card>
+  <CardHeader>Google Maps</CardHeader>
+  <CardBody>
+    <div
+      id="map"
+      className="map"
+      style={{ position: "relative", overflow: "hidden" }}
+    >
+      <MapWrapper
         googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
         loadingElement={<div style={{ height: \`100%\` }} />}
         containerElement={<div style={{ height: \`100%\` }} />}
         mapElement={<div style={{ height: \`100%\` }} />}
-    />
-</div>`;
+      />
+    </div>
+  </CardBody>
+</Card>`;
 
 const MapWrapper = withScriptjs(
   withGoogleMap(props => (
@@ -44,79 +187,136 @@ const MapWrapper = withScriptjs(
       defaultZoom={13}
       defaultCenter={{ lat: 40.748817, lng: -73.985428 }}
       defaultOptions={{
-        scrollwheel: false,
+        scrollwheel: false, //we disable de scroll over the map, it is a really annoing when you scroll through page
         styles: [
           {
             featureType: "water",
-            elementType: "geometry",
-            stylers: [{ color: "#e9e9e9" }, { lightness: 17 }]
+            stylers: [
+              {
+                saturation: 43
+              },
+              {
+                lightness: -11
+              },
+              {
+                hue: "#0088ff"
+              }
+            ]
           },
           {
-            featureType: "landscape",
-            elementType: "geometry",
-            stylers: [{ color: "#f5f5f5" }, { lightness: 20 }]
-          },
-          {
-            featureType: "road.highway",
+            featureType: "road",
             elementType: "geometry.fill",
-            stylers: [{ color: "#ffffff" }, { lightness: 17 }]
+            stylers: [
+              {
+                hue: "#ff0000"
+              },
+              {
+                saturation: -100
+              },
+              {
+                lightness: 99
+              }
+            ]
           },
           {
-            featureType: "road.highway",
+            featureType: "road",
             elementType: "geometry.stroke",
-            stylers: [{ color: "#ffffff" }, { lightness: 29 }, { weight: 0.2 }]
+            stylers: [
+              {
+                color: "#808080"
+              },
+              {
+                lightness: 54
+              }
+            ]
           },
           {
-            featureType: "road.arterial",
-            elementType: "geometry",
-            stylers: [{ color: "#ffffff" }, { lightness: 18 }]
-          },
-          {
-            featureType: "road.local",
-            elementType: "geometry",
-            stylers: [{ color: "#ffffff" }, { lightness: 16 }]
-          },
-          {
-            featureType: "poi",
-            elementType: "geometry",
-            stylers: [{ color: "#f5f5f5" }, { lightness: 21 }]
+            featureType: "landscape.man_made",
+            elementType: "geometry.fill",
+            stylers: [
+              {
+                color: "#ece2d9"
+              }
+            ]
           },
           {
             featureType: "poi.park",
-            elementType: "geometry",
-            stylers: [{ color: "#dedede" }, { lightness: 21 }]
-          },
-          {
-            elementType: "labels.text.stroke",
+            elementType: "geometry.fill",
             stylers: [
-              { visibility: "on" },
-              { color: "#ffffff" },
-              { lightness: 16 }
+              {
+                color: "#ccdca1"
+              }
             ]
           },
           {
+            featureType: "road",
             elementType: "labels.text.fill",
             stylers: [
-              { saturation: 36 },
-              { color: "#333333" },
-              { lightness: 40 }
+              {
+                color: "#767676"
+              }
             ]
           },
-          { elementType: "labels.icon", stylers: [{ visibility: "off" }] },
           {
-            featureType: "transit",
-            elementType: "geometry",
-            stylers: [{ color: "#f2f2f2" }, { lightness: 19 }]
+            featureType: "road",
+            elementType: "labels.text.stroke",
+            stylers: [
+              {
+                color: "#ffffff"
+              }
+            ]
           },
           {
-            featureType: "administrative",
+            featureType: "poi",
+            stylers: [
+              {
+                visibility: "off"
+              }
+            ]
+          },
+          {
+            featureType: "landscape.natural",
             elementType: "geometry.fill",
-            stylers: [{ color: "#fefefe" }, { lightness: 20 }]
+            stylers: [
+              {
+                visibility: "on"
+              },
+              {
+                color: "#b8cb93"
+              }
+            ]
           },
           {
-            featureType: "administrative",
-            elementType: "geometry.stroke",
-            stylers: [{ color: "#fefefe" }, { lightness: 17 }, { weight: 1.2 }]
+            featureType: "poi.park",
+            stylers: [
+              {
+                visibility: "on"
+              }
+            ]
+          },
+          {
+            featureType: "poi.sports_complex",
+            stylers: [
+              {
+                visibility: "on"
+              }
+            ]
+          },
+          {
+            featureType: "poi.medical",
+            stylers: [
+              {
+                visibility: "on"
+              }
+            ]
+          },
+          {
+            featureType: "poi.business",
+            stylers: [
+              {
+                visibility: "simplified"
+              }
+            ]
           }
         ]
       }}
@@ -131,7 +331,7 @@ class GoogleMaps extends React.Component {
     return (
       <div>
         <h1 className="bd-title" id="content">
-          React Google Maps v9.2.2
+          React Google Maps v9.4.5
         </h1>
         <p className="bd-lead">
           For maps we've used some components from a react library{" "}
@@ -203,14 +403,27 @@ class GoogleMaps extends React.Component {
           {codeExampleRender}
         </SyntaxHighlighter>
         <div className="bd-example">
-          <div id="map" style={{ position: "relative", overflow: "hidden" }}>
-            <MapWrapper
-              googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBd3PjUqq81lIOfBPYXrQGWwK5T4ystZjA"
-              loadingElement={<div style={{ height: `100%` }} />}
-              containerElement={<div style={{ height: `100%` }} />}
-              mapElement={<div style={{ height: `100%` }} />}
-            />
-          </div>
+          <Row>
+            <Col xs={12}>
+              <Card>
+                <CardHeader>Google Maps</CardHeader>
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                    <MapWrapper
+                      googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
+                      loadingElement={<div style={{ height: `100%` }} />}
+                      containerElement={<div style={{ height: `100%` }} />}
+                      mapElement={<div style={{ height: `100%` }} />}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+            </Col>
+          </Row>
         </div>
         <h2>Props</h2>
         <p>

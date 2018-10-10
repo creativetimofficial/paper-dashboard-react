@@ -466,7 +466,7 @@ const Forms = () => {
           <FormGroup className="col-md-4">
             <Label for="inputState">State</Label>
             <Input type="select" name="select" id="inputState" >
-              <option selected>Choose...</option>
+              <option>Choose...</option>
               <option>...</option>
             </Input>
           </FormGroup>
@@ -857,7 +857,7 @@ const Forms = () => {
             <FormGroup className="col-md-4">
               <Label for="inputState">State</Label>
               <Input type="select" name="select" id="inputState" >
-                <option selected>Choose...</option>
+                <option>Choose...</option>
                 <option>...</option>
               </Input>
             </FormGroup>
@@ -886,7 +886,7 @@ const Forms = () => {
       <SyntaxHighlighter language="jsx" style={prism}>
         {`<Input id="disabledInput" type="text" placeholder="Disabled input here..." disabled/>`}
       </SyntaxHighlighter>
-      <p>Add the <code class="highlighter-rouge">disabled</code> attribute to a <code class="highlighter-rouge">&lt;fieldset&gt;</code> to disable all the controls within.</p>
+      <p>Add the <code className="highlighter-rouge">disabled</code> attribute to a <code className="highlighter-rouge">&lt;fieldset&gt;</code> to disable all the controls within.</p>
       <div className="bd-example">
         <form>
           <fieldset disabled>

@@ -201,7 +201,7 @@ class Example extends React.Component{
                                 <Input type="text" placeholder="Search"/>
                             </FormGroup>
                             <Button color="neutral" icon round>
-                                <i className="now-ui-icons ui-1_zoom-bold"></i>
+                                <i className="nc-icon nc-zoom-split"></i>
                             </Button>
                         </Form>
                     </Collapse>
@@ -370,7 +370,7 @@ class Example extends React.Component{
                                 <Input type="text" placeholder="Search"/>
                             </FormGroup>
                             <Button color="neutral" icon round>
-                                <i className="now-ui-icons ui-1_zoom-bold"></i>
+                                <i className="nc-icon nc-zoom-split"></i>
                             </Button>
                         </Form>
                     </Collapse>
@@ -424,7 +424,7 @@ class Example extends React.Component{
                                 <Input type="text" placeholder="Search"/>
                             </FormGroup>
                             <Button color="neutral" icon round>
-                                <i className="now-ui-icons ui-1_zoom-bold"></i>
+                                <i className="nc-icon nc-zoom-split"></i>
                             </Button>
                         </Form>
                     </Collapse>
@@ -478,7 +478,7 @@ class Example extends React.Component{
                                 <Input type="text" placeholder="Search"/>
                             </FormGroup>
                             <Button color="neutral" icon round>
-                                <i className="now-ui-icons ui-1_zoom-bold"></i>
+                                <i className="nc-icon nc-zoom-split"></i>
                             </Button>
                         </Form>
                     </Collapse>
@@ -677,7 +677,7 @@ class Navigation extends React.Component {
                     <Input type="text" placeholder="Search" />
                   </FormGroup>
                   <Button color="neutral" icon round>
-                    <i className="now-ui-icons ui-1_zoom-bold" />
+                    <i className="nc-icon nc-zoom-split" />
                   </Button>
                 </Form>
               </Collapse>
@@ -777,7 +777,7 @@ class Navigation extends React.Component {
                         <Input type="text" placeholder="Search" />
                       </FormGroup>
                       <Button color="neutral" icon round>
-                        <i className="now-ui-icons ui-1_zoom-bold" />
+                        <i className="nc-icon nc-zoom-split" />
                       </Button>
                     </Form>
                   </Collapse>
@@ -917,7 +917,7 @@ class Navigation extends React.Component {
                     <Input type="text" placeholder="Search" />
                   </FormGroup>
                   <Button color="neutral" icon round>
-                    <i className="now-ui-icons ui-1_zoom-bold" />
+                    <i className="nc-icon nc-zoom-split" />
                   </Button>
                 </Form>
               </Collapse>
@@ -951,7 +951,7 @@ class Navigation extends React.Component {
                     <Input type="text" placeholder="Search" />
                   </FormGroup>
                   <Button color="neutral" icon round>
-                    <i className="now-ui-icons ui-1_zoom-bold" />
+                    <i className="nc-icon nc-zoom-split" />
                   </Button>
                 </Form>
               </Collapse>
@@ -985,7 +985,7 @@ class Navigation extends React.Component {
                     <Input type="text" placeholder="Search" />
                   </FormGroup>
                   <Button color="neutral" icon round>
-                    <i className="now-ui-icons ui-1_zoom-bold" />
+                    <i className="nc-icon nc-zoom-split" />
                   </Button>
                 </Form>
               </Collapse>

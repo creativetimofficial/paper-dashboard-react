@@ -2,16 +2,16 @@ import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter/prism";
 import { prism } from "react-syntax-highlighter/styles/prism";
 
-import { Stats } from "components";
+import Stats from "components/Stats/Stats.jsx";
 
 const codeExample = `<Stats>
     {[
-        { i: "now-ui-icons arrows-1_refresh-69", t: "Just Updated"}
+        { i: "nc-icon nc-single-02", t: "Just Updated"}
     ]}
 </Stats>`;
 
 const codeProps = `Stats.propTypes = {
-    // example : [{ i: "now-ui-icons arrows-1_refresh-69", t: "Just Updated"}, { i: "now-ui-icons arrows-1_refresh-69", t: "Just Updated"}, ...]
+    // example : [{ i: "nc-icon nc-single-02", t: "Just Updated"}, { i: "fa fa-heart", t: "Just Updated"}, ...]
     // i: icon of the stat
     // t: text of the stat
     children: PropTypes.arrayOf(PropTypes.object)
@@ -33,11 +33,11 @@ class Stat extends React.Component {
         <SyntaxHighlighter
           language="jsx"
           style={prism}
-        >{`import {Statistics} from 'components';`}</SyntaxHighlighter>
+        >{`import Stats from "components/Stats/Stats.jsx";`}</SyntaxHighlighter>
         <h2>Example</h2>
         <div className="bd-example">
           <Stats>
-            {[{ i: "now-ui-icons arrows-1_refresh-69", t: "Just Updated" }]}
+            {[{ i: "nc-icon nc-single-02", t: "Just Updated" }]}
           </Stats>
         </div>
         <SyntaxHighlighter language="jsx" style={prism}>
