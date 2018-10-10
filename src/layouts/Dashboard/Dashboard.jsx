@@ -11,12 +11,12 @@ import dashboardRoutes from "routes/dashboard.jsx";
 var ps;
 
 class Dashboard extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       backgroundColor: "black",
-      activeColor: "info",
-    }
+      activeColor: "info"
+    };
   }
   componentDidMount() {
     if (navigator.platform.indexOf("Win") > -1) {
@@ -36,12 +36,12 @@ class Dashboard extends React.Component {
       document.scrollingElement.scrollTop = 0;
     }
   }
-  handleActiveClick = (color) => {
+  handleActiveClick = color => {
     this.setState({ activeColor: color });
-  }
-  handleBgClick = (color) => {
+  };
+  handleBgClick = color => {
     this.setState({ backgroundColor: color });
-  }
+  };
   render() {
     return (
       <div className="wrapper">

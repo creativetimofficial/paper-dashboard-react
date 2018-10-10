@@ -4,32 +4,27 @@ import { prism } from "react-syntax-highlighter/styles/prism";
 
 import { Button } from "components";
 
-const codeColorsExample = `<Button>Default</Button>
-<Button color="primary">Primary</Button>
+const codeColorsExample = `<Button color="primary">Primary</Button>
 <Button color="info">Info</Button>
 <Button color="success">Success</Button>
 <Button color="warning">Warning</Button>
 <Button color="danger">Danger</Button>
-<Button color="light">Light</Button>
-<Button color="dark">Dark</Button>
-<Button color="link">Link</Button>`;
+<Button color="default">Default</Button>`;
 
 const codeSizesExample = `<Button color="primary" size="lg">Large</Button>
 <Button color="primary">Normal</Button>
 <Button color="primary" size="sm">Small</Button>`;
 
 const codeStylesExample = `<Button color="primary">Default</Button>
-<Button color="primary" wd>Min width 140px</Button>
-<Button color="primary" simple>Simple</Button>
-<Button color="primary" round>Rounded</Button>
-<Button color="primary" round>
-    <i className="now-ui-icons ui-2_favourite-28"></i> With icon
+<Button color="primary" round>Round</Button>
+<Button color="primary" fab round icon>
+  <i className="fa fa-heart"></i>
 </Button>
-<Button neutral icon round size="lg">
-    <i className="fab fa-twitter"></i>
+<Button color="primary" round outline>
+  <i className="fa fa-heart"></i> With Icon
 </Button>
-<Button round icon iconMini neutral color="info">
-    <i className="now-ui-icons ui-2_settings-90"></i>
+<Button color="primary" link>
+    link
 </Button>
 <Button color="primary" neutral>Neutral</Button>`;
 
@@ -78,15 +73,12 @@ class Buttons extends React.Component {
           thrown in for more control.
         </p>
         <div className="bd-example">
-          <Button>Default</Button>
           <Button color="primary">Primary</Button>
           <Button color="info">Info</Button>
           <Button color="success">Success</Button>
           <Button color="warning">Warning</Button>
           <Button color="danger">Danger</Button>
-          <Button color="light">Light</Button>
-          <Button color="dark">Dark</Button>
-          <Button color="link">Link</Button>
+          <Button color="default">Default</Button>
         </div>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeColorsExample}
@@ -98,23 +90,17 @@ class Buttons extends React.Component {
         </p>
         <div className="bd-example">
           <Button color="primary">Default</Button>
-          <Button color="primary" wd>
-            Min width 140px
-          </Button>
-          <Button color="primary" simple>
-            Simple
-          </Button>
           <Button color="primary" round>
-            Rounded
+            Round
           </Button>
-          <Button color="primary" round>
-            <i className="now-ui-icons ui-2_favourite-28" /> With icon
+          <Button color="primary" fab round icon>
+            <i className="fa fa-heart" />
           </Button>
-          <Button neutral icon round size="lg">
-            <i className="fab fa-twitter" />
+          <Button color="primary" round outline>
+            <i className="fa fa-heart" /> With Icon
           </Button>
-          <Button round icon iconMini neutral color="info">
-            <i className="now-ui-icons ui-2_settings-90" />
+          <Button color="primary" link>
+            link
           </Button>
           <Button color="primary" neutral>
             Neutral

@@ -61,7 +61,10 @@ class RegularTables extends React.Component {
             <Card className="card-plain">
               <CardHeader>
                 <CardTitle tag="h4">Table on Plain Background</CardTitle>
-                <p className="card-category"> Here is a subtitle for this table</p>
+                <p className="card-category">
+                  {" "}
+                  Here is a subtitle for this table
+                </p>
               </CardHeader>
               <CardBody>
                 <Table responsive>

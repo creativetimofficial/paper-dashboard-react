@@ -15,7 +15,7 @@ class Styles extends React.Component {
         <h1 className="bd-title" id="content">
           Lint
         </h1>
-        <p className="bd-lead">
+        <p>
           As per this request{" "}
           <a
             href="https://github.com/creativetimofficial/material-dashboard-react/issues/47"

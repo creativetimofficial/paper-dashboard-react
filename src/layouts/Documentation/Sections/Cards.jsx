@@ -168,7 +168,7 @@ class Cards extends React.Component {
     return (
       <div>
         <h1 className="bd-title" id="content">
-          Short Description and Usage
+          Cards
         </h1>
         <p className="bd-lead">
           Bootstrap's cards provide a flexible and extensible content container

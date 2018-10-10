@@ -1,5 +1,13 @@
 import React from "react";
-import { Card, CardHeader, CardBody, CardTitle, CardFooter, Row, Col } from "reactstrap";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardTitle,
+  CardFooter,
+  Row,
+  Col
+} from "reactstrap";
 
 import { FormInputs, CardAuthor } from "components";
 import Button from "components/CustomButton/CustomButton.jsx";
@@ -28,9 +36,9 @@ class User extends React.Component {
                   description="@chetfaker"
                 />
                 <p className="description text-center">
-                  "I like the way you work it{" "}<br/>
-                    No diggity <br/>
-                    I wanna bag it up"
+                  "I like the way you work it <br />
+                  No diggity <br />
+                  I wanna bag it up"
                 </p>
               </CardBody>
               <CardFooter>
@@ -40,21 +48,27 @@ class User extends React.Component {
                     <Col xs={6} sm={6} md={6} lg={3} className="ml-auto">
                       <h5>
                         12
-                        <br/>
+                        <br />
                         <small>Files</small>
                       </h5>
                     </Col>
-                    <Col xs={6} sm={6} md={6} lg={4} className="mr-auto ml-auto">
+                    <Col
+                      xs={6}
+                      sm={6}
+                      md={6}
+                      lg={4}
+                      className="mr-auto ml-auto"
+                    >
                       <h5>
                         2GB
-                        <br/>
+                        <br />
                         <small>Used</small>
                       </h5>
                     </Col>
                     <Col lg={3} className="mr-auto">
                       <h5>
                         24,6$
-                        <br/>
+                        <br />
                         <small>Spent</small>
                       </h5>
                     </Col>
@@ -72,21 +86,23 @@ class User extends React.Component {
                     <Row>
                       <Col xs={2} md={2}>
                         <div className="avatar">
-                          <img src={ayoOgunseinde2} alt="ayoOgunseinde2" className="img-circle img-no-padding img-responsive" />
+                          <img
+                            src={ayoOgunseinde2}
+                            alt="ayoOgunseinde2"
+                            className="img-circle img-no-padding img-responsive"
+                          />
                         </div>
                       </Col>
                       <Col xs={7} md={7}>
                         DJ Khaled
                         <br />
                         <span className="text-muted">
-                          <small>
-                          Offline
-                        </small>
+                          <small>Offline</small>
                         </span>
                       </Col>
                       <Col xs={3} md={3} className="text-right">
                         <Button size="sm" color="success" round icon outline>
-                          <i className="fa fa-envelope"></i>
+                          <i className="fa fa-envelope" />
                         </Button>
                       </Col>
                     </Row>
@@ -95,21 +111,23 @@ class User extends React.Component {
                     <Row>
                       <Col xs={2} md={2}>
                         <div className="avatar">
-                          <img src={joeGardner2} alt="joeGardner2" className="img-circle img-no-padding img-responsive" />
+                          <img
+                            src={joeGardner2}
+                            alt="joeGardner2"
+                            className="img-circle img-no-padding img-responsive"
+                          />
                         </div>
                       </Col>
                       <Col xs={7} md={7}>
                         Creative Tim
                         <br />
                         <span className="text-success">
-                          <small>
-                          Available
-                        </small>
+                          <small>Available</small>
                         </span>
                       </Col>
                       <Col xs={3} md={3} className="text-right">
                         <Button size="sm" color="success" round icon outline>
-                          <i className="fa fa-envelope"></i>
+                          <i className="fa fa-envelope" />
                         </Button>
                       </Col>
                     </Row>
@@ -118,21 +136,23 @@ class User extends React.Component {
                     <Row>
                       <Col xs={2} md={2}>
                         <div className="avatar">
-                          <img src={clemOnojeghuo2} alt="clemOnojeghuo2" className="img-circle img-no-padding img-responsive" />
+                          <img
+                            src={clemOnojeghuo2}
+                            alt="clemOnojeghuo2"
+                            className="img-circle img-no-padding img-responsive"
+                          />
                         </div>
                       </Col>
                       <Col xs={7} md={7}>
                         Flume
                         <br />
                         <span className="text-danger">
-                          <small>
-                          Busy
-                        </small>
+                          <small>Busy</small>
                         </span>
                       </Col>
                       <Col xs={3} md={3} className="text-right">
                         <Button size="sm" color="success" round icon outline>
-                          <i className="fa fa-envelope"></i>
+                          <i className="fa fa-envelope" />
                         </Button>
                       </Col>
                     </Row>
@@ -204,8 +224,7 @@ class User extends React.Component {
                         inputProps: {
                           type: "text",
                           placeholder: "Home Address",
-                          defaultValue:
-                            "Melbourne, Australia"
+                          defaultValue: "Melbourne, Australia"
                         }
                       }
                     ]}
@@ -254,7 +273,9 @@ class User extends React.Component {
                   />
                   <Row>
                     <div className="update ml-auto mr-auto">
-                      <Button color="primary" round>Update Profile</Button>
+                      <Button color="primary" round>
+                        Update Profile
+                      </Button>
                     </div>
                   </Row>
                 </form>

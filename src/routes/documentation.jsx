@@ -7,10 +7,11 @@ import Breadcrumb from "layouts/Documentation/Sections/Breadcrumb.jsx";
 import Buttons from "layouts/Documentation/Sections/Buttons.jsx";
 import CardElements from "layouts/Documentation/Sections/CardElements.jsx";
 import Cards from "layouts/Documentation/Sections/Cards.jsx";
+import Colors from "layouts/Documentation/Sections/Colors.jsx";
 import Charts from "layouts/Documentation/Sections/Charts.jsx";
-import CheckboxRadio from "layouts/Documentation/Sections/CheckboxRadio.jsx";
 import Dropdown from "layouts/Documentation/Sections/Dropdown.jsx";
 import Footers from "layouts/Documentation/Sections/Footers.jsx";
+import Forms from "layouts/Documentation/Sections/Forms.jsx";
 import FormInputs from "layouts/Documentation/Sections/FormInputs.jsx";
 import GoogleMaps from "layouts/Documentation/Sections/GoogleMaps.jsx";
 import Icons from "layouts/Documentation/Sections/Icons.jsx";
@@ -67,9 +68,9 @@ var componentsRoutes = [
         name: "Card Elements"
       },
       {
-        path: "/documentation/checkbox-radio-switch",
-        component: CheckboxRadio,
-        name: "Checkbox Radio"
+        path: "/documentation/colors",
+        component: Colors,
+        name: "Colors"
       },
       {
         path: "/documentation/dropdown",
@@ -77,6 +78,11 @@ var componentsRoutes = [
         name: "Dropdown"
       },
       { path: "/documentation/footers", component: Footers, name: "Footers" },
+      {
+        path: "/documentation/forms",
+        component: Forms,
+        name: "Forms"
+      },
       {
         path: "/documentation/form-inputs",
         component: FormInputs,

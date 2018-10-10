@@ -73,7 +73,19 @@ class Notifications extends React.Component {
               <CardHeader>
                 <CardTitle>Notifications</CardTitle>
                 <p className="card-category">
-                  Handcrafted by our colleague <a target="_blank" href="https://www.instagram.com/manu.nazare/">Nazare Emanuel-Ioan (Manu)</a>. Please checkout the <a href="https://github.com/creativetimofficial/react-notification-alert" target="_blank">full documentation.</a>
+                  Handcrafted by our colleague{" "}
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/manu.nazare/"
+                  >
+                    Nazare Emanuel-Ioan (Manu)
+                  </a>. Please checkout the{" "}
+                  <a
+                    href="https://github.com/creativetimofficial/react-notification-alert"
+                    target="_blank"
+                  >
+                    full documentation.
+                  </a>
                 </p>
               </CardHeader>
               <CardBody>
@@ -119,10 +131,11 @@ class Notifications extends React.Component {
                             className="nc-icon nc-chart-pie-36"
                           />
                           <span data-notify="message">
-                            This is a notification with close button and icon and have
-                            many lines. You can see that the icon and the close button
-                            are always vertically aligned. This is a beautiful
-                            notification. So you don't have to worry about the style.
+                            This is a notification with close button and icon
+                            and have many lines. You can see that the icon and
+                            the close button are always vertically aligned. This
+                            is a beautiful notification. So you don't have to
+                            worry about the style.
                           </span>
                         </Alert>
                       </CardBody>
@@ -140,8 +153,8 @@ class Notifications extends React.Component {
                           toggle={this.onDismiss}
                         >
                           <span>
-                            <b> Primary - </b> This is a regular notification made with
-                            color="primary"
+                            <b> Primary - </b> This is a regular notification
+                            made with color="primary"
                           </span>
                         </Alert>
                         <Alert
@@ -150,8 +163,8 @@ class Notifications extends React.Component {
                           toggle={this.onDismiss}
                         >
                           <span>
-                            <b> Info - </b> This is a regular notification made with
-                            color="info"
+                            <b> Info - </b> This is a regular notification made
+                            with color="info"
                           </span>
                         </Alert>
                         <Alert
@@ -160,8 +173,8 @@ class Notifications extends React.Component {
                           toggle={this.onDismiss}
                         >
                           <span>
-                            <b> Success - </b> This is a regular notification made with
-                            color="success"
+                            <b> Success - </b> This is a regular notification
+                            made with color="success"
                           </span>
                         </Alert>
                         <Alert
@@ -170,8 +183,8 @@ class Notifications extends React.Component {
                           toggle={this.onDismiss}
                         >
                           <span>
-                            <b> Warning - </b> This is a regular notification made with
-                            color="warning"
+                            <b> Warning - </b> This is a regular notification
+                            made with color="warning"
                           </span>
                         </Alert>
                         <Alert
@@ -180,8 +193,8 @@ class Notifications extends React.Component {
                           toggle={this.onDismiss}
                         >
                           <span>
-                            <b> Danger - </b> This is a regular notification made with
-                            color="danger"
+                            <b> Danger - </b> This is a regular notification
+                            made with color="danger"
                           </span>
                         </Alert>
                       </CardBody>

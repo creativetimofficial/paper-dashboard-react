@@ -7,9 +7,6 @@ const codeExamplesImport = `import { Alert } from 'reactstrap';`;
 const codeExamples = `<Alert color="primary">
     This is a primary alert—check it out!
 </Alert>
-<Alert color="secondary">
-    This is a primary alert—check it out!
-</Alert>
 <Alert color="success">
     This is a primary alert—check it out!
 </Alert>
@@ -20,39 +17,59 @@ const codeExamples = `<Alert color="primary">
     This is a primary alert—check it out!
 </Alert>
 <Alert color="info">
-    This is a primary alert—check it out!
-</Alert>
-<Alert color="light">
-    This is a primary alert—check it out!
-</Alert>
-<Alert color="dark">
     This is a primary alert—check it out!
 </Alert>`;
 
 const codeLinkImport = `import { Alert } from 'reactstrap';`;
 const codeLink = `<Alert color="primary">
-    This is a primary alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
-</Alert>
-<Alert color="secondary">
-    This is a secondary alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
+  This is a primary alert with{" "}
+  <a
+    href="#/"
+    className="alert-link"
+    onClick={e => e.preventDefault()}
+  >
+    an example link
+  </a>. Give it a click if you like.
 </Alert>
 <Alert color="success">
-    This is a success alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
+  This is a success alert with{" "}
+  <a
+    href="#/"
+    className="alert-link"
+    onClick={e => e.preventDefault()}
+  >
+    an example link
+  </a>. Give it a click if you like.
 </Alert>
 <Alert color="danger">
-    This is a danger alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
+  This is a danger alert with{" "}
+  <a
+    href="#/"
+    className="alert-link"
+    onClick={e => e.preventDefault()}
+  >
+    an example link
+  </a>. Give it a click if you like.
 </Alert>
 <Alert color="warning">
-    This is a warning alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
+  This is a warning alert with{" "}
+  <a
+    href="#/"
+    className="alert-link"
+    onClick={e => e.preventDefault()}
+  >
+    an example link
+  </a>. Give it a click if you like.
 </Alert>
 <Alert color="info">
-    This is a info alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
-</Alert>
-<Alert color="light">
-    This is a light alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
-</Alert>
-<Alert color="dark">
-    This is a dark alert with <a href="#" className="alert-link">an example link</a>. Give it a click if you like.
+  This is a info alert with{" "}
+  <a
+    href="#/"
+    className="alert-link"
+    onClick={e => e.preventDefault()}
+  >
+    an example link
+  </a>. Give it a click if you like.
 </Alert>`;
 
 const codeDismissing1Import = `import { Alert } from 'reactstrap';`;
@@ -104,13 +121,10 @@ class Alerts extends React.Component {
         </p>
         <div className="bd-example">
           <Alert color="primary">This is a primary alert—check it out!</Alert>
-          <Alert color="secondary">This is a primary alert—check it out!</Alert>
           <Alert color="success">This is a primary alert—check it out!</Alert>
           <Alert color="danger">This is a primary alert—check it out!</Alert>
           <Alert color="warning">This is a primary alert—check it out!</Alert>
           <Alert color="info">This is a primary alert—check it out!</Alert>
-          <Alert color="light">This is a primary alert—check it out!</Alert>
-          <Alert color="dark">This is a primary alert—check it out!</Alert>
         </div>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeExamplesImport}
@@ -126,16 +140,6 @@ class Alerts extends React.Component {
         <div className="bd-example">
           <Alert color="primary">
             This is a primary alert with{" "}
-            <a
-              href="/#/"
-              className="alert-link"
-              onClick={e => e.preventDefault()}
-            >
-              an example link
-            </a>. Give it a click if you like.
-          </Alert>
-          <Alert color="secondary">
-            This is a secondary alert with{" "}
             <a
               href="#/"
               className="alert-link"
@@ -176,26 +180,6 @@ class Alerts extends React.Component {
           </Alert>
           <Alert color="info">
             This is a info alert with{" "}
-            <a
-              href="#/"
-              className="alert-link"
-              onClick={e => e.preventDefault()}
-            >
-              an example link
-            </a>. Give it a click if you like.
-          </Alert>
-          <Alert color="light">
-            This is a light alert with{" "}
-            <a
-              href="#/"
-              className="alert-link"
-              onClick={e => e.preventDefault()}
-            >
-              an example link
-            </a>. Give it a click if you like.
-          </Alert>
-          <Alert color="dark">
-            This is a dark alert with{" "}
             <a
               href="#/"
               className="alert-link"

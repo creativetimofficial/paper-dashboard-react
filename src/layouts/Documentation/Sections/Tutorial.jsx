@@ -95,18 +95,16 @@ class Tutorial extends React.Component {
             rel="noopener noreferrer"
           >
             reactstrap - Bootstrap 4
-          </a>{" "}(<a
+          </a>{" "}
+          (<a
             href="https://github.com/facebook/create-react-app"
             target="_blank"
             rel="noopener noreferrer"
           >
             create-react-app
-          </a>)
-          Admin Template.
+          </a>) Admin Template.
         </p>
-        <h2>
-          License
-        </h2>
+        <h2>License</h2>
         <p>
           <b>MIT LICENSE</b>
           <br />Copyright (c) {1900 + new Date().getYear()}{" "}
@@ -137,11 +135,15 @@ class Tutorial extends React.Component {
           SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         </p>
         <p>
-          Read more about licenses here: <a href="https://www.creative-tim.com/license/?ref=paper-dashboard-react" target="_blank">creative-tim license</a>.
+          Read more about licenses here:{" "}
+          <a
+            href="https://www.creative-tim.com/license/?ref=paper-dashboard-react"
+            target="_blank"
+          >
+            creative-tim license
+          </a>.
         </p>
-        <h2>
-          Getting Started
-        </h2>
+        <h2>Getting Started</h2>
         <p>
           The Paper Dashboard React is built on top of{" "}
           <a
@@ -152,8 +154,9 @@ class Tutorial extends React.Component {
             reactstrap
           </a>{" "}
           (Bootstrap 4), so you can safely use it on your existing or new
-          Reactstrap project. No line of code from Bootstrap 4 or reactstrap was changed,
-          so you don't have to worry about undesired effects in your work.
+          Reactstrap project. No line of code from Bootstrap 4 or reactstrap was
+          changed, so you don't have to worry about undesired effects in your
+          work.
         </p>
         <p>
           We provide all the necessary CSS resources. So, to immediately change
@@ -218,8 +221,8 @@ class Tutorial extends React.Component {
               style={prism}
             >{`npm run install:clean`}</SyntaxHighlighter>{" "}
             which will delete <code>node_modules</code>,{" "}
-            <code>package-lock.json</code>, automatically run <code>install</code>{" "}
-            script and <code>start</code> script
+            <code>package-lock.json</code>, automatically run{" "}
+            <code>install</code> script and <code>start</code> script
           </li>
           <li>
             <div>
@@ -239,9 +242,9 @@ class Tutorial extends React.Component {
                 language="jsx"
                 style={prism}
               >{`npm install --g cross-env`}</SyntaxHighlighter>
-              then change the <code>script</code> inside <code>package.json</code>{" "}
-              by adding <code>NODE_PATH=./src</code> inside it. For example, the
-              start script would be changed from
+              then change the <code>script</code> inside{" "}
+              <code>package.json</code> by adding <code>NODE_PATH=./src</code>{" "}
+              inside it. For example, the start script would be changed from
               <SyntaxHighlighter
                 language="jsx"
                 style={prism}
@@ -256,11 +259,11 @@ class Tutorial extends React.Component {
           <li>
             <div>
               <p>
-                If you have an error about <code>props.history is undefined</code>,
-                than you're probably not sending inside the <code>Header</code>{" "}
-                component the props that come from the routes (everywhere{" "}
-                <code>Header</code> is rendered - we pass the{" "}
-                <code>{`{...rest}`}</code> to it).
+                If you have an error about{" "}
+                <code>props.history is undefined</code>, than you're probably
+                not sending inside the <code>Header</code> component the props
+                that come from the routes (everywhere <code>Header</code> is
+                rendered - we pass the <code>{`{...rest}`}</code> to it).
               </p>
               <p>
                 You can also read more about{" "}
@@ -335,9 +338,7 @@ class Tutorial extends React.Component {
             </a>
           </li>
         </ul>
-        <h2>
-          File structure
-        </h2>
+        <h2>File structure</h2>
         <SyntaxHighlighter language="bash" style={prism}>
           {fileStructure}
         </SyntaxHighlighter>

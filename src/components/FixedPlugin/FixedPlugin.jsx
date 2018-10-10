@@ -136,7 +136,7 @@ class FixedPlugin extends Component {
                 className="btn btn-outline-default btn-block btn-round"
                 activeClassName="active"
               >
-                <i className="nc-icon nc-paper"></i> Documentation
+                <i className="nc-icon nc-paper" /> Documentation
               </NavLink>
             </li>
             <li className="header-title">Want more components?</li>
@@ -161,7 +161,15 @@ class FixedPlugin extends Component {
               <TwitterShareButton
                 url="https://demos.creative-tim.com/paper-dashboard-react/#/dashboard"
                 title="Paper Dashboard React by Creative Tim | Free React Admin Template"
-                hashtags={["react", "creativetim", "paper", "dashboard", "bootstrap", "reactstrap", "reactjs"]}
+                hashtags={[
+                  "react",
+                  "creativetim",
+                  "paper",
+                  "dashboard",
+                  "bootstrap",
+                  "reactstrap",
+                  "reactjs"
+                ]}
                 via="creativetim"
               >
                 <TwitterIcon size={32} round={true} />
