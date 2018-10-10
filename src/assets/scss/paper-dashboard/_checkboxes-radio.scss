@@ -17,6 +17,17 @@
         margin-bottom: 0;
     }
 
+    .form-check-sign{
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+    }
+    
     .form-check-sign::before,
     .form-check-sign::after {
         content: " ";
@@ -36,9 +47,8 @@
         transition: opacity 0.3s linear;
     }
     .form-check-sign::after {
-        font-family: 'FontAwesome';
         content: "\f00c";
-        top: -1px;
+        top: 4px;
         text-align: center;
         font-size: 15px;
         opacity: 0;
