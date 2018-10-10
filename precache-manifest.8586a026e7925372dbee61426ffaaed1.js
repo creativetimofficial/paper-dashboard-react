@@ -44,10 +44,6 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
-  },
-  {
     "revision": "6836b93bf1af0b571928d98458a68445",
     "url": "/paper-dashboard-react/static/media/nucleo-icons.6836b93b.woff"
   },
@@ -56,11 +52,15 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
+    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
+  },
+  {
     "revision": "90224c9b12162acaf1fc",
     "url": "/paper-dashboard-react/static/css/1.0cbc392f.chunk.css"
   },
   {
-    "revision": "afbf548cb408a9f6e5f6fb87c46fa780",
+    "revision": "e3192150fa69f546e425f3a46acef77d",
     "url": "/paper-dashboard-react/index.html"
   }
 ];
