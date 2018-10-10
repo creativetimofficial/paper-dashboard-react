@@ -1,1 +1,1 @@
-![Product Gif](./paper-dashboard-react-gif.gif)
+![Product Gif](./paper-dashboard-react.gif)
