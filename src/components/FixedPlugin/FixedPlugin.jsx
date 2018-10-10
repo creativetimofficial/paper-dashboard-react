@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 
 import Button from "components/CustomButton/CustomButton.jsx";
 
@@ -124,13 +123,15 @@ class FixedPlugin extends Component {
               </Button>
             </li>
             <li className="button-container">
-              <NavLink
-                to={"/documentation/tutorial"}
-                className="btn btn-outline-default btn-block btn-round"
-                activeClassName="active"
+              <Button
+                href="https://www.creative-tim.com/product/paper-dashboard-react/#/documentation/tutorial"
+                color="default"
+                block
+                round
+                outline
               >
                 <i className="nc-icon nc-paper"></i> Documentation
-              </NavLink>
+              </Button>
             </li>
             <li className="header-title">Want more components?</li>
             <li className="button-container">
