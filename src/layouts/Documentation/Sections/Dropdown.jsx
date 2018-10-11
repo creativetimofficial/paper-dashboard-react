@@ -24,7 +24,7 @@ const codeExamples = `<UncontrolledDropdown>
 </UncontrolledDropdown>`;
 
 const codeExamplesColor = `<UncontrolledDropdown group>
-    <DropdownToggle caret className="dropdown-toggle-split" color="danger">
+    <DropdownToggle caret color="danger">
         Danger
     </DropdownToggle>
     <DropdownMenu>
@@ -126,7 +126,6 @@ class Dropdown extends React.Component {
           <UncontrolledDropdown group>
             <DropdownToggle
               caret
-              className="dropdown-toggle-split"
               color="primary"
             >
               Primary
@@ -140,7 +139,6 @@ class Dropdown extends React.Component {
           <UncontrolledDropdown group>
             <DropdownToggle
               caret
-              className="dropdown-toggle-split"
               color="secondary"
             >
               Secondary
@@ -154,7 +152,6 @@ class Dropdown extends React.Component {
           <UncontrolledDropdown group>
             <DropdownToggle
               caret
-              className="dropdown-toggle-split"
               color="success"
             >
               Success
@@ -168,7 +165,6 @@ class Dropdown extends React.Component {
           <UncontrolledDropdown group>
             <DropdownToggle
               caret
-              className="dropdown-toggle-split"
               color="info"
             >
               Info
@@ -182,7 +178,6 @@ class Dropdown extends React.Component {
           <UncontrolledDropdown group>
             <DropdownToggle
               caret
-              className="dropdown-toggle-split"
               color="warning"
             >
               Warning
@@ -196,7 +191,6 @@ class Dropdown extends React.Component {
           <UncontrolledDropdown group>
             <DropdownToggle
               caret
-              className="dropdown-toggle-split"
               color="danger"
             >
               Danger
