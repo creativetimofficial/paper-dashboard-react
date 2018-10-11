@@ -1,7 +1,7 @@
 {
-  "main.css": "/paper-dashboard-react/static/css/main.42d9ccd7.chunk.css",
-  "main.js": "/paper-dashboard-react/static/js/main.96d88a97.chunk.js",
-  "main.js.map": "/paper-dashboard-react/static/js/main.96d88a97.chunk.js.map",
+  "main.css": "/paper-dashboard-react/static/css/main.f6541d07.chunk.css",
+  "main.js": "/paper-dashboard-react/static/js/main.c8260939.chunk.js",
+  "main.js.map": "/paper-dashboard-react/static/js/main.c8260939.chunk.js.map",
   "static/css/1.4c8884af.chunk.css": "/paper-dashboard-react/static/css/1.4c8884af.chunk.css",
   "static/js/1.fad5f924.chunk.js": "/paper-dashboard-react/static/js/1.fad5f924.chunk.js",
   "static/js/1.fad5f924.chunk.js.map": "/paper-dashboard-react/static/js/1.fad5f924.chunk.js.map",
@@ -12,11 +12,11 @@
   "static/media/joe-gardner-2.jpg": "/paper-dashboard-react/static/media/joe-gardner-2.76ff47ae.jpg",
   "static/media/clem-onojeghuo-2.jpg": "/paper-dashboard-react/static/media/clem-onojeghuo-2.bb4b9ac9.jpg",
   "static/media/logo.svg": "/paper-dashboard-react/static/media/logo.5d5d9eef.svg",
-  "static/media/paper-dashboard.scss": "/paper-dashboard-react/static/media/nucleo-icons.48ac036d.ttf",
+  "static/media/paper-dashboard.scss": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot",
   "static/media/damir-bosnjak.jpg": "/paper-dashboard-react/static/media/damir-bosnjak.a6f24e7d.jpg",
-  "static/css/main.42d9ccd7.chunk.css.map": "/paper-dashboard-react/static/css/main.42d9ccd7.chunk.css.map",
+  "static/css/main.f6541d07.chunk.css.map": "/paper-dashboard-react/static/css/main.f6541d07.chunk.css.map",
   "static/css/1.4c8884af.chunk.css.map": "/paper-dashboard-react/static/css/1.4c8884af.chunk.css.map",
   "index.html": "/paper-dashboard-react/index.html",
-  "precache-manifest.fdefcd4b728d60ffbbbbc9a943e53caa.js": "/paper-dashboard-react/precache-manifest.fdefcd4b728d60ffbbbbc9a943e53caa.js",
+  "precache-manifest.8e88431d82933d9359e59a7e04e2e71f.js": "/paper-dashboard-react/precache-manifest.8e88431d82933d9359e59a7e04e2e71f.js",
   "service-worker.js": "/paper-dashboard-react/service-worker.js"
 }
