@@ -1,9 +1,6 @@
 import React from "react";
 import SyntaxHighlighter from "react-syntax-highlighter/prism";
 import { prism } from "react-syntax-highlighter/styles/prism";
-import { Row, Col, Card, CardBody } from "reactstrap";
-
-import icons from "variables/icons";
 
 const codeImport = `import icons from 'variables/icons';`;
 
