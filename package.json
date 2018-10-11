@@ -14,6 +14,8 @@
     "react": "16.5.2",
     "react-chartjs-2": "2.7.4",
     "react-dom": "16.5.2",
+    "react-facebook-pixel": "0.1.1",
+    "react-ga": "2.5.3",
     "react-github-button": "0.1.11",
     "react-google-maps": "9.4.5",
     "react-notification-alert": "0.0.8",
