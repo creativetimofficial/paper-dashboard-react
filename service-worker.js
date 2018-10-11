@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/paper-dashboard-react/precache-manifest.93df88d6fcfeab4d4c908f9f139f58ad.js"
+  "/paper-dashboard-react/precache-manifest.e4db1d76a901b7ce52fc2822351f1ecf.js"
 );
 
 workbox.clientsClaim();
