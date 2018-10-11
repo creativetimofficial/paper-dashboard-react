@@ -35,16 +35,18 @@ const codeDisabledA = `<Button href="#" color="primary" size="lg" disabled>Prima
 <Button href="#" color="secondary" size="lg" disabled>Link</Button>`;
 
 const codeProps = `CustomButton.propTypes = {
-    leftLabel: PropTypes.node,
-    rightLabel: PropTypes.node,
-    simple: PropTypes.bool,
-    round: PropTypes.bool,
-    icon: PropTypes.bool,
-    neutral: PropTypes.bool,
-    iconMini: PropTypes.bool,
-    // min width 140 px
-    wd: PropTypes.bool,
-}`;
+  simple: PropTypes.bool,
+  round: PropTypes.bool,
+  icon: PropTypes.bool,
+  neutral: PropTypes.bool,
+  wd: PropTypes.bool,
+  link: PropTypes.bool,
+  fab: PropTypes.bool,
+  // this is an icon
+  leftLabel: PropTypes.string,
+  // this is an icon
+  rightLabel: PropTypes.string
+};`;
 
 class Buttons extends React.Component {
   render() {
