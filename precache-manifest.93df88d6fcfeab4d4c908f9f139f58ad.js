@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/joe-gardner-2.76ff47ae.jpg"
   },
   {
-    "revision": "c8260939a349380884bd",
-    "url": "/paper-dashboard-react/static/css/main.f6541d07.chunk.css"
+    "revision": "83a75b38622a59de6094",
+    "url": "/paper-dashboard-react/static/css/main.77a50e2e.chunk.css"
   },
   {
-    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
+    "revision": "48ac036da7c7923266266f63746fc5f1",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.48ac036d.ttf"
   },
   {
-    "revision": "fad5f924116505114b52",
-    "url": "/paper-dashboard-react/static/js/1.fad5f924.chunk.js"
+    "revision": "3d443d8f636beb0d5d72",
+    "url": "/paper-dashboard-react/static/js/1.3d443d8f.chunk.js"
   },
   {
     "revision": "220b397342ef3d59494d",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/ayo-ogunseinde-2.bfc688ca.jpg"
   },
   {
-    "revision": "c8260939a349380884bd",
-    "url": "/paper-dashboard-react/static/js/main.c8260939.chunk.js"
+    "revision": "83a75b38622a59de6094",
+    "url": "/paper-dashboard-react/static/js/main.83a75b38.chunk.js"
   },
   {
     "revision": "bb4b9ac9fd07e48f86c719495b65341c",
@@ -44,23 +44,23 @@ self.__precacheManifest = [
     "url": "/paper-dashboard-react/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.5c78b4cf.woff2"
+    "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
     "revision": "6836b93bf1af0b571928d98458a68445",
     "url": "/paper-dashboard-react/static/media/nucleo-icons.6836b93b.woff"
   },
   {
-    "revision": "48ac036da7c7923266266f63746fc5f1",
-    "url": "/paper-dashboard-react/static/media/nucleo-icons.48ac036d.ttf"
+    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
+    "url": "/paper-dashboard-react/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
-    "revision": "fad5f924116505114b52",
-    "url": "/paper-dashboard-react/static/css/1.4c8884af.chunk.css"
+    "revision": "3d443d8f636beb0d5d72",
+    "url": "/paper-dashboard-react/static/css/1.954f2655.chunk.css"
   },
   {
-    "revision": "5babdbeeb42bfb1723c6866a38b39446",
+    "revision": "a6235e593ba2a78a5fa0da6b7fe1b4ee",
     "url": "/paper-dashboard-react/index.html"
   }
 ];
