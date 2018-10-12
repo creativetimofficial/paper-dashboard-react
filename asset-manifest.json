@@ -1,7 +1,7 @@
 {
-  "main.css": "/paper-dashboard-react/static/css/main.77a50e2e.chunk.css",
-  "main.js": "/paper-dashboard-react/static/js/main.83a75b38.chunk.js",
-  "main.js.map": "/paper-dashboard-react/static/js/main.83a75b38.chunk.js.map",
+  "main.css": "/paper-dashboard-react/static/css/main.f1972def.chunk.css",
+  "main.js": "/paper-dashboard-react/static/js/main.1603ac1c.chunk.js",
+  "main.js.map": "/paper-dashboard-react/static/js/main.1603ac1c.chunk.js.map",
   "static/css/1.954f2655.chunk.css": "/paper-dashboard-react/static/css/1.954f2655.chunk.css",
   "static/js/1.3d443d8f.chunk.js": "/paper-dashboard-react/static/js/1.3d443d8f.chunk.js",
   "static/js/1.3d443d8f.chunk.js.map": "/paper-dashboard-react/static/js/1.3d443d8f.chunk.js.map",
@@ -14,9 +14,9 @@
   "static/media/logo.svg": "/paper-dashboard-react/static/media/logo.5d5d9eef.svg",
   "static/media/paper-dashboard.scss": "/paper-dashboard-react/static/media/nucleo-icons.48ac036d.ttf",
   "static/media/damir-bosnjak.jpg": "/paper-dashboard-react/static/media/damir-bosnjak.a6f24e7d.jpg",
+  "static/css/main.f1972def.chunk.css.map": "/paper-dashboard-react/static/css/main.f1972def.chunk.css.map",
   "static/css/1.954f2655.chunk.css.map": "/paper-dashboard-react/static/css/1.954f2655.chunk.css.map",
-  "static/css/main.77a50e2e.chunk.css.map": "/paper-dashboard-react/static/css/main.77a50e2e.chunk.css.map",
   "index.html": "/paper-dashboard-react/index.html",
-  "precache-manifest.e4db1d76a901b7ce52fc2822351f1ecf.js": "/paper-dashboard-react/precache-manifest.e4db1d76a901b7ce52fc2822351f1ecf.js",
+  "precache-manifest.e4cbff06bff0933aa33244d569fef0eb.js": "/paper-dashboard-react/precache-manifest.e4cbff06bff0933aa33244d569fef0eb.js",
   "service-worker.js": "/paper-dashboard-react/service-worker.js"
 }
