@@ -258,27 +258,27 @@ import {
 const Forms = () => {
   return (
     <>
-      <FormGroup check className="form-check-radio">
+      <div className="form-check-radio">
         <Label className="form-check-label">
             <Input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
             Radio is off
             <span className="form-check-sign"></span>
         </Label>
-      </FormGroup>
-      <FormGroup check className="form-check-radio">
+      </div>
+      <div check className="form-check-radio">
         <Label className="form-check-label">
           <Input type="radio" name="exampleRadios" id="exampleRadios2" value="option2" defaultChecked/>
           Radio is on
           <span className="form-check-sign"></span>
         </Label>
-      </FormGroup>
-      <FormGroup check className="form-check-radio" disabled>
+      </div>
+      <div check className="form-check-radio" disabled>
         <Label className="form-check-label">
           <Input type="radio" name="exampleRadios" id="exampleRadios3" value="option1" disabled />
           Disabled radio is off
           <span className="form-check-sign"></span>
         </Label>
-      </FormGroup>
+      </div>
     </>
   );
 };
@@ -342,27 +342,27 @@ import {
 const Forms = () => {
   return (
     <>
-      <FormGroup check className="form-check-radio" inline>
+      <div className="form-check-radio form-check-inline">
         <Label className="form-check-label">
             <Input type="radio" name="exampleRadios1" id="exampleRadios11" value="option1" />
             1
             <span className="form-check-sign"></span>
         </Label>
-      </FormGroup>
-      <FormGroup check className="form-check-radio" inline>
+      </div>
+      <div className="form-check-radio form-check-inline">
         <Label className="form-check-label">
           <Input type="radio" name="exampleRadios1" id="exampleRadios12" value="option2" defaultChecked/>
           2
           <span className="form-check-sign"></span>
         </Label>
-      </FormGroup>
-      <FormGroup check className="form-check-radio" inline disabled>
+      </div>
+      <div className="form-check-radio form-check-inline disabled">
         <Label className="form-check-label">
           <Input type="radio" name="exampleRadios1" id="exampleRadios13" value="option1" disabled />
           3
           <span className="form-check-sign"></span>
         </Label>
-      </FormGroup>
+      </div>
     </>
   );
 };
@@ -705,27 +705,27 @@ const Forms = () => {
         {defaultChecksExample}
       </SyntaxHighlighter>
       <div className="bd-example">
-        <FormGroup check className="form-check-radio">
+        <div className="form-check-radio">
           <Label className="form-check-label">
               <Input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
               Radio is off
               <span className="form-check-sign"></span>
           </Label>
-        </FormGroup>
-        <FormGroup check className="form-check-radio">
+        </div>
+        <div check className="form-check-radio">
           <Label className="form-check-label">
             <Input type="radio" name="exampleRadios" id="exampleRadios2" value="option2" defaultChecked/>
             Radio is on
             <span className="form-check-sign"></span>
           </Label>
-        </FormGroup>
-        <FormGroup check className="form-check-radio" disabled>
+        </div>
+        <div check className="form-check-radio" disabled>
           <Label className="form-check-label">
             <Input type="radio" name="exampleRadios" id="exampleRadios3" value="option1" disabled />
             Disabled radio is off
             <span className="form-check-sign"></span>
           </Label>
-        </FormGroup>
+        </div>
       </div>
       <SyntaxHighlighter language="jsx" style={prism}>
         {defaultRadiosExample}
@@ -767,27 +767,27 @@ const Forms = () => {
         {inlineChecksExample}
       </SyntaxHighlighter>
       <div className="bd-example">
-        <FormGroup check className="form-check-radio" inline>
+        <div className="form-check-radio form-check-inline">
           <Label className="form-check-label">
               <Input type="radio" name="exampleRadios1" id="exampleRadios11" value="option1" />
               1
               <span className="form-check-sign"></span>
           </Label>
-        </FormGroup>
-        <FormGroup check className="form-check-radio" inline>
+        </div>
+        <div className="form-check-radio form-check-inline">
           <Label className="form-check-label">
             <Input type="radio" name="exampleRadios1" id="exampleRadios12" value="option2" defaultChecked/>
             2
             <span className="form-check-sign"></span>
           </Label>
-        </FormGroup>
-        <FormGroup check className="form-check-radio" inline disabled>
+        </div>
+        <div className="form-check-radio form-check-inline disabled">
           <Label className="form-check-label">
             <Input type="radio" name="exampleRadios1" id="exampleRadios13" value="option1" disabled />
             3
             <span className="form-check-sign"></span>
           </Label>
-        </FormGroup>
+        </div>
       </div>
       <SyntaxHighlighter language="jsx" style={prism}>
         {inlineRadiosExample}
