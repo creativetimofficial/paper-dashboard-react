@@ -19,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# WebdriverIO Specific Files
+errorShots/
+screenshots/
+.reg
+reg.json
