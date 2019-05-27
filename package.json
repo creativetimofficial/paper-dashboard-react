@@ -1,33 +1,33 @@
 {
   "name": "paper-dashboard-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
-  "homepage": "https://creativetimofficial.github.io/paper-dashboard-react/#/dashboard",
+  "homepage": "https://demos.creative-tim.com/paper-dashboard-react/#/dashboard",
   "dependencies": {
-    "@types/react": "16.4.16",
-    "bootstrap": "4.1.3",
-    "chart.js": "2.7.2",
-    "history": "4.7.2",
-    "node-sass": "4.9.3",
+    "bootstrap": "4.3.1",
+    "chart.js": "2.8.0",
+    "history": "4.9.0",
+    "node-sass": "4.12.0",
     "perfect-scrollbar": "1.4.0",
-    "react": "16.5.2",
-    "react-chartjs-2": "2.7.4",
-    "react-dom": "16.5.2",
+    "react": "16.8.6",
+    "react-chartjs-2": "2.7.6",
+    "react-dom": "16.8.6",
     "react-google-maps": "9.4.5",
-    "react-notification-alert": "0.0.8",
-    "react-router-dom": "4.3.1",
-    "react-scripts": "2.0.4",
-    "reactstrap": "6.5.0"
+    "react-notification-alert": "0.0.12",
+    "react-router": "5.0.0",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "3.0.1",
+    "reactstrap": "8.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scss": "node-sass --include-path ./src --include-path ./node_modules src/ -o src/",
-    "lint:check": "eslint . --ext=js,jsx;  exit 0",
-    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css",
+    "minify-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css --source-map true"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,11 +39,11 @@
     "not op_mini all"
   ],
   "optionalDependencies": {
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "ajv": "6.0.0",
-    "@types/googlemaps": "3.30.13",
+    "@types/googlemaps": "3.36.0",
     "@types/markerclustererplus": "2.1.33",
-    "jquery": "3.3.1"
+    "@types/react": "16.8.18",
+    "ajv": "6.10.0",
+    "jquery": "3.4.1",
+    "typescript": "3.4.5"
   }
 }

@@ -1800,17 +1800,25 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
     opacity: .5;
     cursor: not-allowed; }
 
-.form-check-radio .form-check-sign::before {
-  font-family: 'FontAwesome';
-  content: "\f10c";
-  font-size: 22px;
+.form-check-radio .form-check-sign {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   display: inline-block;
-  position: absolute;
-  opacity: .50;
-  left: 5px;
-  top: -5px; }
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; }
+  .form-check-radio .form-check-sign::before {
+    font-size: 22px;
+    content: "\f111";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    position: absolute;
+    opacity: .50;
+    left: 5px;
+    top: -5px; }
 
 .form-check-label input[type="checkbox"]:checked + .form-check-sign:before {
   background-color: #66615B; }
@@ -1827,7 +1835,6 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
   display: block; }
 
 .form-check-radio input[type="radio"]:checked + .form-check-sign::after {
-  font-family: 'FontAwesome';
   content: "\f192";
   top: -5px;
   position: absolute;
@@ -4627,3 +4634,5 @@ License - nucleoapp.com/license/
   .card-timeline .timeline .timeline-panel {
     width: 38%;
     padding: 15px; } }
+
+/*# sourceMappingURL=paper-dashboard.css.map */

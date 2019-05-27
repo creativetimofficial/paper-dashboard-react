@@ -1,14 +1,14 @@
 import React from "react";
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
-import Header from "components/Header/Header.jsx";
+import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import Sidebar from "components/Sidebar/Sidebar.jsx";
 import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
 
-import dashboardRoutes from "routes/dashboard.jsx";
+import routes from "routes.js";
 
 var ps;
 
@@ -18,7 +18,8 @@ class Dashboard extends React.Component {
     this.state = {
       backgroundColor: "black",
       activeColor: "info",
-    }
+    };
+    this.mainPanel = React.createRef();
   }
   componentDidMount() {
     if (navigator.platform.indexOf("Win") > -1) {
@@ -49,22 +50,19 @@ class Dashboard extends React.Component {
       <div className="wrapper">
         <Sidebar
           {...this.props}
-          routes={dashboardRoutes}
+          routes={routes}
           bgColor={this.state.backgroundColor}
           activeColor={this.state.activeColor}
         />
-        <div className="main-panel" ref="mainPanel">
-          <Header {...this.props} />
+      <div className="main-panel" ref={this.mainPanel}>
+          <DemoNavbar {...this.props} />
           <Switch>
-            {dashboardRoutes.map((prop, key) => {
+            {routes.map((prop, key) => {
               if (prop.pro) {
                 return null;
               }
-              if (prop.redirect) {
-                return <Redirect from={prop.path} to={prop.pathTo} key={key} />;
-              }
               return (
-                <Route path={prop.path} component={prop.component} key={key} />
+                <Route path={prop.layout + prop.path} component={prop.component} key={key} />
               );
             })}
           </Switch>

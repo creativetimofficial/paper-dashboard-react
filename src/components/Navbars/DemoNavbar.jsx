@@ -18,7 +18,7 @@ import {
   Input
 } from "reactstrap";
 
-import dashboardRoutes from "routes/dashboard.jsx";
+import routes from "routes.js";
 
 class Header extends React.Component {
   constructor(props) {
@@ -52,7 +52,7 @@ class Header extends React.Component {
   }
   getBrand() {
     var name;
-    dashboardRoutes.map((prop, key) => {
+    routes.map((prop, key) => {
       if (prop.collapse) {
         prop.views.map((prop, key) => {
           if (prop.path === this.props.location.pathname) {
