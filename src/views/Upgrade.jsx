@@ -14,7 +14,6 @@ import {
 
 class Upgrade extends React.Component {
   render() {
-    console.log("heeeeeeeeey");
     return (
       <>
         <div className="content">
