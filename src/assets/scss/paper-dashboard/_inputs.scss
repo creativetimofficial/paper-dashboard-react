@@ -3,10 +3,6 @@
 };
 
 
-select.form-control:not([size]):not([multiple]) {
-    height: calc(2.25rem + 4px);
-}
-
 .form-control {
     background-color: $white-color;
     border: 1px solid $medium-gray;
@@ -16,7 +12,6 @@ select.form-control:not([size]):not([multiple]) {
     font-size: $font-size-base;
     @include transition-input-focus-color();
     @include box-shadow(none);
-    height: unset;
 
 
 
