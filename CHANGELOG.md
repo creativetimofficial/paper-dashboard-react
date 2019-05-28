@@ -27,6 +27,7 @@
 - eslint-plugin-prettier
 ### Added dependencies
 - typescript v3.4.5
+- react-router v5.0.0
 ### Updated dependencies
 - @types/react               16.4.16   →   16.8.18
 - bootstrap                    4.1.3   →     4.3.1
