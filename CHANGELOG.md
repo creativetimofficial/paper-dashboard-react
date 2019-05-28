@@ -6,9 +6,22 @@
 - We've renamed `src/layouts/Dashboard/Dashboard.jsx` to `src/layouts/Admin.jsx`
 - We've dropped the usage of `NODE_PATH=./src` and the file `.env` with the `jsconfig.json` file for using absolute paths
 - We've renamed `src/components/Header/Header.jsx` to `src/components/Navbars/DemoNavbar.jsx`
+- We've renamed `src/views/Dashboard/Dashboard.jsx` to `src/views/Dashboard.jsx`
+- We've renamed `src/views/Icons/Icons.jsx` to `src/views/Icons.jsx`
+- We've renamed `src/views/Maps/Maps.jsx` to `src/views/Map.jsx`
+- We've renamed `src/views/Notifications/Notifications.jsx` to `src/views/Notifications.jsx`
+- We've renamed `src/views/TableList/TableList.jsx` to `src/views/Tables.jsx`
+- We've renamed `src/views/Typography/Typography.jsx` to `src/views/Typography.jsx`
+- We've renamed `src/views/UserPage/UserPage.jsx` to `src/views/User.jsx`
 ### Dropped components
+- `src/components/CardElements/CardAuthor.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CustomButton/CustomButton.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CustomCheckbox/SimpleCheckbox.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/CustomRadio/CustomRadio.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/FormInputs/FormInputs.jsx` (replaced with simple HTML/React/Reactstrap syntax)
+- `src/components/Stats/Stats.jsx` (replaced with simple HTML/React/Reactstrap syntax)
 ### Added components
-- `src/views/UpgradeToPro/UpgradeToPro.jsx`
+- `src/views/Upgrade.jsx`
 ### Deleted dependencies
 - eslint-config-prettier
 - eslint-plugin-prettier

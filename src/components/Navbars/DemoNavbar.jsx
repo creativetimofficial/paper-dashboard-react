@@ -30,6 +30,7 @@ class Header extends React.Component {
     };
     this.toggle = this.toggle.bind(this);
     this.dropdownToggle = this.dropdownToggle.bind(this);
+    this.sidebarToggle = React.createRef();
   }
   toggle() {
     if (this.state.isOpen) {
@@ -126,7 +127,7 @@ class Header extends React.Component {
             <div className="navbar-toggle">
               <button
                 type="button"
-                ref="sidebarToggle"
+                ref={this.sidebarToggle}
                 className="navbar-toggler"
                 onClick={() => this.openSidebar()}
               >

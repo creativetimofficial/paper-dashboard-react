@@ -130,7 +130,7 @@ class FixedPlugin extends Component {
                 round
                 outline
               >
-                <i className="nc-icon nc-paper"></i> Documentation
+                <i className="nc-icon nc-paper" /> Documentation
               </Button>
             </li>
             <li className="header-title">Want more components?</li>

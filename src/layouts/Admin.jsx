@@ -13,17 +13,17 @@ import routes from "routes.js";
 var ps;
 
 class Dashboard extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       backgroundColor: "black",
-      activeColor: "info",
+      activeColor: "info"
     };
     this.mainPanel = React.createRef();
   }
   componentDidMount() {
     if (navigator.platform.indexOf("Win") > -1) {
-      ps = new PerfectScrollbar(this.refs.mainPanel);
+      ps = new PerfectScrollbar(this.mainPanel.current);
       document.body.classList.toggle("perfect-scrollbar-on");
     }
   }
@@ -35,16 +35,16 @@ class Dashboard extends React.Component {
   }
   componentDidUpdate(e) {
     if (e.history.action === "PUSH") {
-      this.refs.mainPanel.scrollTop = 0;
+      this.mainPanel.current.scrollTop = 0;
       document.scrollingElement.scrollTop = 0;
     }
   }
-  handleActiveClick = (color) => {
+  handleActiveClick = color => {
     this.setState({ activeColor: color });
-  }
-  handleBgClick = (color) => {
+  };
+  handleBgClick = color => {
     this.setState({ backgroundColor: color });
-  }
+  };
   render() {
     return (
       <div className="wrapper">
@@ -54,15 +54,16 @@ class Dashboard extends React.Component {
           bgColor={this.state.backgroundColor}
           activeColor={this.state.activeColor}
         />
-      <div className="main-panel" ref={this.mainPanel}>
+        <div className="main-panel" ref={this.mainPanel}>
           <DemoNavbar {...this.props} />
           <Switch>
             {routes.map((prop, key) => {
-              if (prop.pro) {
-                return null;
-              }
               return (
-                <Route path={prop.layout + prop.path} component={prop.component} key={key} />
+                <Route
+                  path={prop.layout + prop.path}
+                  component={prop.component}
+                  key={key}
+                />
               );
             })}
           </Switch>

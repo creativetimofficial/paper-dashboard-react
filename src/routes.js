@@ -1,11 +1,11 @@
-import Dashboard from "views/Dashboard/Dashboard.jsx";
-import Notifications from "views/Notifications/Notifications.jsx";
-import Icons from "views/Icons/Icons.jsx";
-import Typography from "views/Typography/Typography.jsx";
-import TableList from "views/TableList/TableList.jsx";
-import Maps from "views/Maps/Maps.jsx";
-import UserPage from "views/UserPage/UserPage.jsx";
-import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.jsx";
+import Dashboard from "views/Dashboard.jsx";
+import Notifications from "views/Notifications.jsx";
+import Icons from "views/Icons.jsx";
+import Typography from "views/Typography.jsx";
+import TableList from "views/Tables.jsx";
+import Maps from "views/Map.jsx";
+import UserPage from "views/User.jsx";
+import UpgradeToPro from "views/Upgrade.jsx";
 
 var routes = [
   {
@@ -22,7 +22,13 @@ var routes = [
     component: Icons,
     layout: "/admin"
   },
-  { path: "/maps", name: "Maps", icon: "nc-icon nc-pin-3", component: Maps, layout: "/admin" },
+  {
+    path: "/maps",
+    name: "Maps",
+    icon: "nc-icon nc-pin-3",
+    component: Maps,
+    layout: "/admin"
+  },
   {
     path: "/notifications",
     name: "Notifications",
