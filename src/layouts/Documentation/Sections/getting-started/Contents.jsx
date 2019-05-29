@@ -6,111 +6,66 @@ import { prism } from "react-syntax-highlighter/dist/styles/prism";
 
 const fileStructure = `Paper Dashboard React
 .
-├── Documentation
-│   └── documentation.html
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
-├── LICENSE
+├── LICENSE.md
 ├── README.md
+├── jsconfig.json
 ├── package.json
+├── docs
+│   └── documentation.html
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json
 └── src
-    ├── assets
-    │   ├── css
-    │   │   ├── paper-dashboard-react.css
-    │   │   ├── paper-dashboard-react.css.map
-    │   │   └── paper-dashboard-react.min.css
-    │   ├── fonts
-    │   │   └── nucleo
-    │   ├── img
-    │   │   ├── brand
-    │   │   ├── icons
-    │   │   │   └── common
-    │   │   └── theme
-    │   ├── scss
-    │   │   ├── paper-dashboard-react.scss
-    │   │   ├── bootstrap
-    │   │   │   ├── mixins
-    │   │   │   └── utilities
-    │   │   ├── core
-    │   │   │   ├── alerts
-    │   │   │   ├── avatars
-    │   │   │   ├── badges
-    │   │   │   ├── buttons
-    │   │   │   ├── cards
-    │   │   │   ├── charts
-    │   │   │   ├── close
-    │   │   │   ├── custom-forms
-    │   │   │   ├── dropdowns
-    │   │   │   ├── footers
-    │   │   │   ├── forms
-    │   │   │   ├── headers
-    │   │   │   ├── icons
-    │   │   │   ├── list-groups
-    │   │   │   ├── maps
-    │   │   │   ├── masks
-    │   │   │   ├── mixins
-    │   │   │   ├── modals
-    │   │   │   ├── navbars
-    │   │   │   ├── navs
-    │   │   │   ├── paginations
-    │   │   │   ├── popovers
-    │   │   │   ├── progresses
-    │   │   │   ├── separators
-    │   │   │   ├── tables
-    │   │   │   ├── type
-    │   │   │   ├── utilities
-    │   │   │   └── vendors
-    │   │   ├── custom
-    │   │   └── react
-    │   └── vendor
-    │       ├── @fortawesome
-    │       │   └── fontawesome-free
-    │       │       ├── LICENSE.txt
-    │       │       ├── css
-    │       │       ├── js
-    │       │       ├── less
-    │       │       ├── scss
-    │       │       ├── sprites
-    │       │       ├── svgs
-    │       │       │   ├── brands
-    │       │       │   ├── regular
-    │       │       │   └── solid
-    │       │       └── webfonts
-    │       └── nucleo
-    │           ├── css
-    │           └── fonts
+    ├── index.js
+    ├── logo-white.svg
+    ├── logo.svg
+    ├── routes.js
     ├── components
-    │   ├── Footers
-    │   │   ├── AdminFooter.jsx
-    │   │   └── AuthFooter.jsx
-    │   ├── Headers
-    │   │   ├── Header.jsx
-    │   │   └── UserHeader.jsx
+    │   ├── FixedPlugin
+    │   │   └── FixedPlugin.jsx
+    │   ├── Footer
+    │   │   └── Footer.jsx
     │   ├── Navbars
-    │   │   ├── AdminNavbar.jsx
-    │   │   └── AuthNavbar.jsx
+    │   │   └── DemoNavbar.jsx
     │   └── Sidebar
     │       └── Sidebar.jsx
-    ├── index.js
     ├── layouts
-    │   ├── Admin.jsx
-    │   └── Auth.jsx
-    ├── routes.js
+    │   └── Admin.jsx
     ├── variables
-    │   └── charts.jsx
-    └── views
-        ├── Index.jsx
-        └── examples
-            ├── Icons.jsx
-            ├── Login.jsx
-            ├── Maps.jsx
-            ├── Profile.jsx
-            ├── Register.jsx
-            └── Tables.jsx`;
+    │   ├── charts.jsx
+    │   ├── general.jsx
+    │   └── icons.jsx
+    ├── views
+    │   ├── Dashboard.jsx
+    │   ├── Icons.jsx
+    │   ├── Map.jsx
+    │   ├── Notifications.jsx
+    │   ├── Tables.jsx
+    │   ├── Typography.jsx
+    │   ├── Upgrade.jsx
+    │   └── User.jsx
+    └── assets
+        ├── css
+        │   ├── paper-dashboard.css
+        │   ├── paper-dashboard.css.map
+        │   └── paper-dashboard.min.css
+        ├── demo
+        ├── fonts
+        ├── github
+        ├── img
+        │   └── faces
+        └── scss
+            ├── paper-dashboard
+            │   ├── cards
+            │   ├── mixins
+            │   ├── plugins
+            │   └── react
+            │       ├── custom
+            │       └── react-differences.scss
+            └── paper-dashboard.scss`;
 
 class Contents extends React.Component {
   render() {

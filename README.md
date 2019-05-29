@@ -73,6 +73,9 @@ Within the download you'll find the following directories and files:
 ├── ISSUE_TEMPLATE.md
 ├── LICENSE.md
 ├── README.md
+├── docs
+│   └── documentation.html
+├── jsconfig.json
 ├── package.json
 ├── public
 │   ├── favicon.ico
@@ -82,69 +85,50 @@ Within the download you'll find the following directories and files:
     ├── index.js
     ├── logo-white.svg
     ├── logo.svg
-    ├── assets
-    │   ├── demo
-    │   ├── fonts
-    │   ├── github
-    │   ├── img
-    │   │   └── faces
-    │   └── scss
-    │       ├── paper-dashboard
-    │       │   ├── cards
-    │       │   ├── mixins
-    │       │   └── plugins
-    │       └── paper-dashboard.scss
+    ├── routes.js
     ├── components
-    │   ├── CardElements
-    │   │   ├── CardAuthor.jsx
-    │   │   ├── CardCategory.jsx
-    │   │   └── CardSocials.jsx
-    │   ├── CustomButton
-    │   │   └── CustomButton.jsx
-    │   ├── CustomCheckbox
-    │   │   └── SimpleCheckbox.jsx
-    │   ├── CustomRadio
-    │   │   └── CustomRadio.jsx
     │   ├── FixedPlugin
     │   │   └── FixedPlugin.jsx
     │   ├── Footer
     │   │   └── Footer.jsx
-    │   ├── FormInputs
-    │   │   └── FormInputs.jsx
-    │   ├── Header
-    │   │   └── Header.jsx
-    │   ├── Sidebar
-    │   │   └── Sidebar.jsx
-    │   ├── Stats
-    │   │   └── Stats.jsx
-    │   ├── Tasks
-    │   │   └── Tasks.jsx
-    │   └── index.js
+    │   ├── Navbars
+    │   │   └── DemoNavbar.jsx
+    │   └── Sidebar
+    │       └── Sidebar.jsx
     ├── layouts
-    │   └── Dashboard
-    │       └── Dashboard.jsx
-    ├── routes
-    │   ├── dashboard.jsx
-    │   └── index.jsx
+    │   └── Admin.jsx
     ├── variables
     │   ├── charts.jsx
     │   ├── general.jsx
     │   └── icons.jsx
-    └── views
-        ├── Dashboard
-        │   └── Dashboard.jsx
-        ├── Icons
-        │   └── Icons.jsx
-        ├── Maps
-        │   └── Maps.jsx
-        ├── Notifications
-        │   └── Notifications.jsx
-        ├── TableList
-        │   └── TableList.jsx
-        ├── Typography
-        │   └── Typography.jsx
-        └── UserPage
-            └── UserPage.jsx
+    ├── views
+    │   ├── Dashboard.jsx
+    │   ├── Icons.jsx
+    │   ├── Map.jsx
+    │   ├── Notifications.jsx
+    │   ├── Tables.jsx
+    │   ├── Typography.jsx
+    │   ├── Upgrade.jsx
+    │   └── User.jsx
+    └── assets
+        ├── css
+        │   ├── paper-dashboard.css
+        │   ├── paper-dashboard.css.map
+        │   └── paper-dashboard.min.css
+        ├── demo
+        ├── fonts
+        ├── github
+        ├── img
+        │   └── faces
+        └── scss
+            ├── paper-dashboard
+            │   ├── cards
+            │   ├── mixins
+            │   ├── plugins
+            │   └── react
+            │       ├── custom
+            │       └── react-differences.scss
+            └── paper-dashboard.scss
 ```
 
 ## Browser Support
