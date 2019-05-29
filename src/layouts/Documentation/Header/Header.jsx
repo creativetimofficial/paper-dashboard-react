@@ -17,7 +17,7 @@ class Header extends React.Component {
         <Nav className="flex-row d-none d-md-flex" navbar>
           <NavItem>
             <NavLink href="#" className="p-2">
-              1.0.0
+              1.1.0
             </NavLink>
           </NavItem>
           <NavItem>
