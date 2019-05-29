@@ -12,11 +12,16 @@
     "react": "16.8.6",
     "react-chartjs-2": "2.7.6",
     "react-dom": "16.8.6",
+    "react-facebook-pixel": "0.1.2",
+    "react-ga": "2.5.7",
+    "react-github-button": "0.1.11",
     "react-google-maps": "9.4.5",
     "react-notification-alert": "0.0.12",
     "react-router": "5.0.0",
     "react-router-dom": "5.0.0",
     "react-scripts": "3.0.1",
+    "react-share": "3.0.0",
+    "react-syntax-highlighter": "10.3.0",
     "reactstrap": "8.0.0"
   },
   "scripts": {

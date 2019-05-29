@@ -1,6 +1,6 @@
 import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter/prism";
-import { prism } from "react-syntax-highlighter/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { prism } from "react-syntax-highlighter/dist/styles/prism";
 import {
   Card,
   CardBody,
@@ -18,7 +18,7 @@ import {
   CardImgOverlay
 } from "reactstrap";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import {Button} from "reactstrap";
 
 const codeExample = `<Card style={{width: '20rem'}}>
     <CardImg top src="img-src" alt="..."/>
@@ -201,7 +201,7 @@ class Cards extends React.Component {
         <SyntaxHighlighter
           language="jsx"
           style={prism}
-        >{`import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';\nimport Button from "components/CustomButton/CustomButton.jsx";`}</SyntaxHighlighter>
+        >{`import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';\nimport {Button} from "reactstrap";`}</SyntaxHighlighter>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeExample}
         </SyntaxHighlighter>
@@ -308,7 +308,7 @@ class Cards extends React.Component {
         <SyntaxHighlighter
           language="jsx"
           style={prism}
-        >{`import { Card, CardHeader, CardBody, CardTitle, CardText } from 'reactstrap';\nimport Button from "components/CustomButton/CustomButton.jsx";`}</SyntaxHighlighter>
+        >{`import { Card, CardHeader, CardBody, CardTitle, CardText } from 'reactstrap';\nimport {Button} from "reactstrap";`}</SyntaxHighlighter>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeExampleHeader}
         </SyntaxHighlighter>
@@ -358,7 +358,7 @@ class Cards extends React.Component {
         <SyntaxHighlighter
           language="jsx"
           style={prism}
-        >{`import { Card, CardBody, CardTitle, CardText } from 'reactstrap';\nimport Button from "components/CustomButton/CustomButton.jsx";`}</SyntaxHighlighter>
+        >{`import { Card, CardBody, CardTitle, CardText } from 'reactstrap';\nimport {Button} from "reactstrap";`}</SyntaxHighlighter>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeExampleText}
         </SyntaxHighlighter>
@@ -408,7 +408,7 @@ class Cards extends React.Component {
         <SyntaxHighlighter
           language="jsx"
           style={prism}
-        >{`import { Card, CardHeader, CardBody, CardTitle, CardText, Nav, NavItem, NavLink } from 'reactstrap';\nimport Button from "components/CustomButton/CustomButton.jsx";`}</SyntaxHighlighter>
+        >{`import { Card, CardHeader, CardBody, CardTitle, CardText, Nav, NavItem, NavLink } from 'reactstrap';\nimport {Button} from "reactstrap";`}</SyntaxHighlighter>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeExampleNavigation}
         </SyntaxHighlighter>
@@ -447,7 +447,7 @@ class Cards extends React.Component {
         <SyntaxHighlighter
           language="jsx"
           style={prism}
-        >{`import { Card, CardHeader, CardBody, CardTitle, CardText, Nav, NavItem, NavLink } from 'reactstrap';\nimport Button from "components/CustomButton/CustomButton.jsx";`}</SyntaxHighlighter>
+        >{`import { Card, CardHeader, CardBody, CardTitle, CardText, Nav, NavItem, NavLink } from 'reactstrap';\nimport {Button} from "reactstrap";`}</SyntaxHighlighter>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeExampleNavigation2}
         </SyntaxHighlighter>

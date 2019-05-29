@@ -1,8 +1,8 @@
 import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter/prism";
-import { prism } from "react-syntax-highlighter/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { prism } from "react-syntax-highlighter/dist/styles/prism";
 
-import Stats from "components/Stats/Stats.jsx";
+// import Stats from "components/Stats/Stats.jsx";
 
 const codeExample = `<Stats>
     {[
@@ -21,7 +21,7 @@ class Stat extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="bd-title" id="content">
+        {/*<h1 className="bd-title" id="content">
           Stats Component
         </h1>
         <p className="bd-lead">
@@ -46,7 +46,7 @@ class Stat extends React.Component {
         <h2>Props</h2>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeProps}
-        </SyntaxHighlighter>
+        </SyntaxHighlighter>*/}
       </div>
     );
   }

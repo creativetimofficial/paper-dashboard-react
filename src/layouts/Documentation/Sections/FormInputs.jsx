@@ -1,9 +1,9 @@
 import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter/prism";
-import { prism } from "react-syntax-highlighter/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { prism } from "react-syntax-highlighter/dist/styles/prism";
 import { Table, Alert } from "reactstrap";
 
-import FormInput from "components/FormInputs/FormInputs.jsx";
+// import FormInput from "components/FormInputs/FormInputs.jsx";
 
 const codeImport = `import FormInputs from 'components/FormInputs/FormInputs.jsx';`;
 
@@ -41,7 +41,7 @@ class FormInputs extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="bd-title" id="content">
+        {/*<h1 className="bd-title" id="content">
           Form Inputs
         </h1>
         <p className="bd-lead">
@@ -241,7 +241,7 @@ class FormInputs extends React.Component {
           >
             reactstrap documentation
           </a>.
-        </p>
+        </p>*/}
       </div>
     );
   }

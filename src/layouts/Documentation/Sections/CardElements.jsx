@@ -1,11 +1,11 @@
 import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter/prism";
-import { prism } from "react-syntax-highlighter/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { prism } from "react-syntax-highlighter/dist/styles/prism";
 import { Col, Card, CardBody } from "reactstrap";
 
 import userAvatar from "assets/img/mike.jpg";
 
-import CardAuthor from "components/CardElements/CardAuthor.jsx";
+// import CardAuthor from "components/CardElements/CardAuthor.jsx";
 
 const codeImportExample = `import {
     Card, CardBody,
@@ -45,7 +45,7 @@ class CardElements extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="bd-title" id="content">
+        {/*<h1 className="bd-title" id="content">
           Card elements
         </h1>
         <p className="bd-lead">
@@ -88,7 +88,7 @@ class CardElements extends React.Component {
         </SyntaxHighlighter>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeAuthorProp}
-        </SyntaxHighlighter>
+        </SyntaxHighlighter>*/}
       </div>
     );
   }

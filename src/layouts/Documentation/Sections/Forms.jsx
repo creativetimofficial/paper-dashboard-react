@@ -1,6 +1,6 @@
 import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter/prism";
-import { prism } from "react-syntax-highlighter/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { prism } from "react-syntax-highlighter/dist/styles/prism";
 
 import {
   FormGroup,
@@ -14,7 +14,7 @@ import {
   Col
 } from "reactstrap";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import {Button} from "reactstrap";
 
 const overviewExample = `import React from "react";
 
@@ -25,7 +25,7 @@ import {
   FormText
 } from "reactstrap";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import {Button} from "reactstrap";
 
 const Forms = () => {
   return (
@@ -71,8 +71,8 @@ export default Forms;
 `;
 
 const formControlsExample = `import React from "react";
-import SyntaxHighlighter from "react-syntax-highlighter/prism";
-import { prism } from "react-syntax-highlighter/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { prism } from "react-syntax-highlighter/dist/styles/prism";
 
 import {
   FormGroup,
@@ -434,7 +434,7 @@ import {
   Input
 } from "reactstrap";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import {Button} from "reactstrap";
 
 const Forms = () => {
   return (
@@ -501,7 +501,7 @@ import {
   Input
 } from "reactstrap";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import {Button} from "reactstrap";
 
 const Forms = () => {
   return (

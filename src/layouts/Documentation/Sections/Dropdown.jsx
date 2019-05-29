@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SyntaxHighlighter from "react-syntax-highlighter/prism";
-import { prism } from "react-syntax-highlighter/styles/prism";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { prism } from "react-syntax-highlighter/dist/styles/prism";
 import {
   UncontrolledDropdown,
   DropdownToggle,
@@ -10,7 +10,7 @@ import {
   UncontrolledButtonDropdown
 } from "reactstrap";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import {Button} from "reactstrap";
 
 const codeExamples = `<UncontrolledDropdown>
     <DropdownToggle caret>
