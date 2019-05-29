@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 describe("Tables Page", function() {
   beforeEach(function() {
-    browser.url("./tables");
+    browser.url("./admin/tables");
   });
   it("renders tables page", function() {
     var results = browser.checkDocument();

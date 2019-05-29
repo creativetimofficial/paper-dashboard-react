@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 describe("Google Map Page", function() {
   beforeEach(function() {
-    browser.url("./maps");
+    browser.url("./admin/maps");
     browser.$('[data-reactroot]').waitForExist();
 
   });

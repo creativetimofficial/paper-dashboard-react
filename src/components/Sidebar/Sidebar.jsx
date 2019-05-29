@@ -12,6 +12,7 @@ class Sidebar extends React.Component {
   constructor(props) {
     super(props);
     this.activeRoute.bind(this);
+    this.sidebar = React.createRef();
   }
   // verifies if routeName is the one active (in browser input)
   activeRoute(routeName) {
@@ -19,7 +20,7 @@ class Sidebar extends React.Component {
   }
   componentDidMount() {
     if (navigator.platform.indexOf("Win") > -1) {
-      ps = new PerfectScrollbar(this.refs.sidebar, {
+      ps = new PerfectScrollbar(this.sidebar.current, {
         suppressScrollX: true,
         suppressScrollY: false
       });
@@ -32,7 +33,11 @@ class Sidebar extends React.Component {
   }
   render() {
     return (
-      <div className="sidebar" data-color={this.props.bgColor} data-active-color={this.props.activeColor}>
+      <div
+        className="sidebar"
+        data-color={this.props.bgColor}
+        data-active-color={this.props.activeColor}
+      >
         <div className="logo">
           <a
             href="https://www.creative-tim.com"
@@ -49,10 +54,9 @@ class Sidebar extends React.Component {
             Creative Tim
           </a>
         </div>
-        <div className="sidebar-wrapper" ref="sidebar">
+        <div className="sidebar-wrapper" ref={this.sidebar}>
           <Nav>
             {this.props.routes.map((prop, key) => {
-              if (prop.redirect) return null;
               return (
                 <li
                   className={
@@ -62,7 +66,7 @@ class Sidebar extends React.Component {
                   key={key}
                 >
                   <NavLink
-                    to={prop.path}
+                    to={prop.layout + prop.path}
                     className="nav-link"
                     activeClassName="active"
                   >

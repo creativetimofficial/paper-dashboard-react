@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import { Button } from "reactstrap";
 
 class FixedPlugin extends Component {
   constructor(props) {
@@ -130,7 +130,7 @@ class FixedPlugin extends Component {
                 round
                 outline
               >
-                <i className="nc-icon nc-paper"></i> Documentation
+                <i className="nc-icon nc-paper" /> Documentation
               </Button>
             </li>
             <li className="header-title">Want more components?</li>

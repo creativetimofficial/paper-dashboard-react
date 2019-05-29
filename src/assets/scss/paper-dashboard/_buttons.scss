@@ -53,8 +53,6 @@
             .fa,
             .far,
             .fas,
-            .fal,
-            .fab,
             .nc-icon{
                 font-size: $btn-icon-font-size-small;
             }
@@ -68,8 +66,6 @@
             .fa,
             .far,
             .fas,
-            .fal,
-            .fab,
             .nc-icon{
                 font-size: $btn-icon-font-size-lg;
             }
@@ -78,8 +74,6 @@
         &:not(.btn-footer) .nc-icon,
         &:not(.btn-footer) .fa,
         &:not(.btn-footer) .far,
-        &:not(.btn-footer) .fal,
-        &:not(.btn-footer) .fab,
         &:not(.btn-footer) .fas{
             position: absolute;
             top: 50%;
