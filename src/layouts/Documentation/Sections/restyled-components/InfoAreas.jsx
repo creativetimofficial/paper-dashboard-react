@@ -64,56 +64,56 @@ class InfoAreas extends React.Component {
   render() {
     return (
       <>
-          <h1 className="bd-title" id="content">
-            Info Areas
-          </h1>
-          <p className="bd-lead" />
-          <p>
-            The information areas are a simple way to organise large amounts of
-            information into chunks. You can also add icons, simple or coloured.
-            For an horizontal alignment use the custom class .{" "}
-            <code className="highlighter-rouge">.info-horizontal</code>. For the
-            title, please use the class{" "}
-            <code className="highlighter-rouge">.info-title</code>. You can see
-            more illustrative examples below:
-          </p>
-          <div className="bd-example" data-example-id="">
-            <div className="info">
-              <div className="icon icon-primary">
-                <i className="nc-icon nc-watch-time" />
-              </div>
-              <h4 className="info-title">Free Chat</h4>
+        <h1 className="bd-title" id="content">
+          Info Areas
+        </h1>
+        <p className="bd-lead" />
+        <p>
+          The information areas are a simple way to organise large amounts of
+          information into chunks. You can also add icons, simple or coloured.
+          For an horizontal alignment use the custom class .{" "}
+          <code className="highlighter-rouge">.info-horizontal</code>. For the
+          title, please use the class{" "}
+          <code className="highlighter-rouge">.info-title</code>. You can see
+          more illustrative examples below:
+        </p>
+        <div className="bd-example" data-example-id="">
+          <div className="info">
+            <div className="icon icon-primary">
+              <i className="nc-icon nc-watch-time" />
+            </div>
+            <h4 className="info-title">Free Chat</h4>
+            <p>
+              Divide details about your product or agency work into parts. Write
+              a few lines about each one. A paragraph describing a feature will
+              be enough.
+            </p>
+          </div>
+        </div>
+        <SyntaxHighlighter language="jsx" style={prism}>
+          {codeExample1}
+        </SyntaxHighlighter>
+        <div className="bd-example" data-example-id="">
+          <div className="info info-horizontal">
+            <div className="icon icon-rose">
+              <i className="nc-icon nc-trophy" />
+            </div>
+            <div className="description">
+              <h4 className="info-title">Collaborate</h4>
               <p>
-                Divide details about your product or agency work into parts.
-                Write a few lines about each one. A paragraph describing a
-                feature will be enough.
+                The moment you use Material Kit, you know you’ve never felt
+                anything like it. With a single use, this powerfull UI Kit lets
+                you do more than ever before.
               </p>
+              <a href="#pablo" onClick={e => e.preventDefault()}>
+                Find more...
+              </a>
             </div>
           </div>
-          <SyntaxHighlighter language="jsx" style={prism}>
-            {codeExample1}
-          </SyntaxHighlighter>
-          <div className="bd-example" data-example-id="">
-            <div className="info info-horizontal">
-              <div className="icon icon-rose">
-                <i className="nc-icon nc-trophy" />
-              </div>
-              <div className="description">
-                <h4 className="info-title">Collaborate</h4>
-                <p>
-                  The moment you use Material Kit, you know you’ve never felt
-                  anything like it. With a single use, this powerfull UI Kit
-                  lets you do more than ever before.
-                </p>
-                <a href="#pablo" onClick={e => e.preventDefault()}>
-                  Find more...
-                </a>
-              </div>
-            </div>
-          </div>
-          <SyntaxHighlighter language="jsx" style={prism}>
-            {codeExample2}
-          </SyntaxHighlighter>
+        </div>
+        <SyntaxHighlighter language="jsx" style={prism}>
+          {codeExample2}
+        </SyntaxHighlighter>
       </>
     );
   }

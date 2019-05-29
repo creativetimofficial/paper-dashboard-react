@@ -132,7 +132,7 @@ class FixedPlugin extends Component {
             </li>
             <li className="button-container">
               <NavLink
-                to={"/documentation/tutorial"}
+                to={"/documentation/overview"}
                 className="btn btn-outline-default btn-block btn-round"
                 activeClassName="active"
               >
