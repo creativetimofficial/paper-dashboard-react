@@ -8,6 +8,10 @@ import QuickStart from "layouts/Documentation/Sections/getting-started/QuickStar
 import RoutingSystem from "layouts/Documentation/Sections/getting-started/RoutingSystem.jsx";
 import Variables from "layouts/Documentation/Sections/getting-started/Variables.jsx";
 // Core components
+import FixedPlugin from "layouts/Documentation/Sections/core-components/FixedPlugin.jsx";
+import Footer from "layouts/Documentation/Sections/core-components/Footer.jsx";
+import Navbars from "layouts/Documentation/Sections/core-components/Navbars.jsx";
+import Sidebar from "layouts/Documentation/Sections/core-components/Sidebar.jsx";
 // Restyled components
 import Alerts from "layouts/Documentation/Sections/restyled-components/Alerts.jsx";
 import Breadcrumb from "layouts/Documentation/Sections/restyled-components/Breadcrumb.jsx";
@@ -73,8 +77,25 @@ var componentsRoutes = [
   },
   {
     name: "Core Components",
-    path: "/documentation/tutorial",
-    routes: []
+    path: "/documentation/fixed-plugin",
+    routes: [
+      {
+        path: "/documentation/fixed-plugin",
+        component: FixedPlugin,
+        name: "FixedPlugin"
+      },
+      {
+        path: "/documentation/demo-footers",
+        component: Footer,
+        name: "Demo Footers"
+      },
+      {
+        path: "/documentation/demo-navbars",
+        component: Navbars,
+        name: "Demo Navbars"
+      },
+      { path: "/documentation/sidebar", component: Sidebar, name: "Sidebar" }
+    ]
   },
   {
     name: "Restyled Components",
