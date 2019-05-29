@@ -8,7 +8,7 @@ import Header from "./Header/Header.jsx";
 import "./assets-for-demo/demo.css";
 import "./assets-for-demo/docs.css";
 
-import docRoutes from "routes/documentation.jsx";
+import docRoutes from "documentation.js";
 
 class Documentation extends React.Component {
   render() {

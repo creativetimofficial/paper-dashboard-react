@@ -2,7 +2,7 @@ import React from "react";
 import { Nav } from "reactstrap";
 import { Link } from "react-router-dom";
 
-import docRoutes from "routes/documentation.jsx";
+import docRoutes from "documentation.js";
 
 class Sidebar extends React.Component {
   activeRoute = path => {
