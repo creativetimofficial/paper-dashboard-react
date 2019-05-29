@@ -1,111 +1,53 @@
-import Tutorial from "layouts/Documentation/Sections/Tutorial.jsx";
-import RoutingSystem from "layouts/Documentation/Sections/RoutingSystem.jsx";
-import Variables from "layouts/Documentation/Sections/Variables.jsx";
-import LintCommands from "layouts/Documentation/Sections/LintCommands.jsx";
-import Alerts from "layouts/Documentation/Sections/Alerts.jsx";
-import Breadcrumb from "layouts/Documentation/Sections/Breadcrumb.jsx";
-import Buttons from "layouts/Documentation/Sections/Buttons.jsx";
-import CardElements from "layouts/Documentation/Sections/CardElements.jsx";
-import Cards from "layouts/Documentation/Sections/Cards.jsx";
-import Colors from "layouts/Documentation/Sections/Colors.jsx";
-import Charts from "layouts/Documentation/Sections/Charts.jsx";
-import Dropdown from "layouts/Documentation/Sections/Dropdown.jsx";
-import Footers from "layouts/Documentation/Sections/Footers.jsx";
-import Forms from "layouts/Documentation/Sections/Forms.jsx";
-import FormInputs from "layouts/Documentation/Sections/FormInputs.jsx";
-import GoogleMaps from "layouts/Documentation/Sections/GoogleMaps.jsx";
-import Icons from "layouts/Documentation/Sections/Icons.jsx";
-import Navigation from "layouts/Documentation/Sections/Navigation.jsx";
-import Navs from "layouts/Documentation/Sections/Navs.jsx";
-import Notifications from "layouts/Documentation/Sections/Notifications.jsx";
-import PerfectScrollbar from "layouts/Documentation/Sections/PerfectScrollbar.jsx";
-import Sidebar from "layouts/Documentation/Sections/Sidebar.jsx";
-import Stats from "layouts/Documentation/Sections/Stats.jsx";
-import Tables from "layouts/Documentation/Sections/Tables.jsx";
-import Tooltips from "layouts/Documentation/Sections/Tooltips.jsx";
-import Typography from "layouts/Documentation/Sections/Typography.jsx";
+// Getting started
+import Alerts from "layouts/Documentation/Sections/restyled-components/Alerts.jsx";
+import Breadcrumb from "layouts/Documentation/Sections/restyled-components/Breadcrumb.jsx";
+import Buttons from "layouts/Documentation/Sections/restyled-components/Buttons.jsx";
+import Card from "layouts/Documentation/Sections/restyled-components/Card.jsx";
+import Colors from "layouts/Documentation/Sections/restyled-components/Colors.jsx";
+import Dropdowns from "layouts/Documentation/Sections/restyled-components/Dropdowns.jsx";
+import Forms from "layouts/Documentation/Sections/restyled-components/Forms.jsx";
+import InfoAreas from "layouts/Documentation/Sections/restyled-components/InfoAreas.jsx";
+import Navs from "layouts/Documentation/Sections/restyled-components/Navs.jsx";
+import NucleoIcons from "layouts/Documentation/Sections/restyled-components/NucleoIcons.jsx";
+import Navbar from "layouts/Documentation/Sections/restyled-components/Navbar.jsx";
+import Tables from "layouts/Documentation/Sections/restyled-components/Tables.jsx";
+import Typography from "layouts/Documentation/Sections/restyled-components/Typography.jsx";
+// Core components
+// Restyled components
+// Plugins
+import Charts from "layouts/Documentation/Sections/plugins/Charts.jsx";
+import GoogleMaps from "layouts/Documentation/Sections/plugins/GoogleMaps.jsx";
+import Notifications from "layouts/Documentation/Sections/plugins/Notifications.jsx";
+import PerfectScrollbar from "layouts/Documentation/Sections/plugins/PerfectScrollbar.jsx";
 
 var componentsRoutes = [
   {
     name: "Getting started",
     path: "/documentation/tutorial",
-    routes: [
-      {
-        path: "/documentation/tutorial",
-        component: Tutorial,
-        name: "Tutorial"
-      },
-      {
-        path: "/documentation/routing-system",
-        component: RoutingSystem,
-        name: "Routing System"
-      },
-      {
-        path: "/documentation/variables",
-        component: Variables,
-        name: "Variables"
-      },
-      { path: "/documentation/lint", component: LintCommands, name: "Lint" }
-    ]
+    routes: []
   },
   {
-    name: "Components",
-    path: "/documentation/accordion",
+    name: "Core Components",
+    path: "/documentation/tutorial",
+    routes: []
+  },
+  {
+    name: "Restyled Components",
+    path: "/documentation/alerts",
     routes: [
       { path: "/documentation/alerts", component: Alerts, name: "Alerts" },
-      {
-        path: "/documentation/breadcrumb",
-        component: Breadcrumb,
-        name: "Breadcrumb"
-      },
+      { path: "/documentation/breadcrumb", component: Breadcrumb, name: "Breadcrumb" },
       { path: "/documentation/buttons", component: Buttons, name: "Buttons" },
-      { path: "/documentation/cards", component: Cards, name: "Cards" },
-      {
-        path: "/documentation/card-elements",
-        component: CardElements,
-        name: "Card Elements"
-      },
-      {
-        path: "/documentation/colors",
-        component: Colors,
-        name: "Colors"
-      },
-      {
-        path: "/documentation/dropdown",
-        component: Dropdown,
-        name: "Dropdown"
-      },
-      { path: "/documentation/footers", component: Footers, name: "Footers" },
-      {
-        path: "/documentation/forms",
-        component: Forms,
-        name: "Forms"
-      },
-      {
-        path: "/documentation/form-inputs",
-        component: FormInputs,
-        name: "Form Inputs"
-      },
-      {
-        path: "/documentation/navbars",
-        component: Navigation,
-        name: "Navbars"
-      },
+      { path: "/documentation/cards", component: Card, name: "Cards" },
+      { path: "/documentation/colors", component: Colors, name: "Colors" },
+      { path: "/documentation/dropdowns", component: Dropdowns, name: "Dropdowns" },
+      { path: "/documentation/forms", component: Forms, name: "Forms" },
+      { path: "/documentation/info-areas", component: InfoAreas, name: "Info Areas" },
       { path: "/documentation/navs", component: Navs, name: "Navs" },
-      { path: "/documentation/icons", component: Icons, name: "Nucleo Icons" },
-      { path: "/documentation/sidebar", component: Sidebar, name: "Sidebar" },
-      { path: "/documentation/stats", component: Stats, name: "Stats" },
+      { path: "/documentation/nucleo-icons", component: NucleoIcons, name: "Nucleo Icons" },
+      { path: "/documentation/navbar", component: Navbar, name: "Navbar" },
       { path: "/documentation/tables", component: Tables, name: "Tables" },
-      {
-        path: "/documentation/tooltips",
-        component: Tooltips,
-        name: "Tooltips"
-      },
-      {
-        path: "/documentation/typography",
-        component: Typography,
-        name: "Typography"
-      }
+      { path: "/documentation/typography", component: Typography, name: "Typography" }
     ]
   },
   {
@@ -130,7 +72,7 @@ var componentsRoutes = [
       }
     ]
   },
-  { redirect: true, path: "/documentation", pathTo: "/documentation/tutorial" }
+  { redirect: true, path: "/documentation", pathTo: "/documentation/alerts" }
 ];
 
 export default componentsRoutes;

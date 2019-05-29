@@ -223,7 +223,8 @@ class Charts extends React.Component {
             rel="noopener noreferrer"
           >
             react-chartjs-2 full documentation
-          </a>.
+          </a>
+          .
         </p>
         <div className="bd-example">
           <Line data={data} options={options} />

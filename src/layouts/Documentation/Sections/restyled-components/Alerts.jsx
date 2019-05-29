@@ -146,7 +146,8 @@ class Alerts extends React.Component {
               onClick={e => e.preventDefault()}
             >
               an example link
-            </a>. Give it a click if you like.
+            </a>
+            . Give it a click if you like.
           </Alert>
           <Alert color="success">
             This is a success alert with{" "}
@@ -156,7 +157,8 @@ class Alerts extends React.Component {
               onClick={e => e.preventDefault()}
             >
               an example link
-            </a>. Give it a click if you like.
+            </a>
+            . Give it a click if you like.
           </Alert>
           <Alert color="danger">
             This is a danger alert with{" "}
@@ -166,7 +168,8 @@ class Alerts extends React.Component {
               onClick={e => e.preventDefault()}
             >
               an example link
-            </a>. Give it a click if you like.
+            </a>
+            . Give it a click if you like.
           </Alert>
           <Alert color="warning">
             This is a warning alert with{" "}
@@ -176,7 +179,8 @@ class Alerts extends React.Component {
               onClick={e => e.preventDefault()}
             >
               an example link
-            </a>. Give it a click if you like.
+            </a>
+            . Give it a click if you like.
           </Alert>
           <Alert color="info">
             This is a info alert with{" "}
@@ -186,7 +190,8 @@ class Alerts extends React.Component {
               onClick={e => e.preventDefault()}
             >
               an example link
-            </a>. Give it a click if you like.
+            </a>
+            . Give it a click if you like.
           </Alert>
         </div>
         <SyntaxHighlighter language="jsx" style={prism}>
@@ -246,7 +251,8 @@ class Alerts extends React.Component {
             rel="noopener noreferrer"
           >
             reactstrap alerts documentation
-          </a>.
+          </a>
+          .
         </p>
       </div>
     );

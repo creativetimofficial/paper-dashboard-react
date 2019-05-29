@@ -18,7 +18,7 @@ import {
   CardImgOverlay
 } from "reactstrap";
 
-import {Button} from "reactstrap";
+import { Button } from "reactstrap";
 
 const codeExample = `<Card style={{width: '20rem'}}>
     <CardImg top src="img-src" alt="..."/>
@@ -371,7 +371,8 @@ class Cards extends React.Component {
             rel="noopener noreferrer"
           >
             reactstrap's nav components
-          </a>.
+          </a>
+          .
         </p>
         <div className="bd-example">
           <Card className="text-center">
@@ -547,7 +548,8 @@ class Cards extends React.Component {
             rel="noopener noreferrer"
           >
             official reactstrap documentation
-          </a>.
+          </a>
+          .
         </p>
       </div>
     );

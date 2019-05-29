@@ -10,7 +10,7 @@ import {
   UncontrolledButtonDropdown
 } from "reactstrap";
 
-import {Button} from "reactstrap";
+import { Button } from "reactstrap";
 
 const codeExamples = `<UncontrolledDropdown>
     <DropdownToggle caret>
@@ -124,10 +124,7 @@ class Dropdown extends React.Component {
         <p>The best part is you can do this with any button variant, too:</p>
         <div className="bd-example">
           <UncontrolledDropdown group>
-            <DropdownToggle
-              caret
-              color="primary"
-            >
+            <DropdownToggle caret color="primary">
               Primary
             </DropdownToggle>
             <DropdownMenu>
@@ -137,10 +134,7 @@ class Dropdown extends React.Component {
             </DropdownMenu>
           </UncontrolledDropdown>
           <UncontrolledDropdown group>
-            <DropdownToggle
-              caret
-              color="secondary"
-            >
+            <DropdownToggle caret color="secondary">
               Secondary
             </DropdownToggle>
             <DropdownMenu>
@@ -150,10 +144,7 @@ class Dropdown extends React.Component {
             </DropdownMenu>
           </UncontrolledDropdown>
           <UncontrolledDropdown group>
-            <DropdownToggle
-              caret
-              color="success"
-            >
+            <DropdownToggle caret color="success">
               Success
             </DropdownToggle>
             <DropdownMenu>
@@ -163,10 +154,7 @@ class Dropdown extends React.Component {
             </DropdownMenu>
           </UncontrolledDropdown>
           <UncontrolledDropdown group>
-            <DropdownToggle
-              caret
-              color="info"
-            >
+            <DropdownToggle caret color="info">
               Info
             </DropdownToggle>
             <DropdownMenu>
@@ -176,10 +164,7 @@ class Dropdown extends React.Component {
             </DropdownMenu>
           </UncontrolledDropdown>
           <UncontrolledDropdown group>
-            <DropdownToggle
-              caret
-              color="warning"
-            >
+            <DropdownToggle caret color="warning">
               Warning
             </DropdownToggle>
             <DropdownMenu>
@@ -189,10 +174,7 @@ class Dropdown extends React.Component {
             </DropdownMenu>
           </UncontrolledDropdown>
           <UncontrolledDropdown group>
-            <DropdownToggle
-              caret
-              color="danger"
-            >
+            <DropdownToggle caret color="danger">
               Danger
             </DropdownToggle>
             <DropdownMenu>
@@ -359,7 +341,8 @@ class Dropdown extends React.Component {
             rel="noopener noreferrer"
           >
             reactstrap dropdowns documentation
-          </a>.
+          </a>
+          .
         </p>
       </div>
     );

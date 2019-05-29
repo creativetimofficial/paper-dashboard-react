@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { prism } from "react-syntax-highlighter/dist/styles/prism";
@@ -18,7 +19,8 @@ class Icons extends React.Component {
           our friends from{" "}
           <a href="https://nucleoapp.com/?ref=1712" target="_blank">
             NucleoApp
-          </a>.
+          </a>
+          .
         </p>
         <p>
           You will find all these icons in <code>src/variables/icons.jsx</code>.
@@ -29,7 +31,7 @@ class Icons extends React.Component {
         </SyntaxHighlighter>
         <h3>Examples</h3>
         <div className="bd-example">
-          <i className="nc-icon nc-single-02"></i>
+          <i className="nc-icon nc-single-02" />
         </div>
         <SyntaxHighlighter language="jsx" style={prism}>
           {codeExample}

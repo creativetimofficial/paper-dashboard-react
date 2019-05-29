@@ -964,7 +964,8 @@ class Accordion extends React.Component {
             rel="noopener noreferrer"
           >
             reactstrap's navs documentation
-          </a>.
+          </a>
+          .
         </p>
       </div>
     );

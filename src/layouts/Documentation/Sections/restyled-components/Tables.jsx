@@ -4,7 +4,7 @@ import { prism } from "react-syntax-highlighter/dist/styles/prism";
 import { Table } from "reactstrap";
 
 const codeSimpleExample = `<Table responsive>
-  <thead className=" text-primary">
+  <thead className="text-primary">
     <th>
       Name
     </th>
@@ -134,7 +134,7 @@ class Tables extends React.Component {
         <h3>Simple Table</h3>
         <div className="bd-example" data-example-id="">
           <Table responsive>
-            <thead className=" text-primary">
+            <thead className="text-primary">
               <th>Name</th>
               <th>Country</th>
               <th>City</th>
@@ -199,7 +199,8 @@ class Tables extends React.Component {
             rel="noopener noreferrer"
           >
             here
-          </a>.
+          </a>
+          .
         </p>
       </div>
     );

@@ -37,7 +37,8 @@ class Breadcrumbs extends React.Component {
           and
           <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/content">
             <code className="highlighter-rouge">content</code>
-          </a>.
+          </a>
+          .
         </p>
         <div className="bd-example">
           <Breadcrumb>
@@ -80,7 +81,8 @@ class Breadcrumbs extends React.Component {
             rel="noopener noreferrer"
           >
             reactstrap breadcrumbs documentation
-          </a>.
+          </a>
+          .
         </p>
       </div>
     );

@@ -96,21 +96,25 @@ class Tutorial extends React.Component {
           >
             reactstrap - Bootstrap 4
           </a>{" "}
-          (<a
+          (
+          <a
             href="https://github.com/facebook/create-react-app"
             target="_blank"
             rel="noopener noreferrer"
           >
             create-react-app
-          </a>) Admin Template.
+          </a>
+          ) Admin Template.
         </p>
         <h2>License</h2>
         <p>
           <b>MIT LICENSE</b>
-          <br />Copyright (c) {1900 + new Date().getYear()}{" "}
+          <br />
+          Copyright (c) {1900 + new Date().getYear()}{" "}
           <a href="https://creative-tim.com/" target="_blank">
             Creative Tim
-          </a>.
+          </a>
+          .
         </p>
         <p>
           Permission is hereby granted, free of charge, to any person obtaining
@@ -141,7 +145,8 @@ class Tutorial extends React.Component {
             target="_blank"
           >
             creative-tim license
-          </a>.
+          </a>
+          .
         </p>
         <h2>Getting Started</h2>
         <p>
@@ -273,7 +278,8 @@ class Tutorial extends React.Component {
                   rel="noopener noreferrer"
                 >
                   this issue here
-                </a>.
+                </a>
+                .
               </p>
             </div>
           </li>
