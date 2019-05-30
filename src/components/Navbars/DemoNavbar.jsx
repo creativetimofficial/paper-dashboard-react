@@ -63,7 +63,7 @@ class Header extends React.Component {
   }
   openSidebar() {
     document.documentElement.classList.toggle("nav-open");
-    this.refs.sidebarToggle.classList.toggle("toggled");
+    this.sidebarToggle.classList.toggle("toggled");
   }
   // function that adds color dark/transparent to the navbar on resize (this is for the collapse)
   updateColor() {
@@ -87,7 +87,7 @@ class Header extends React.Component {
       document.documentElement.className.indexOf("nav-open") !== -1
     ) {
       document.documentElement.classList.toggle("nav-open");
-      this.refs.sidebarToggle.classList.toggle("toggled");
+      this.sidebarToggle.classList.toggle("toggled");
     }
   }
   render() {
