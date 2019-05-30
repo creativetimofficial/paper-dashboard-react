@@ -125,7 +125,7 @@ class FixedPlugin extends Component {
                 href="https://www.creative-tim.com/product/paper-dashboard-react"
                 color="primary"
                 block
-                round
+                className="btn-round"
               >
                 Download now
               </Button>
@@ -145,8 +145,8 @@ class FixedPlugin extends Component {
                 href="https://www.creative-tim.com/product/paper-dashboard-pro-react"
                 color="danger"
                 block
-                round
-                disabled
+                className="btn-round"
+                target="_blank"
               >
                 Get pro version
               </Button>
