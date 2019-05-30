@@ -13,13 +13,11 @@ import AdminLayout from "layouts/Admin.jsx";
 const hist = createBrowserHistory();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router history={hist}>
-      <Switch>
-        <Route path="/admin" render={props => <AdminLayout {...props} />} />
-        <Redirect to="/admin/dashboard" />
-      </Switch>
-    </Router>
-  </React.StrictMode>,
+  <Router history={hist}>
+    <Switch>
+      <Route path="/admin" render={props => <AdminLayout {...props} />} />
+      <Redirect to="/admin/dashboard" />
+    </Switch>
+  </Router>,
   document.getElementById("root")
 );
