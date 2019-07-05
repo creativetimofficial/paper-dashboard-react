@@ -1,5 +1,5 @@
 # Change Log
-## [1.1.0] 2019-xx-xx
+## [1.1.0] 2019-05-31
 ### Major changes
 - Almost all of the styles inside `src/scss` have been changed
 - We've removed `src/routes/*` files and replaced them with just one file (`src/routes.js`)
