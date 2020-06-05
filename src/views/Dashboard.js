@@ -34,7 +34,7 @@ import {
   dashboard24HoursPerformanceChart,
   dashboardEmailStatisticsChart,
   dashboardNASDAQChart
-} from "variables/charts.jsx";
+} from "variables/charts.js";
 
 class Dashboard extends React.Component {
   render() {
