@@ -45,5 +45,9 @@
     "ajv": "6.12.2",
     "jquery": "3.5.1",
     "typescript": "3.9.5"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8"
   }
 }
