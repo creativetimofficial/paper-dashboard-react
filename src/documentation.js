@@ -40,40 +40,40 @@ var componentsRoutes = [
       {
         path: "/documentation/overview",
         component: Overview,
-        name: "Overview"
+        name: "Overview",
       },
       {
         path: "/documentation/quick-start",
         component: QuickStart,
-        name: "QuickStart"
+        name: "QuickStart",
       },
       { path: "/documentation/license", component: License, name: "License" },
       {
         path: "/documentation/download",
         component: Download,
-        name: "Download"
+        name: "Download",
       },
       {
         path: "/documentation/contents",
         component: Contents,
-        name: "Contents"
+        name: "Contents",
       },
       {
         path: "/documentation/build-tools",
         component: BuildTools,
-        name: "BuildTools"
+        name: "BuildTools",
       },
       {
         path: "/documentation/variables",
         component: Variables,
-        name: "Variables"
+        name: "Variables",
       },
       {
         path: "/documentation/routing-system",
         component: RoutingSystem,
-        name: "RoutingSystem"
-      }
-    ]
+        name: "RoutingSystem",
+      },
+    ],
   },
   {
     name: "Core Components",
@@ -82,20 +82,20 @@ var componentsRoutes = [
       {
         path: "/documentation/fixed-plugin",
         component: FixedPlugin,
-        name: "FixedPlugin"
+        name: "FixedPlugin",
       },
       {
         path: "/documentation/demo-footers",
         component: Footer,
-        name: "Demo Footers"
+        name: "Demo Footers",
       },
       {
         path: "/documentation/demo-navbars",
         component: Navbars,
-        name: "Demo Navbars"
+        name: "Demo Navbars",
       },
-      { path: "/documentation/sidebar", component: Sidebar, name: "Sidebar" }
-    ]
+      { path: "/documentation/sidebar", component: Sidebar, name: "Sidebar" },
+    ],
   },
   {
     name: "Restyled Components",
@@ -105,7 +105,7 @@ var componentsRoutes = [
       {
         path: "/documentation/breadcrumb",
         component: Breadcrumb,
-        name: "Breadcrumb"
+        name: "Breadcrumb",
       },
       { path: "/documentation/buttons", component: Buttons, name: "Buttons" },
       { path: "/documentation/cards", component: Card, name: "Cards" },
@@ -113,28 +113,28 @@ var componentsRoutes = [
       {
         path: "/documentation/dropdowns",
         component: Dropdowns,
-        name: "Dropdowns"
+        name: "Dropdowns",
       },
       { path: "/documentation/forms", component: Forms, name: "Forms" },
       {
         path: "/documentation/info-areas",
         component: InfoAreas,
-        name: "Info Areas"
+        name: "Info Areas",
       },
       { path: "/documentation/navs", component: Navs, name: "Navs" },
       {
         path: "/documentation/nucleo-icons",
         component: NucleoIcons,
-        name: "Nucleo Icons"
+        name: "Nucleo Icons",
       },
       { path: "/documentation/navbar", component: Navbar, name: "Navbar" },
       { path: "/documentation/tables", component: Tables, name: "Tables" },
       {
         path: "/documentation/typography",
         component: Typography,
-        name: "Typography"
-      }
-    ]
+        name: "Typography",
+      },
+    ],
   },
   {
     name: "Plugins",
@@ -144,21 +144,21 @@ var componentsRoutes = [
       {
         path: "/documentation/google-maps",
         component: GoogleMaps,
-        name: "GoogleMaps"
+        name: "GoogleMaps",
       },
       {
         path: "/documentation/notifications",
         component: Notifications,
-        name: "Notifications"
+        name: "Notifications",
       },
       {
         path: "/documentation/perfect-scrollbar",
         component: PerfectScrollbar,
-        name: "PerfectScrollbar"
-      }
-    ]
+        name: "PerfectScrollbar",
+      },
+    ],
   },
-  { redirect: true, path: "/documentation", pathTo: "/documentation/overview" }
+  { redirect: true, path: "/documentation", pathTo: "/documentation/overview" },
 ];
 
 export default componentsRoutes;

@@ -123,7 +123,7 @@ class InfoAreas extends React.Component {
                 anything like it. With a single use, this powerfull UI Kit lets
                 you do more than ever before.
               </p>
-              <a href="#pablo" onClick={e => e.preventDefault()}>
+              <a href="#pablo" onClick={(e) => e.preventDefault()}>
                 Find more...
               </a>
             </div>

@@ -33,7 +33,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
 } from "reactstrap";
 
 const codeBase = `<Nav>
@@ -346,7 +346,7 @@ class Accordion extends React.Component {
       activeTabIcons: "4",
       hTabs: "ht1",
       vTabs: "vt1",
-      pageSubcategories: "ps1"
+      pageSubcategories: "ps1",
     };
     this.toggle = this.toggle.bind(this);
     this.toggle = this.toggleIcons.bind(this);
@@ -354,14 +354,14 @@ class Accordion extends React.Component {
   toggle(tab) {
     if (this.state.activeTab !== tab) {
       this.setState({
-        activeTab: tab
+        activeTab: tab,
       });
     }
   }
   toggleIcons(tab) {
     if (this.state.activeTabIcons !== tab) {
       this.setState({
-        activeTabIcons: tab
+        activeTabIcons: tab,
       });
     }
   }

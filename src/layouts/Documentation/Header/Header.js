@@ -56,7 +56,10 @@ class Header extends React.Component {
         <div className="navbar-nav-scroll ml-md-auto">
           <Nav className="bd-navbar-nav flex-row" navbar>
             <NavItem>
-              <NavLink href="https://www.creative-tim.com/product/paper-dashboard-pro-react?ref=pdr-docs-navbar-upgrade-pro" target="_blank">
+              <NavLink
+                href="https://www.creative-tim.com/product/paper-dashboard-pro-react?ref=pdr-docs-navbar-upgrade-pro"
+                target="_blank"
+              >
                 <i className="nc-icon nc-spaceship" /> <b>Upgrade to PRO</b>
               </NavLink>
             </NavItem>

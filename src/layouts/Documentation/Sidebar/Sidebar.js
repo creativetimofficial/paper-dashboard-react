@@ -23,7 +23,7 @@ import { Link } from "react-router-dom";
 import docRoutes from "documentation.js";
 
 class Sidebar extends React.Component {
-  activeRoute = path => {
+  activeRoute = (path) => {
     return this.props.location.pathname.indexOf(path) > -1
       ? "active bd-sidenav-active"
       : "";

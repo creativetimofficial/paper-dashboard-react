@@ -35,7 +35,7 @@ class Dashboard extends React.Component {
     super(props);
     this.state = {
       backgroundColor: "black",
-      activeColor: "info"
+      activeColor: "info",
     };
     this.mainPanel = React.createRef();
   }
@@ -57,10 +57,10 @@ class Dashboard extends React.Component {
       document.scrollingElement.scrollTop = 0;
     }
   }
-  handleActiveClick = color => {
+  handleActiveClick = (color) => {
     this.setState({ activeColor: color });
   };
-  handleBgClick = color => {
+  handleBgClick = (color) => {
     this.setState({ backgroundColor: color });
   };
   render() {

@@ -29,7 +29,7 @@ import {
   InputGroupAddon,
   InputGroupText,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 import { Button } from "reactstrap";

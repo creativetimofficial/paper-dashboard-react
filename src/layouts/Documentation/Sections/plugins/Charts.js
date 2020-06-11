@@ -109,7 +109,7 @@ class Example extends React.Component{
 
 const chartColor = "#FFFFFF";
 
-const data = canvas => {
+const data = (canvas) => {
   var ctx = canvas.getContext("2d");
 
   var gradientStroke = ctx.createLinearGradient(500, 0, 100, 0);
@@ -132,7 +132,7 @@ const data = canvas => {
       "Sep",
       "Oct",
       "Nov",
-      "Dec"
+      "Dec",
     ],
     datasets: [
       {
@@ -147,15 +147,15 @@ const data = canvas => {
         fill: true,
         backgroundColor: gradientFill,
         borderWidth: 2,
-        data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 630]
-      }
-    ]
+        data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 630],
+      },
+    ],
   };
 };
 const options = {
   maintainAspectRatio: false,
   legend: {
-    display: false
+    display: false,
   },
   tooltips: {
     bodySpacing: 4,
@@ -164,7 +164,7 @@ const options = {
     position: "nearest",
     xPadding: 10,
     yPadding: 10,
-    caretPadding: 10
+    caretPadding: 10,
   },
   responsive: 1,
   scales: {
@@ -172,34 +172,34 @@ const options = {
       {
         display: 0,
         ticks: {
-          display: false
+          display: false,
         },
         gridLines: {
           zeroLineColor: "transparent",
           drawTicks: false,
           display: false,
-          drawBorder: false
-        }
-      }
+          drawBorder: false,
+        },
+      },
     ],
     xAxes: [
       {
         display: 0,
         ticks: {
-          display: false
+          display: false,
         },
         gridLines: {
           zeroLineColor: "transparent",
           drawTicks: false,
           display: false,
-          drawBorder: false
-        }
-      }
-    ]
+          drawBorder: false,
+        },
+      },
+    ],
   },
   layout: {
-    padding: { left: 0, right: 0, top: 15, bottom: 15 }
-  }
+    padding: { left: 0, right: 0, top: 15, bottom: 15 },
+  },
 };
 
 class Charts extends React.Component {

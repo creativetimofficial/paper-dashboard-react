@@ -27,7 +27,7 @@ import {
   CardTitle,
   Table,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 class Upgrade extends React.Component {
@@ -121,7 +121,7 @@ class Upgrade extends React.Component {
                             className="btn-round disabled"
                             color="default"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Current Version
                           </Button>
