@@ -41,7 +41,7 @@ class Icons extends React.Component {
           .
         </p>
         <p>
-          You will find all these icons in <code>src/variables/icons.jsx</code>.
+          You will find all these icons in <code>src/variables/icons.js</code>.
         </p>
         <p>You can import all of them like so:</p>
         <SyntaxHighlighter language="jsx" style={prism}>

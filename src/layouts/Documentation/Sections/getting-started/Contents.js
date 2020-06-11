@@ -43,28 +43,28 @@ const fileStructure = `Paper Dashboard React
     ├── routes.js
     ├── components
     │   ├── FixedPlugin
-    │   │   └── FixedPlugin.jsx
+    │   │   └── FixedPlugin.js
     │   ├── Footer
-    │   │   └── Footer.jsx
+    │   │   └── Footer.js
     │   ├── Navbars
-    │   │   └── DemoNavbar.jsx
+    │   │   └── DemoNavbar.js
     │   └── Sidebar
-    │       └── Sidebar.jsx
+    │       └── Sidebar.js
     ├── layouts
-    │   └── Admin.jsx
+    │   └── Admin.js
     ├── variables
-    │   ├── charts.jsx
-    │   ├── general.jsx
-    │   └── icons.jsx
+    │   ├── charts.js
+    │   ├── general.js
+    │   └── icons.js
     ├── views
-    │   ├── Dashboard.jsx
-    │   ├── Icons.jsx
-    │   ├── Map.jsx
-    │   ├── Notifications.jsx
-    │   ├── Tables.jsx
-    │   ├── Typography.jsx
-    │   ├── Upgrade.jsx
-    │   └── User.jsx
+    │   ├── Dashboard.js
+    │   ├── Icons.js
+    │   ├── Map.js
+    │   ├── Notifications.js
+    │   ├── Tables.js
+    │   ├── Typography.js
+    │   ├── Upgrade.js
+    │   └── User.js
     └── assets
         ├── css
         │   ├── paper-dashboard.css

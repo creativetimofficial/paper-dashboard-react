@@ -20,8 +20,8 @@ import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
-import Sidebar from "./Sidebar/Sidebar.jsx";
-import Header from "./Header/Header.jsx";
+import Sidebar from "./Sidebar/Sidebar.js";
+import Header from "./Header/Header.js";
 
 import "./assets-for-demo/demo.css";
 import "./assets-for-demo/docs.css";

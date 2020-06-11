@@ -32,7 +32,7 @@ class Navbar extends React.Component {
           In our template product, we have one demo navbars that can be found
           inside{" "}
           <code className="highlighter-rouge">
-            src/components/Navbars/DemoNavbar.jsx
+            src/components/Navbars/DemoNavbar.js
           </code>
           .
         </p>
@@ -40,7 +40,7 @@ class Navbar extends React.Component {
           It has a nice feature that makes the left menu close and open on small
           devices. You can check this code inside this file at lines{" "}
           <code className="highlighter-rouge">
-            src/components/Navbars/DemoNavbar.jsx
+            src/components/Navbars/DemoNavbar.js
           </code>
           117 and 64-67.
         </p>

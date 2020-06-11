@@ -31,7 +31,7 @@ class Footer extends React.Component {
         <p className="bd-lead">
           We've created a demo footer, which can be found inside{" "}
           <code className="highlighter-rouge">
-            src/components/Footer/Footer.jsx
+            src/components/Footer/Footer.js
           </code>
           .
         </p>

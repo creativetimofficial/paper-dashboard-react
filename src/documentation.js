@@ -1,36 +1,36 @@
 // Getting started
-import BuildTools from "layouts/Documentation/Sections/getting-started/BuildTools.jsx";
-import Contents from "layouts/Documentation/Sections/getting-started/Contents.jsx";
-import Download from "layouts/Documentation/Sections/getting-started/Download.jsx";
-import License from "layouts/Documentation/Sections/getting-started/License.jsx";
-import Overview from "layouts/Documentation/Sections/getting-started/Overview.jsx";
-import QuickStart from "layouts/Documentation/Sections/getting-started/QuickStart.jsx";
-import RoutingSystem from "layouts/Documentation/Sections/getting-started/RoutingSystem.jsx";
-import Variables from "layouts/Documentation/Sections/getting-started/Variables.jsx";
+import BuildTools from "layouts/Documentation/Sections/getting-started/BuildTools.js";
+import Contents from "layouts/Documentation/Sections/getting-started/Contents.js";
+import Download from "layouts/Documentation/Sections/getting-started/Download.js";
+import License from "layouts/Documentation/Sections/getting-started/License.js";
+import Overview from "layouts/Documentation/Sections/getting-started/Overview.js";
+import QuickStart from "layouts/Documentation/Sections/getting-started/QuickStart.js";
+import RoutingSystem from "layouts/Documentation/Sections/getting-started/RoutingSystem.js";
+import Variables from "layouts/Documentation/Sections/getting-started/Variables.js";
 // Core components
-import FixedPlugin from "layouts/Documentation/Sections/core-components/FixedPlugin.jsx";
-import Footer from "layouts/Documentation/Sections/core-components/Footer.jsx";
-import Navbars from "layouts/Documentation/Sections/core-components/Navbars.jsx";
-import Sidebar from "layouts/Documentation/Sections/core-components/Sidebar.jsx";
+import FixedPlugin from "layouts/Documentation/Sections/core-components/FixedPlugin.js";
+import Footer from "layouts/Documentation/Sections/core-components/Footer.js";
+import Navbars from "layouts/Documentation/Sections/core-components/Navbars.js";
+import Sidebar from "layouts/Documentation/Sections/core-components/Sidebar.js";
 // Restyled components
-import Alerts from "layouts/Documentation/Sections/restyled-components/Alerts.jsx";
-import Breadcrumb from "layouts/Documentation/Sections/restyled-components/Breadcrumb.jsx";
-import Buttons from "layouts/Documentation/Sections/restyled-components/Buttons.jsx";
-import Card from "layouts/Documentation/Sections/restyled-components/Card.jsx";
-import Colors from "layouts/Documentation/Sections/restyled-components/Colors.jsx";
-import Dropdowns from "layouts/Documentation/Sections/restyled-components/Dropdowns.jsx";
-import Forms from "layouts/Documentation/Sections/restyled-components/Forms.jsx";
-import InfoAreas from "layouts/Documentation/Sections/restyled-components/InfoAreas.jsx";
-import Navs from "layouts/Documentation/Sections/restyled-components/Navs.jsx";
-import NucleoIcons from "layouts/Documentation/Sections/restyled-components/NucleoIcons.jsx";
-import Navbar from "layouts/Documentation/Sections/restyled-components/Navbar.jsx";
-import Tables from "layouts/Documentation/Sections/restyled-components/Tables.jsx";
-import Typography from "layouts/Documentation/Sections/restyled-components/Typography.jsx";
+import Alerts from "layouts/Documentation/Sections/restyled-components/Alerts.js";
+import Breadcrumb from "layouts/Documentation/Sections/restyled-components/Breadcrumb.js";
+import Buttons from "layouts/Documentation/Sections/restyled-components/Buttons.js";
+import Card from "layouts/Documentation/Sections/restyled-components/Card.js";
+import Colors from "layouts/Documentation/Sections/restyled-components/Colors.js";
+import Dropdowns from "layouts/Documentation/Sections/restyled-components/Dropdowns.js";
+import Forms from "layouts/Documentation/Sections/restyled-components/Forms.js";
+import InfoAreas from "layouts/Documentation/Sections/restyled-components/InfoAreas.js";
+import Navs from "layouts/Documentation/Sections/restyled-components/Navs.js";
+import NucleoIcons from "layouts/Documentation/Sections/restyled-components/NucleoIcons.js";
+import Navbar from "layouts/Documentation/Sections/restyled-components/Navbar.js";
+import Tables from "layouts/Documentation/Sections/restyled-components/Tables.js";
+import Typography from "layouts/Documentation/Sections/restyled-components/Typography.js";
 // Plugins
-import Charts from "layouts/Documentation/Sections/plugins/Charts.jsx";
-import GoogleMaps from "layouts/Documentation/Sections/plugins/GoogleMaps.jsx";
-import Notifications from "layouts/Documentation/Sections/plugins/Notifications.jsx";
-import PerfectScrollbar from "layouts/Documentation/Sections/plugins/PerfectScrollbar.jsx";
+import Charts from "layouts/Documentation/Sections/plugins/Charts.js";
+import GoogleMaps from "layouts/Documentation/Sections/plugins/GoogleMaps.js";
+import Notifications from "layouts/Documentation/Sections/plugins/Notifications.js";
+import PerfectScrollbar from "layouts/Documentation/Sections/plugins/PerfectScrollbar.js";
 
 var componentsRoutes = [
   {

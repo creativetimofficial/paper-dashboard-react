@@ -23,7 +23,7 @@ import { Link } from "react-router-dom";
 
 const codeUsage = `...other code
 
-import Sidebar from "components/Sidebar/Sidebar.jsx";
+import Sidebar from "components/Sidebar/Sidebar.js";
 
 ...other code
 
@@ -66,7 +66,7 @@ class Sidebar extends React.Component {
         </div>
         <p className="bd-lead">
           This is the left menu that only appears inside the{" "}
-          <code className="highlighter-rouge">src/layouts/Admin.jsx</code>.
+          <code className="highlighter-rouge">src/layouts/Admin.js</code>.
         </p>
         <hr />
         <h2 id="primary-colors">Short description and usage</h2>

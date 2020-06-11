@@ -85,7 +85,7 @@ class Buttons extends React.Component {
         <SyntaxHighlighter
           language="jsx"
           style={prism}
-        >{`import Button from 'elements/CustomButton/CustomButton.jsx';`}</SyntaxHighlighter>
+        >{`import Button from 'elements/CustomButton/CustomButton.js';`}</SyntaxHighlighter>
         <h2>Examples</h2>
         <p>
           Paper Dashboard has changed the predefined button styles from

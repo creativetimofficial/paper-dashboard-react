@@ -406,7 +406,7 @@ class GoogleMaps extends React.Component {
         </ol>
         <p>
           After these steps navigate in your project to{" "}
-          <code>views/Maps/Maps.jsx</code> and replace the{" "}
+          <code>views/Maps/Maps.js</code> and replace the{" "}
           <code>YOUR_KEY_HERE</code> with the given API KEY.
         </p>
         <h2>Example</h2>

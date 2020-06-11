@@ -29,7 +29,7 @@ const codeFunctions = `  handleActiveClick = color => {
 
 const codeRenderExample = `...other code
 
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
+import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
 
 ...other code
 
@@ -76,7 +76,7 @@ class FixedPlugin extends React.Component {
         <p>
           Can be found inside{" "}
           <code className="highlighter-rouge">
-            src/components/FixedPlugin/FixedPlugin.jsx
+            src/components/FixedPlugin/FixedPlugin.js
           </code>
           .
         </p>
@@ -86,7 +86,7 @@ class FixedPlugin extends React.Component {
         </p>
         <p>
           It is only rendered once inside the{" "}
-          <code className="highlighter-rouge">src/layouts/Admin.jsx</code>.
+          <code className="highlighter-rouge">src/layouts/Admin.js</code>.
         </p>
         <p>
           If you wish to use it, you will have to implement in your
@@ -106,9 +106,9 @@ class FixedPlugin extends React.Component {
         </SyntaxHighlighter>
         <p>
           For a better understaing please, take a look inside{" "}
-          <code className="highlighter-rouge">src/layouts/Admin.jsx</code> and{" "}
+          <code className="highlighter-rouge">src/layouts/Admin.js</code> and{" "}
           <code className="highlighter-rouge">
-            src/components/FixedPlugin/FixedPlugin.jsx
+            src/components/FixedPlugin/FixedPlugin.js
           </code>
           .
         </p>
