@@ -2,9 +2,30 @@
 
 ## [1.2.0] 2020-06-26
 ### Bug fixing
-- `https://github.com/creativetimofficial/paper-dashboard-react/issues/15`
-- `https://github.com/creativetimofficial/paper-dashboard-react/issues/13`
-- `https://github.com/creativetimofficial/paper-dashboard-react/issues/12`
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/15
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/13
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/12
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/8
+- Other Paper React products issues solved here as well
+  - https://github.com/creativetimofficial/ct-paper-kit-pro-react/issues/2
+  - https://github.com/creativetimofficial/paper-kit-react/issues/2
+  - https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/8
+  - https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/6 - solution to this is to change the usage of the ModalHeader from reactstrap to simple Bootstrap ones:
+  So, instead of:
+```
+<ModalHeader className="justify-content-center" toggle={this.toggleModalDemo}>
+    Modal Title
+</ModalHeader>
+```
+  You should use
+```
+<div className="modal-header justify-content-center">
+  <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={this.toggleModalDemo}>
+    <span aria-hidden="true">×</span>
+  </button>
+  <h5 className="modal-title">Modal Title</h5>
+</div>
+```
 ### Major style changes
 - `src/assets/scss/paper-dashboard/_nucleo-outline.scss` (changed the fonts import to `~assets/fonts` and also added assets path inside `jsconfig.json` file)
 - `src/assets/scss/paper-dashboard/react/custom/_nucleo-outline.scss` (changed the fonts import to `~assets/fonts` and also added assets path inside `jsconfig.json` file)
