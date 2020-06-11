@@ -65,7 +65,7 @@ class PerfectScrollbar extends React.Component {
     return (
       <div>
         <h1 className="bd-title" id="content">
-          Perfect Scrollbar v1.4.0
+          Perfect Scrollbar v1.5.0
         </h1>
         <p className="bd-lead" />
         <p>“Minimalistic but perfect custom scrollbar plugin.”</p>
