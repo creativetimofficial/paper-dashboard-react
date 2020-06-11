@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.1.0
+* Paper Dashboard React - v1.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
 
@@ -24,7 +24,7 @@ import ReactGA from "react-ga";
 import ReactPixel from "react-facebook-pixel";
 
 import "bootstrap/dist/css/bootstrap.css";
-import "assets/scss/paper-dashboard.scss?v=1.1.0";
+import "assets/scss/paper-dashboard.scss?v=1.2.0";
 import "assets/demo/demo.css";
 import "perfect-scrollbar/css/perfect-scrollbar.css";
 

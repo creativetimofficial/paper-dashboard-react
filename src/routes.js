@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.1.0
+* Paper Dashboard React - v1.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
 
@@ -16,14 +16,14 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import Dashboard from "views/Dashboard.jsx";
-import Notifications from "views/Notifications.jsx";
-import Icons from "views/Icons.jsx";
-import Typography from "views/Typography.jsx";
-import TableList from "views/Tables.jsx";
-import Maps from "views/Map.jsx";
-import UserPage from "views/User.jsx";
-import UpgradeToPro from "views/Upgrade.jsx";
+import Dashboard from "views/Dashboard.js";
+import Notifications from "views/Notifications.js";
+import Icons from "views/Icons.js";
+import Typography from "views/Typography.js";
+import TableList from "views/Tables.js";
+import Maps from "views/Map.js";
+import UserPage from "views/User.js";
+import UpgradeToPro from "views/Upgrade.js";
 
 var routes = [
   {

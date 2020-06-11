@@ -1,4 +1,67 @@
 # Change Log
+
+## [1.2.0] 2020-06-26
+### Bug fixing
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/15
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/13
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/12
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/8
+- Other Paper React products issues solved here as well
+  - https://github.com/creativetimofficial/ct-paper-kit-pro-react/issues/2
+  - https://github.com/creativetimofficial/paper-kit-react/issues/2
+  - https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/8
+  - https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/6 - solution to this is to change the usage of the ModalHeader from reactstrap to simple Bootstrap ones:
+  So, instead of:
+```
+<ModalHeader className="justify-content-center" toggle={this.toggleModalDemo}>
+    Modal Title
+</ModalHeader>
+```
+  You should use
+```
+<div className="modal-header justify-content-center">
+  <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={this.toggleModalDemo}>
+    <span aria-hidden="true">×</span>
+  </button>
+  <h5 className="modal-title">Modal Title</h5>
+</div>
+```
+### Major style changes
+- `src/assets/scss/paper-dashboard/_nucleo-outline.scss` (changed the fonts import to `~assets/fonts` and also added assets path inside `jsconfig.json` file)
+- `src/assets/scss/paper-dashboard/react/custom/_nucleo-outline.scss` (changed the fonts import to `~assets/fonts` and also added assets path inside `jsconfig.json` file)
+- `src/assets/scss/paper-dashboard/react/custom/_responsive.scss`
+- `src/assets/scss/paper-dashboard/react/custom/_inputs.scss`
+### Deleted components
+### Added components
+### Deleted dependencies
+### Added dependencies
++ gulp@4.0.2 (for Creative Tim copyrights)
++ gulp-append-prepend@1.0.8 (for Creative Tim copyrights)
+### Updated dependencies
+```
+bootstrap             4.3.1   →     4.5.0
+chart.js              2.8.0   →     2.9.3
+history               4.9.0   →    4.10.1
+node-sass            4.12.0   →    4.14.1
+perfect-scrollbar     1.4.0   →     1.5.0
+react                16.8.6   →   16.13.1
+react-chartjs-2       2.7.6   →     2.9.0
+react-dom            16.8.6   →   16.13.1
+react-router          5.0.0   →     5.2.0
+react-router-dom      5.0.0   →     5.2.0
+react-scripts         3.0.1   →     3.4.1
+reactstrap            8.0.0   →     8.4.1
+@types/googlemaps    3.36.2   →    3.39.6
+@types/react        16.8.19   →   16.9.35
+ajv                  6.10.0   →    6.12.2
+jquery                3.4.1   →     3.5.1
+typescript            3.4.5   →     3.9.5
+```
+### Warning
+_All the following products: Paper Kit React, Paper Dashboard React, Paper Kit PRO React and Paper Dashboard PRO React have been updated together, and thus, we've added to all of them the same version of 1.2.0 - we may have skipped some versions for some of the above products, we've done so, since we want all Paper & React products to share the same versions._
+_While in development some of the plugins that were used for this product will throw some warnings - note, this only happens in development, the UI or the functionality of the product is not affected, also, if the issues will persist in React 17, we'll drop usage of those plugins, and replace them with other ones._
+_Warnings might appear while doing an npm install - they do not affect the UI or the functionality of the product, and they appear because of NodeJS and not from the product itself._
+
 ## [1.1.0] 2019-05-31
 ### Major changes
 - Almost all of the styles inside `src/scss` have been changed

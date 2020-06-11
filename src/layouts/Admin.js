@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.1.0
+* Paper Dashboard React - v1.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
 
@@ -21,10 +21,10 @@ import React from "react";
 import PerfectScrollbar from "perfect-scrollbar";
 import { Route, Switch } from "react-router-dom";
 
-import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import Sidebar from "components/Sidebar/Sidebar.jsx";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
+import DemoNavbar from "components/Navbars/DemoNavbar.js";
+import Footer from "components/Footer/Footer.js";
+import Sidebar from "components/Sidebar/Sidebar.js";
+import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
 
 import routes from "routes.js";
 
