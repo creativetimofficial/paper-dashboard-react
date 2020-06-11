@@ -27,13 +27,13 @@ import {
   CardFooter,
   CardTitle,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 // core components
 import {
   dashboard24HoursPerformanceChart,
   dashboardEmailStatisticsChart,
-  dashboardNASDAQChart
+  dashboardNASDAQChart,
 } from "variables/charts.js";
 
 class Dashboard extends React.Component {

@@ -30,12 +30,12 @@ import {
   CardBody,
   CardTitle,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 class Notifications extends React.Component {
   state = {
-    visible: true
+    visible: true,
   };
   notificationAlert = React.createRef();
   notify(place) {
@@ -73,7 +73,7 @@ class Notifications extends React.Component {
       ),
       type: type,
       icon: "nc-icon nc-bell-55",
-      autoDismiss: 7
+      autoDismiss: 7,
     };
     this.notificationAlert.current.notificationAlert(options);
   }

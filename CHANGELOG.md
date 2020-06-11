@@ -27,6 +27,7 @@
 </div>
 ```
 ### Major style changes
+- - There will be additional changes in each `.js` and `.html` files since we've used `prettier` to prettify them
 - `src/assets/scss/paper-dashboard/_nucleo-outline.scss` (changed the fonts import to `~assets/fonts` and also added assets path inside `jsconfig.json` file)
 - `src/assets/scss/paper-dashboard/react/custom/_nucleo-outline.scss` (changed the fonts import to `~assets/fonts` and also added assets path inside `jsconfig.json` file)
 - `src/assets/scss/paper-dashboard/react/custom/_responsive.scss`
