@@ -33,3 +33,31 @@
     color: $white-color;
   }
 }
+
+@media screen and (min-width: 992px){
+
+  .sidebar{
+    .sidebar-wrapper{
+      li.active{
+        > a:not([data-toggle="collapse"]){
+          &:before{
+            border-right: 18px solid $medium-gray;
+            border-top: 18px solid transparent;
+            border-bottom: 18px solid transparent;
+            right: -15px;
+            top: 6px;
+          }
+
+          &:after{
+            border-right: 17px solid $default-body-bg;
+            border-top: 17px solid transparent;
+            border-bottom: 17px solid transparent;
+            right: -15px;
+            top: 7px;
+          }
+        }
+      }
+    }
+  }
+
+}
