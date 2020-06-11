@@ -5,12 +5,13 @@
 - https://github.com/creativetimofficial/paper-dashboard-react/issues/15
 - https://github.com/creativetimofficial/paper-dashboard-react/issues/13
 - https://github.com/creativetimofficial/paper-dashboard-react/issues/12
+- https://github.com/creativetimofficial/paper-dashboard-react/issues/9 (could not reproduce the issue, so we've left the perfect-scrollbar initialization as is, if there are layout problems, please delete the bits of code specified here: https://github.com/creativetimofficial/paper-dashboard-react/issues/9#issuecomment-593385860)
 - https://github.com/creativetimofficial/paper-dashboard-react/issues/8
 - Other Paper React products issues solved here as well
   - https://github.com/creativetimofficial/ct-paper-kit-pro-react/issues/2
   - https://github.com/creativetimofficial/paper-kit-react/issues/2
   - https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/8
-  - https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/6 - solution to this is to change the usage of the ModalHeader from reactstrap to simple Bootstrap ones:
+  - https://github.com/creativetimofficial/ct-paper-dashboard-pro-react/issues/6 - solution to this is to change the usage of the ModalHeader from Reactstrap to simple Bootstrap ones:
   So, instead of:
 ```
 <ModalHeader className="justify-content-center" toggle={this.toggleModalDemo}>
