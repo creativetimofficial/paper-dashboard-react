@@ -4,10 +4,12 @@
 ### Bug fixing
 - `https://github.com/creativetimofficial/paper-dashboard-react/issues/15`
 - `https://github.com/creativetimofficial/paper-dashboard-react/issues/13`
+- `https://github.com/creativetimofficial/paper-dashboard-react/issues/12`
 ### Major style changes
 - `src/assets/scss/paper-dashboard/_nucleo-outline.scss` (changed the fonts import to `~assets/fonts` and also added assets path inside `jsconfig.json` file)
 - `src/assets/scss/paper-dashboard/react/custom/_nucleo-outline.scss` (changed the fonts import to `~assets/fonts` and also added assets path inside `jsconfig.json` file)
 - `src/assets/scss/paper-dashboard/react/custom/_responsive.scss`
+- `src/assets/scss/paper-dashboard/react/custom/_inputs.scss`
 ### Deleted components
 ### Added components
 ### Deleted dependencies
