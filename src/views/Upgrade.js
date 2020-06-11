@@ -112,7 +112,7 @@ class Upgrade extends React.Component {
                       <tr>
                         <td />
                         <td className="text-center">Free</td>
-                        <td className="text-center">Just $49</td>
+                        <td className="text-center">From $49</td>
                       </tr>
                       <tr>
                         <td className="text-center" />
