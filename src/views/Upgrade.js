@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.1.0
+* Paper Dashboard React - v1.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
 
@@ -27,7 +27,7 @@ import {
   CardTitle,
   Table,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 class Upgrade extends React.Component {
@@ -112,7 +112,7 @@ class Upgrade extends React.Component {
                       <tr>
                         <td />
                         <td className="text-center">Free</td>
-                        <td className="text-center">Just $49</td>
+                        <td className="text-center">From $49</td>
                       </tr>
                       <tr>
                         <td className="text-center" />
@@ -121,7 +121,7 @@ class Upgrade extends React.Component {
                             className="btn-round disabled"
                             color="default"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Current Version
                           </Button>

@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.1.0
+* Paper Dashboard React - v1.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
 
@@ -33,7 +33,7 @@ import {
   InputGroup,
   InputGroupText,
   InputGroupAddon,
-  Input
+  Input,
 } from "reactstrap";
 
 import routes from "routes.js";
@@ -44,7 +44,7 @@ class Header extends React.Component {
     this.state = {
       isOpen: false,
       dropdownOpen: false,
-      color: "transparent"
+      color: "transparent",
     };
     this.toggle = this.toggle.bind(this);
     this.dropdownToggle = this.dropdownToggle.bind(this);
@@ -53,20 +53,20 @@ class Header extends React.Component {
   toggle() {
     if (this.state.isOpen) {
       this.setState({
-        color: "transparent"
+        color: "transparent",
       });
     } else {
       this.setState({
-        color: "dark"
+        color: "dark",
       });
     }
     this.setState({
-      isOpen: !this.state.isOpen
+      isOpen: !this.state.isOpen,
     });
   }
   dropdownToggle(e) {
     this.setState({
-      dropdownOpen: !this.state.dropdownOpen
+      dropdownOpen: !this.state.dropdownOpen,
     });
   }
   getBrand() {
@@ -87,11 +87,11 @@ class Header extends React.Component {
   updateColor() {
     if (window.innerWidth < 993 && this.state.isOpen) {
       this.setState({
-        color: "dark"
+        color: "dark",
       });
     } else {
       this.setState({
-        color: "transparent"
+        color: "transparent",
       });
     }
   }
@@ -173,7 +173,7 @@ class Header extends React.Component {
               <Dropdown
                 nav
                 isOpen={this.state.dropdownOpen}
-                toggle={e => this.dropdownToggle(e)}
+                toggle={(e) => this.dropdownToggle(e)}
               >
                 <DropdownToggle caret nav>
                   <i className="nc-icon nc-bell-55" />

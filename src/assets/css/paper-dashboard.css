@@ -1,11 +1,11 @@
 /*!
 
  =========================================================
- * Paper Dashboard React - v1.1.0 based on Paper Dashboard 2 - v2.0.0
+ * Paper Dashboard React - v1.2.0 based on Paper Dashboard 2 - v2.0.0
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/paper-dashboard-2
- * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+ * Copyright 2020 Creative Tim (http://www.creative-tim.com)
 
  * Designed by www.invisionapp.com Coded by www.creative-tim.com
 
@@ -2541,8 +2541,8 @@ License - nucleoapp.com/license/
 -------------------------------- */
 @font-face {
   font-family: 'nucleo-icons';
-  src: url("../fonts/nucleo-icons.eot");
-  src: url("../fonts/nucleo-icons.eot") format("embedded-opentype"), url("../fonts/nucleo-icons.woff2") format("woff2"), url("../fonts/nucleo-icons.woff") format("woff"), url("../fonts/nucleo-icons.ttf") format("truetype");
+  src: url("~assets/fonts/nucleo-icons.eot");
+  src: url("~assets/fonts/nucleo-icons.eot") format("embedded-opentype"), url("~assets/fonts/nucleo-icons.woff2") format("woff2"), url("~assets/fonts/nucleo-icons.woff") format("woff"), url("~assets/fonts/nucleo-icons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -4718,6 +4718,17 @@ select.form-control:not([size]):not([multiple]) {
 .form-control {
   height: unset; }
 
+.form-group input[type=file] {
+  opacity: 1;
+  position: unset;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: unset;
+  z-index: unset; }
+
 .navbar .navbar-nav .nav-link i.fa + p,
 .navbar .navbar-nav .nav-link i.fal + p,
 .navbar .navbar-nav .nav-link i.fas + p,
@@ -4746,8 +4757,8 @@ License - nucleoapp.com/license/
 -------------------------------- */
 @font-face {
   font-family: 'nucleo-icons';
-  src: url("../fonts/nucleo-icons.eot");
-  src: url("../fonts/nucleo-icons.eot") format("embedded-opentype"), url("../fonts/nucleo-icons.woff2") format("woff2"), url("../fonts/nucleo-icons.woff") format("woff"), url("../fonts/nucleo-icons.ttf");
+  src: url("~assets/fonts/nucleo-icons.eot");
+  src: url("~assets/fonts/nucleo-icons.eot") format("embedded-opentype"), url("~assets/fonts/nucleo-icons.woff2") format("woff2"), url("~assets/fonts/nucleo-icons.woff") format("woff"), url("~assets/fonts/nucleo-icons.ttf");
   font-weight: normal;
   font-style: normal; }
 
@@ -4778,5 +4789,21 @@ License - nucleoapp.com/license/
   .navbar.bg-dark .dropdown.show .dropdown-menu a {
     color: #FFFFFF; } }
 
+@media screen and (min-width: 992px) {
+  .sidebar .sidebar-wrapper li.active > a:not([data-toggle="collapse"]):before {
+    border-right: 18px solid #DDDDDD;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    right: -15px;
+    top: 6px; }
+  .sidebar .sidebar-wrapper li.active > a:not([data-toggle="collapse"]):after {
+    border-right: 17px solid #f4f3ef;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    right: -15px;
+    top: 7px; } }
+
 *, *:focus, a, a:focus {
   outline: none; }
+
+/*# sourceMappingURL=paper-dashboard.css.map */

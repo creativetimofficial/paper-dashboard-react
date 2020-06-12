@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.1.0
+* Paper Dashboard React - v1.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
 
@@ -24,7 +24,7 @@ class FixedPlugin extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      classes: "dropdown show"
+      classes: "dropdown show",
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -132,7 +132,7 @@ class FixedPlugin extends Component {
             </li>
             <li className="button-container">
               <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-react"
+                href="https://www.creative-tim.com/product/paper-dashboard-react?ref=pdr-fixed-plugin"
                 color="primary"
                 block
                 className="btn-round"
@@ -142,7 +142,7 @@ class FixedPlugin extends Component {
             </li>
             <li className="button-container">
               <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-react/#/documentation/tutorial"
+                href="https://www.creative-tim.com/product/paper-dashboard-react/#/documentation/tutorial?ref=pdr-fixed-plugin"
                 color="default"
                 block
                 className="btn-round"
@@ -154,7 +154,7 @@ class FixedPlugin extends Component {
             <li className="header-title">Want more components?</li>
             <li className="button-container">
               <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-pro-react"
+                href="https://www.creative-tim.com/product/paper-dashboard-pro-react?ref=pdr-fixed-plugin"
                 color="danger"
                 block
                 className="btn-round"
