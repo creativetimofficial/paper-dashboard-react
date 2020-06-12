@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.2.0] 2020-06-26
+## [1.2.0] 2020-06-12
 ### Bug fixing
 - https://github.com/creativetimofficial/paper-dashboard-react/issues/15
 - https://github.com/creativetimofficial/paper-dashboard-react/issues/13
