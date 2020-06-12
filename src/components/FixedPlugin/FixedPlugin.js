@@ -132,7 +132,7 @@ class FixedPlugin extends Component {
             </li>
             <li className="button-container">
               <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-react"
+                href="https://www.creative-tim.com/product/paper-dashboard-react?ref=pdr-fixed-plugin"
                 color="primary"
                 block
                 className="btn-round"
@@ -142,7 +142,7 @@ class FixedPlugin extends Component {
             </li>
             <li className="button-container">
               <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-react/#/documentation/tutorial"
+                href="https://www.creative-tim.com/product/paper-dashboard-react/#/documentation/tutorial?ref=pdr-fixed-plugin"
                 color="default"
                 block
                 className="btn-round"
@@ -154,7 +154,7 @@ class FixedPlugin extends Component {
             <li className="header-title">Want more components?</li>
             <li className="button-container">
               <Button
-                href="https://www.creative-tim.com/product/paper-dashboard-pro-react"
+                href="https://www.creative-tim.com/product/paper-dashboard-pro-react?ref=pdr-fixed-plugin"
                 color="danger"
                 block
                 className="btn-round"
