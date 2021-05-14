@@ -44,7 +44,7 @@ class User extends React.Component {
                 <div className="image">
                   <img
                     alt="..."
-                    src={require("assets/img/damir-bosnjak.jpg")}
+                    src={require("assets/img/damir-bosnjak.jpg").default}
                   />
                 </div>
                 <CardBody>
@@ -53,7 +53,7 @@ class User extends React.Component {
                       <img
                         alt="..."
                         className="avatar border-gray"
-                        src={require("assets/img/mike.jpg")}
+                        src={require("assets/img/mike.jpg").default}
                       />
                       <h5 className="title">Chet Faker</h5>
                     </a>
@@ -103,7 +103,10 @@ class User extends React.Component {
                             <img
                               alt="..."
                               className="img-circle img-no-padding img-responsive"
-                              src={require("assets/img/faces/ayo-ogunseinde-2.jpg")}
+                              src={
+                                require("assets/img/faces/ayo-ogunseinde-2.jpg")
+                                  .default
+                              }
                             />
                           </div>
                         </Col>
@@ -132,7 +135,10 @@ class User extends React.Component {
                             <img
                               alt="..."
                               className="img-circle img-no-padding img-responsive"
-                              src={require("assets/img/faces/joe-gardner-2.jpg")}
+                              src={
+                                require("assets/img/faces/joe-gardner-2.jpg")
+                                  .default
+                              }
                             />
                           </div>
                         </Col>
@@ -161,7 +167,10 @@ class User extends React.Component {
                             <img
                               alt="..."
                               className="img-circle img-no-padding img-responsive"
-                              src={require("assets/img/faces/clem-onojeghuo-2.jpg")}
+                              src={
+                                require("assets/img/faces/clem-onojeghuo-2.jpg")
+                                  .default
+                              }
                             />
                           </div>
                         </Col>
