@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.3.0] date
+### Bug fixing
+### Major style changes
+### Deleted components
+### Added components
+### Deleted dependencies
+### Added dependencies
+### Updated dependencies
+```
+
+```
+### Warning
+_If needed_
+
 ## [1.2.0] 2020-06-12
 ### Bug fixing
 - https://github.com/creativetimofficial/paper-dashboard-react/issues/15
