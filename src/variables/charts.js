@@ -1,13 +1,13 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.2.0
+* Paper Dashboard React - v1.3.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
 
-* Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -38,6 +38,8 @@ const dashboard24HoursPerformanceChart = {
           pointRadius: 0,
           pointHoverRadius: 0,
           borderWidth: 3,
+          tension: 0.4,
+          fill: true,
           data: [300, 310, 316, 322, 330, 326, 333, 345, 338, 354],
         },
         {
@@ -46,6 +48,8 @@ const dashboard24HoursPerformanceChart = {
           pointRadius: 0,
           pointHoverRadius: 0,
           borderWidth: 3,
+          tension: 0.4,
+          fill: true,
           data: [320, 340, 365, 360, 370, 385, 390, 384, 408, 420],
         },
         {
@@ -54,52 +58,41 @@ const dashboard24HoursPerformanceChart = {
           pointRadius: 0,
           pointHoverRadius: 0,
           borderWidth: 3,
+          tension: 0.4,
+          fill: true,
           data: [370, 394, 415, 409, 425, 445, 460, 450, 478, 484],
         },
       ],
     };
   },
   options: {
-    legend: {
-      display: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { enabled: false },
     },
-
-    tooltips: {
-      enabled: false,
-    },
-
     scales: {
-      yAxes: [
-        {
-          ticks: {
-            fontColor: "#9f9f9f",
-            beginAtZero: false,
-            maxTicksLimit: 5,
-            //padding: 20
-          },
-          gridLines: {
-            drawBorder: false,
-            zeroLineColor: "#ccc",
-            color: "rgba(255,255,255,0.05)",
-          },
+      y: {
+        ticks: {
+          color: "#9f9f9f",
+          beginAtZero: false,
+          maxTicksLimit: 5,
         },
-      ],
-
-      xAxes: [
-        {
-          barPercentage: 1.6,
-          gridLines: {
-            drawBorder: false,
-            color: "rgba(255,255,255,0.1)",
-            zeroLineColor: "transparent",
-            display: false,
-          },
-          ticks: {
-            padding: 20,
-            fontColor: "#9f9f9f",
-          },
+        grid: {
+          drawBorder: false,
+          display: false,
         },
-      ],
+      },
+      x: {
+        barPercentage: 1.6,
+        grid: {
+          drawBorder: false,
+          display: false,
+        },
+        ticks: {
+          padding: 20,
+          color: "#9f9f9f",
+        },
+      },
     },
   },
 };
@@ -121,94 +114,86 @@ const dashboardEmailStatisticsChart = {
     };
   },
   options: {
-    legend: {
-      display: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { enabled: false },
     },
-
+    maintainAspectRatio: false,
     pieceLabel: {
       render: "percentage",
       fontColor: ["white"],
       precision: 2,
     },
-
-    tooltips: {
-      enabled: false,
-    },
-
     scales: {
-      yAxes: [
-        {
-          ticks: {
-            display: false,
-          },
-          gridLines: {
-            drawBorder: false,
-            zeroLineColor: "transparent",
-            color: "rgba(255,255,255,0.05)",
-          },
+      y: {
+        ticks: {
+          display: false,
         },
-      ],
-
-      xAxes: [
-        {
-          barPercentage: 1.6,
-          gridLines: {
-            drawBorder: false,
-            color: "rgba(255,255,255,0.1)",
-            zeroLineColor: "transparent",
-          },
-          ticks: {
-            display: false,
-          },
+        grid: {
+          drawBorder: false,
+          display: false,
         },
-      ],
+      },
+      x: {
+        barPercentage: 1.6,
+        grid: {
+          drawBorder: false,
+          display: false,
+        },
+        ticks: {
+          display: false,
+        },
+      },
     },
   },
 };
 
 const dashboardNASDAQChart = {
-  data: {
-    labels: [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
-    ],
-    datasets: [
-      {
-        data: [0, 19, 15, 20, 30, 40, 40, 50, 25, 30, 50, 70],
-        fill: false,
-        borderColor: "#fbc658",
-        backgroundColor: "transparent",
-        pointBorderColor: "#fbc658",
-        pointRadius: 4,
-        pointHoverRadius: 4,
-        pointBorderWidth: 8,
-      },
-      {
-        data: [0, 5, 10, 12, 20, 27, 30, 34, 42, 45, 55, 63],
-        fill: false,
-        borderColor: "#51CACF",
-        backgroundColor: "transparent",
-        pointBorderColor: "#51CACF",
-        pointRadius: 4,
-        pointHoverRadius: 4,
-        pointBorderWidth: 8,
-      },
-    ],
+  data: (canvas) => {
+    return {
+      labels: [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+      ],
+      datasets: [
+        {
+          data: [0, 19, 15, 20, 30, 40, 40, 50, 25, 30, 50, 70],
+          fill: false,
+          borderColor: "#fbc658",
+          backgroundColor: "transparent",
+          pointBorderColor: "#fbc658",
+          pointRadius: 4,
+          pointHoverRadius: 4,
+          pointBorderWidth: 8,
+          tension: 0.4,
+        },
+        {
+          data: [0, 5, 10, 12, 20, 27, 30, 34, 42, 45, 55, 63],
+          fill: false,
+          borderColor: "#51CACF",
+          backgroundColor: "transparent",
+          pointBorderColor: "#51CACF",
+          pointRadius: 4,
+          pointHoverRadius: 4,
+          pointBorderWidth: 8,
+          tension: 0.4,
+        },
+      ],
+    };
   },
   options: {
-    legend: {
-      display: false,
-      position: "top",
+    plugins: {
+      legend: { display: false },
     },
   },
 };
