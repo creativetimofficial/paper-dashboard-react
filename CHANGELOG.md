@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.3.0] date
+## [1.3.0] 2021-05-17
 ### Bug fixing
 - We've change all class components to function ones, so now, Paper Dashboard React accepts hooks
 ### Major style changes
