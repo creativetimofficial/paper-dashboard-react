@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.2.0
+* Paper Dashboard React - v1.3.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
 
@@ -250,11 +250,11 @@ class QuickStart extends React.Component {
           our styles inside your app like so:
         </p>
         <SyntaxHighlighter language="jsx" style={prism}>
-          {`import "bootstrap/dist/css/bootstrap.css";\nimport "assets/scss/paper-dashboard.scss?v=1.2.0";\nimport "assets/demo/demo.css";\nimport "perfect-scrollbar/css/perfect-scrollbar.css";`}
+          {`import "bootstrap/dist/css/bootstrap.css";\nimport "assets/scss/paper-dashboard.scss?v=1.3.0";\nimport "assets/demo/demo.css";\nimport "perfect-scrollbar/css/perfect-scrollbar.css";`}
         </SyntaxHighlighter>
         <p>Or you can import our compiled scss</p>
         <SyntaxHighlighter language="jsx" style={prism}>
-          {`import "bootstrap/dist/css/bootstrap.css";\nimport "assets/css/paper-dashboard.css?v=1.120";\n//import "assets/css/paper-dashboard.css.map?v=1.2.0";\n//import "assets/css/paper-dashboard.min.css?v=1.2.0";\nimport "assets/demo/demo.css";\nimport "perfect-scrollbar/css/perfect-scrollbar.css";`}
+          {`import "bootstrap/dist/css/bootstrap.css";\nimport "assets/css/paper-dashboard.css?v=1.3.0";\n//import "assets/css/paper-dashboard.css.map?v=1.3.0";\n//import "assets/css/paper-dashboard.min.css?v=1.3.0";\nimport "assets/demo/demo.css";\nimport "perfect-scrollbar/css/perfect-scrollbar.css";`}
         </SyntaxHighlighter>
         <h2 id="fonts-and-icons">Fonts and Icons</h2>
         <p>
