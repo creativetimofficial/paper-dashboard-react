@@ -51,10 +51,12 @@ class QuickStart extends React.Component {
         <p>Follow the next steps to start using our product:</p>
         <ul>
           <li>
-            Install NodeJs from{" "}
+            Install NodeJS LTS version from{" "}
             <a href="https://nodejs.org/en/?ref=creativetim" target="_blank">
-              NodeJs Official Page
-            </a>
+              NodeJS Official Page
+            </a>{" "}
+            (NOTE: Our products only work with NodeJS LTS version, and the
+            version of npm that NodeJS LTS comes with)
           </li>
           <li>
             Go to{" "}
@@ -113,25 +115,9 @@ class QuickStart extends React.Component {
               language="jsx"
               style={prism}
             >{`Module not found`}</SyntaxHighlighter>
-            you need to do the following
-            <SyntaxHighlighter
-              language="jsx"
-              style={prism}
-            >{`npm install --g cross-env`}</SyntaxHighlighter>
-            then change the script, for example the start script from
-            <SyntaxHighlighter
-              language="jsx"
-              style={prism}
-            >{`"start": "react-scripts start",`}</SyntaxHighlighter>
-            to
-            <SyntaxHighlighter
-              language="jsx"
-              style={prism}
-            >{`"start": "NODE_PATH=./src react-scripts start",`}</SyntaxHighlighter>
-            <b>
-              The same should be done with any other script that has the above
-              error.
-            </b>
+            You should check if in your root project folder you have a file
+            named <code>jsconfig.json</code>. If you do not have it, please copy
+            it from the downloaded folder.
           </li>
           <li>
             If you have an error containing{" "}
@@ -150,52 +136,6 @@ class QuickStart extends React.Component {
             </a>
           </li>
           <li>
-            (Optional) You can create a new react application like this
-            <ul>
-              <li>
-                Run in terminal{" "}
-                <SyntaxHighlighter
-                  language="jsx"
-                  style={prism}
-                >{`npm install -g create-react-app`}</SyntaxHighlighter>
-              </li>
-              <li>Go to the folder where you want to create your app</li>
-              <li>
-                Run in terminal{" "}
-                <SyntaxHighlighter
-                  language="jsx"
-                  style={prism}
-                >{`create-react-app your-app-name`}</SyntaxHighlighter>
-              </li>
-              <li>
-                Navigate to{" "}
-                <code className="highlighter-rouge">your-app-name</code>
-              </li>
-              <li>
-                Run in terminal{" "}
-                <SyntaxHighlighter
-                  language="jsx"
-                  style={prism}
-                >{`npm start`}</SyntaxHighlighter>
-              </li>
-              <li>
-                And after this, you can copy and paste anything that you want
-                from our product (the most important is the{" "}
-                <code className="highlighter-rouge">src/assets</code> which has
-                all of our style, fonts and images).
-              </li>
-              <li>
-                More information →{" "}
-                <a
-                  href="https://github.com/facebookincubator/create-react-app?ref=creativetim"
-                  target="_blank"
-                >
-                  create-react-app
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
             Navigate to{" "}
             <a href="https://localhost:3000" target="_blank">
               https://localhost:3000
@@ -208,6 +148,15 @@ class QuickStart extends React.Component {
               target="_blank"
             >
               react
+            </a>
+          </li>
+          <li>
+            More information →{" "}
+            <a
+              href="https://github.com/facebookincubator/create-react-app?ref=creativetim"
+              target="_blank"
+            >
+              create-react-app
             </a>
           </li>
         </ul>
