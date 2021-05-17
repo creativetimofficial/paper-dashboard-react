@@ -178,7 +178,7 @@ class Dashboard extends React.Component {
                   <CardTitle tag="h5">Email Statistics</CardTitle>
                   <p className="card-category">Last Campaign Performance</p>
                 </CardHeader>
-                <CardBody>
+                <CardBody style={{ height: "266px" }}>
                   <Pie
                     data={dashboardEmailStatisticsChart.data}
                     options={dashboardEmailStatisticsChart.options}
