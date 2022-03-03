@@ -41,19 +41,26 @@ function Dashboard() {
     <>
       <div className="content">
         <Row>
-          <Col lg="3" md="6" sm="6">
+          <Col>
             <Card className="card-stats">
               <CardBody>
                 <Row>
                   <Col md="4" xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-globe text-warning" />
+                    <div className="icon-big">
+                      <i className="nc-icon nc-circle-10" />
+                      &nbsp;
+                      <i className="nc-icon nc-circle-10" />
+                      <br></br>
+                      <i className="nc-icon nc-circle-10" />
+                      &nbsp;
+                      <i className="nc-icon nc-circle-10" />
                     </div>
+                    
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Capacity</p>
-                      <CardTitle tag="p">150GB</CardTitle>
+                    <CardTitle tag="p">Keystone group</CardTitle>
+                      <p className="card-category">Work on keystone project Winter 22</p>
                       <p />
                     </div>
                   </Col>
@@ -61,8 +68,8 @@ function Dashboard() {
               </CardBody>
               <CardFooter>
                 <hr />
-                <div className="stats">
-                  <i className="fas fa-sync-alt" /> Update Now
+                <div className="stats text-center">
+                  <a type="button" href="http://localhost:3000/">Join</a>
                 </div>
               </CardFooter>
             </Card>
@@ -73,13 +80,13 @@ function Dashboard() {
                 <Row>
                   <Col md="4" xs="5">
                     <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-money-coins text-success" />
+                      <i className="nc-icon nc-simple-add text-success" />
                     </div>
                   </Col>
-                  <Col md="8" xs="7">
+                  <Col md="20" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Revenue</p>
-                      <CardTitle tag="p">$ 1,345</CardTitle>
+                      <p className="card-category">New Task</p>
+                      <CardTitle tag="p">______</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -87,13 +94,13 @@ function Dashboard() {
               </CardBody>
               <CardFooter>
                 <hr />
-                <div className="stats">
-                  <i className="far fa-calendar" /> Last day
+                <div className="stats text-center">
+                  <a type="button" className="far fa-calendar"> Create Task</a>
                 </div>
               </CardFooter>
             </Card>
           </Col>
-          <Col lg="3" md="6" sm="6">
+          {/* <Col lg="3" md="6" sm="6">
             <Card className="card-stats">
               <CardBody>
                 <Row>
@@ -118,8 +125,8 @@ function Dashboard() {
                 </div>
               </CardFooter>
             </Card>
-          </Col>
-          <Col lg="3" md="6" sm="6">
+          </Col> */}
+          {/* <Col lg="3" md="6" sm="6">
             <Card className="card-stats">
               <CardBody>
                 <Row>
@@ -144,13 +151,13 @@ function Dashboard() {
                 </div>
               </CardFooter>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
         <Row>
           <Col md="12">
             <Card>
               <CardHeader>
-                <CardTitle tag="h5">Users Behavior</CardTitle>
+                <CardTitle tag="h5">Productivity Graph</CardTitle>
                 <p className="card-category">24 Hours performance</p>
               </CardHeader>
               <CardBody>
@@ -170,7 +177,7 @@ function Dashboard() {
             </Card>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md="4">
             <Card>
               <CardHeader>
@@ -223,7 +230,7 @@ function Dashboard() {
               </CardFooter>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
       </div>
     </>
   );

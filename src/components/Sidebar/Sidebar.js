@@ -61,10 +61,10 @@ function Sidebar(props) {
           </div>
         </a>
         <a
-          href="https://www.creative-tim.com"
+          href="https://localhost:3000"
           className="simple-text logo-normal"
         >
-          Creative Tim
+          Collab
         </a>
       </div>
       <div className="sidebar-wrapper" ref={sidebar}>
