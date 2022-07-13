@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.3.0
+* Paper Dashboard React - v1.3.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
 
@@ -33,7 +33,7 @@ import {
   InputGroup,
   InputGroupText,
   InputGroupAddon,
-  Input,
+  Input
 } from "reactstrap";
 
 import routes from "routes.js";
