@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.3.0
+* Paper Dashboard React - v1.3.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
 
@@ -30,7 +30,7 @@ import {
   CardBody,
   CardTitle,
   Row,
-  Col,
+  Col
 } from "reactstrap";
 
 function Notifications() {
@@ -70,7 +70,7 @@ function Notifications() {
       ),
       type: type,
       icon: "nc-icon nc-bell-55",
-      autoDismiss: 7,
+      autoDismiss: 7
     };
     notificationAlert.current.notificationAlert(options);
   };

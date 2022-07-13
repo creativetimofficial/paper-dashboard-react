@@ -9,11 +9,11 @@ gulp.task("licenses", async function () {
       gap.prependText(`/*!
 
 =========================================================
-* Paper Dashboard React - v1.3.0
+* Paper Dashboard React - v1.3.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2021 Creative Tim (http://www.creative-tim.com)
+* Copyright 2022 Creative Tim (http://www.creative-tim.com)
 
 * Coded by Creative Tim
 
@@ -32,11 +32,11 @@ gulp.task("licenses", async function () {
       gap.prependText(`<!--
 
 =========================================================
-* Paper Dashboard React - v1.3.0
+* Paper Dashboard React - v1.3.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2021 Creative Tim (http://www.creative-tim.com)
+* Copyright 2022 Creative Tim (http://www.creative-tim.com)
 
 * Coded by Creative Tim
 
@@ -55,11 +55,11 @@ gulp.task("licenses", async function () {
       gap.prependText(`/*!
 
 =========================================================
-* Paper Dashboard React - v1.3.0
+* Paper Dashboard React - v1.3.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2021 Creative Tim (http://www.creative-tim.com)
+* Copyright 2022 Creative Tim (http://www.creative-tim.com)
 
 * Coded by Creative Tim
 
