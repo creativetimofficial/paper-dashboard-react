@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.3.0
+* Paper Dashboard React - v1.3.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
 
@@ -30,7 +30,7 @@ import {
   Form,
   Input,
   Row,
-  Col,
+  Col
 } from "reactstrap";
 
 function User() {
@@ -41,10 +41,7 @@ function User() {
           <Col md="4">
             <Card className="card-user">
               <div className="image">
-                <img
-                  alt="..."
-                  src={require("assets/img/damir-bosnjak.jpg").default}
-                />
+                <img alt="..." src={require("assets/img/damir-bosnjak.jpg")} />
               </div>
               <CardBody>
                 <div className="author">
@@ -52,7 +49,7 @@ function User() {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/mike.jpg").default}
+                      src={require("assets/img/mike.jpg")}
                     />
                     <h5 className="title">Chet Faker</h5>
                   </a>
@@ -102,10 +99,7 @@ function User() {
                           <img
                             alt="..."
                             className="img-circle img-no-padding img-responsive"
-                            src={
-                              require("assets/img/faces/ayo-ogunseinde-2.jpg")
-                                .default
-                            }
+                            src={require("assets/img/faces/ayo-ogunseinde-2.jpg")}
                           />
                         </div>
                       </Col>
@@ -134,10 +128,7 @@ function User() {
                           <img
                             alt="..."
                             className="img-circle img-no-padding img-responsive"
-                            src={
-                              require("assets/img/faces/joe-gardner-2.jpg")
-                                .default
-                            }
+                            src={require("assets/img/faces/joe-gardner-2.jpg")}
                           />
                         </div>
                       </Col>
@@ -166,10 +157,7 @@ function User() {
                           <img
                             alt="..."
                             className="img-circle img-no-padding img-responsive"
-                            src={
-                              require("assets/img/faces/clem-onojeghuo-2.jpg")
-                                .default
-                            }
+                            src={require("assets/img/faces/clem-onojeghuo-2.jpg")}
                           />
                         </div>
                       </Col>
