@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Paper Dashboard React - v1.3.1
+* Paper Dashboard React - v1.3.2
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
 
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
 
@@ -29,7 +29,7 @@ const dashboard24HoursPerformanceChart = {
         "Jul",
         "Aug",
         "Sep",
-        "Oct"
+        "Oct",
       ],
       datasets: [
         {
@@ -40,7 +40,7 @@ const dashboard24HoursPerformanceChart = {
           borderWidth: 3,
           tension: 0.4,
           fill: true,
-          data: [300, 310, 316, 322, 330, 326, 333, 345, 338, 354]
+          data: [300, 310, 316, 322, 330, 326, 333, 345, 338, 354],
         },
         {
           borderColor: "#f17e5d",
@@ -50,7 +50,7 @@ const dashboard24HoursPerformanceChart = {
           borderWidth: 3,
           tension: 0.4,
           fill: true,
-          data: [320, 340, 365, 360, 370, 385, 390, 384, 408, 420]
+          data: [320, 340, 365, 360, 370, 385, 390, 384, 408, 420],
         },
         {
           borderColor: "#fcc468",
@@ -60,41 +60,41 @@ const dashboard24HoursPerformanceChart = {
           borderWidth: 3,
           tension: 0.4,
           fill: true,
-          data: [370, 394, 415, 409, 425, 445, 460, 450, 478, 484]
-        }
-      ]
+          data: [370, 394, 415, 409, 425, 445, 460, 450, 478, 484],
+        },
+      ],
     };
   },
   options: {
     plugins: {
       legend: { display: false },
-      tooltip: { enabled: false }
+      tooltip: { enabled: false },
     },
     scales: {
       y: {
         ticks: {
           color: "#9f9f9f",
           beginAtZero: false,
-          maxTicksLimit: 5
+          maxTicksLimit: 5,
         },
         grid: {
           drawBorder: false,
-          display: false
-        }
+          display: false,
+        },
       },
       x: {
         barPercentage: 1.6,
         grid: {
           drawBorder: false,
-          display: false
+          display: false,
         },
         ticks: {
           padding: 20,
-          color: "#9f9f9f"
-        }
-      }
-    }
-  }
+          color: "#9f9f9f",
+        },
+      },
+    },
+  },
 };
 
 const dashboardEmailStatisticsChart = {
@@ -108,44 +108,44 @@ const dashboardEmailStatisticsChart = {
           pointHoverRadius: 0,
           backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157"],
           borderWidth: 0,
-          data: [342, 480, 530, 120]
-        }
-      ]
+          data: [342, 480, 530, 120],
+        },
+      ],
     };
   },
   options: {
     plugins: {
       legend: { display: false },
-      tooltip: { enabled: false }
+      tooltip: { enabled: false },
     },
     maintainAspectRatio: false,
     pieceLabel: {
       render: "percentage",
       fontColor: ["white"],
-      precision: 2
+      precision: 2,
     },
     scales: {
       y: {
         ticks: {
-          display: false
+          display: false,
         },
         grid: {
           drawBorder: false,
-          display: false
-        }
+          display: false,
+        },
       },
       x: {
         barPercentage: 1.6,
         grid: {
           drawBorder: false,
-          display: false
+          display: false,
         },
         ticks: {
-          display: false
-        }
-      }
-    }
-  }
+          display: false,
+        },
+      },
+    },
+  },
 };
 
 const dashboardNASDAQChart = {
@@ -163,7 +163,7 @@ const dashboardNASDAQChart = {
         "Sep",
         "Oct",
         "Nov",
-        "Dec"
+        "Dec",
       ],
       datasets: [
         {
@@ -175,7 +175,7 @@ const dashboardNASDAQChart = {
           pointRadius: 4,
           pointHoverRadius: 4,
           pointBorderWidth: 8,
-          tension: 0.4
+          tension: 0.4,
         },
         {
           data: [0, 5, 10, 12, 20, 27, 30, 34, 42, 45, 55, 63],
@@ -186,20 +186,20 @@ const dashboardNASDAQChart = {
           pointRadius: 4,
           pointHoverRadius: 4,
           pointBorderWidth: 8,
-          tension: 0.4
-        }
-      ]
+          tension: 0.4,
+        },
+      ],
     };
   },
   options: {
     plugins: {
-      legend: { display: false }
-    }
-  }
+      legend: { display: false },
+    },
+  },
 };
 
 module.exports = {
   dashboard24HoursPerformanceChart,
   dashboardEmailStatisticsChart,
-  dashboardNASDAQChart
+  dashboardNASDAQChart,
 };
