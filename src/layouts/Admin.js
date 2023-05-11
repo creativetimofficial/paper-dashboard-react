@@ -19,7 +19,7 @@
 import React from "react";
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
-import { Route, Switch, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import Footer from "components/Footer/Footer.js";
@@ -67,17 +67,18 @@ function Dashboard(props) {
       />
       <div className="main-panel" ref={mainPanel}>
         <DemoNavbar {...props} />
-        <Switch>
+        <Routes>
           {routes.map((prop, key) => {
             return (
               <Route
-                path={prop.layout + prop.path}
-                component={prop.component}
+                path={prop.path}
+                element={prop.component}
                 key={key}
+                exact
               />
             );
           })}
-        </Switch>
+        </Routes>
         <Footer fluid />
       </div>
       <FixedPlugin

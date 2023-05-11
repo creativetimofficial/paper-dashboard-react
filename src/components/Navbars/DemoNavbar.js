@@ -33,7 +33,7 @@ import {
   InputGroup,
   InputGroupText,
   InputGroupAddon,
-  Input
+  Input,
 } from "reactstrap";
 
 import routes from "routes.js";
@@ -93,13 +93,11 @@ function Header(props) {
     // add or remove classes depending if we are on full-screen-maps page or not
     <Navbar
       color={
-        props.location.pathname.indexOf("full-screen-maps") !== -1
-          ? "dark"
-          : color
+        location.pathname.indexOf("full-screen-maps") !== -1 ? "dark" : color
       }
       expand="lg"
       className={
-        props.location.pathname.indexOf("full-screen-maps") !== -1
+        location.pathname.indexOf("full-screen-maps") !== -1
           ? "navbar-absolute fixed-top"
           : "navbar-absolute fixed-top " +
             (color === "transparent" ? "navbar-transparent " : "")
