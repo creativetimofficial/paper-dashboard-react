@@ -1,0 +1,145 @@
+/* login.css */
+.Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content h1 {
+  z-index: 1;
+  font-size: 30px;
+  color: rgb(12, 6, 6);
+  margin-bottom: 5px; /* Adjusted margin to reduce the gap */
+}
+
+.content p {
+  z-index: 1;
+  text-align: right;
+  padding-left: 200px;
+  font-size: 10px;
+  color: rgb(12, 6, 6);
+  margin-top: 0; /* Removed default margin-top */
+}
+
+.login-container {
+  display: flex;
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.image-container {
+  flex: 1.5;
+  overflow: hidden;
+  border-radius: 8px 0 0 8px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-container {
+  flex: 1;
+  padding-left: 50px; /* Adjusted padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: calc(100% - 40px); /* Adjusted width and removed padding from input */
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+input:hover {
+  border: 1px solid #4b3b83;
+}
+
+.log-button {
+  width: calc(100% - 40px); /* Adjusted width */
+  padding: 20px;
+  padding-bottom: 23px;
+  background-color: #0084ff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.log-button:hover {
+  background-color: #239074;
+}
+
+.additional-options {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 14px; /* You can adjust the font size as needed */
+  margin-top: 5px; /* Adjust the margin as needed for spacing */
+}
+
+.additional-options label {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.additional-options input {
+  color: #1b6b9a;
+}
+
+.additional-options a {
+  color: #1b6b9a;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.additional-options a:hover {
+  color: #0a2331;
+}
+
+/* Add margin to the "Forgot Password" link */
+.additional-options a.forgot-password {
+  margin-left: 15px;
+}

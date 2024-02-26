@@ -80,7 +80,7 @@ function Sidebar(props) {
               >
                 <NavLink to={prop.layout + prop.path} className="nav-NavLink">
                   <i className={prop.icon} />
-                  <p>{prop.name}</p>
+                  <p style={{fontSize:"20px"}}>{prop.name}</p>
                 </NavLink>
               </li>
             );

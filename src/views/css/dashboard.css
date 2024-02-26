@@ -1,0 +1,20 @@
+.horizontal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 20px; /* Adjust the padding as needed */
+    border: 1px solid #525252; /* Optional: Add a border for visual clarity */
+    background-color: azure;
+  }
+  
+  .fields {
+    display: flex;
+    flex-direction: row; /* Align fields horizontally */
+    justify-content: space-between; /* Add space between fields */
+    margin-top: 10px; /* Add margin between title and fields */
+  }
+  
+  p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
