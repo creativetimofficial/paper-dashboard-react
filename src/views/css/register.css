@@ -1,0 +1,13 @@
+.register-students {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-students h1 {
+    margin-bottom: 20px;
+  }
+  
+  .register-students button {
+    width: 150px; /* Adjust the width as needed */
+  }
+  
