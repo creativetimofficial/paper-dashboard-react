@@ -81,12 +81,12 @@ function Dashboard(props) {
         </Routes>
         <Footer fluid />
       </div>
-      <FixedPlugin
+      {/* <FixedPlugin
         bgColor={backgroundColor}
         activeColor={activeColor}
         handleActiveClick={handleActiveClick}
         handleBgClick={handleBgClick}
-      />
+      /> */}
     </div>
   );
 }
