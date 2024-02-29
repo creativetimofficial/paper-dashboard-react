@@ -103,6 +103,11 @@ const RegisterStudents = () => {
             >
             <Button icon={<UploadOutlined />}>Click to Upload</Button>
             </Upload>
+          <Input type="file" onChange={handleFileChange} innerRef={fileInputRef} style={{ display: 'none'}} />
+          {/* Button to trigger file input */}
+          <Button color="success" onClick={handleUploadButtonClick}>
+            Upload File
+            </Button>
           </Col>
          
         </Row>
